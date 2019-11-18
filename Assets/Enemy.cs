@@ -7,39 +7,45 @@ public class Enemy : MonoBehaviour
     public float speed;
     public float retreatDistance;
     public float stopDistance;
-
+    public float BulletSpeed = 1;
     private float timeBtwShots;
     public float startTimeBtwShots;
 
-    public GameObject projectile;
+    public GameObject Bullet;
 
-    private Transform player;
+    private GameObject player;
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        player = GameObject.FindGameObjectWithTag("Player");
         timeBtwShots = startTimeBtwShots;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Vector2.Distance(player.position, transform.position) > stopDistance)
+        if(Vector2.Distance(player.transform.position, transform.position) > stopDistance)
         {
-            transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
+            Vector2 dir = (player.transform.position - transform.position ).normalized;
+            this.GetComponent<Rigidbody2D>().velocity = speed * dir * Time.deltaTime;
+            
         }
-        else if (Vector2.Distance(player.position, transform.position) < stopDistance && Vector2.Distance(player.position, transform.position) >retreatDistance)
+        else if (Vector2.Distance(player.transform.position, transform.position) < stopDistance && Vector2.Distance(player.transform.position, transform.position) >retreatDistance)
         {
-            transform.position = this.transform.position;
+            this.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
         }
-        else if (Vector2.Distance(player.position, transform.position) < retreatDistance)
+        else if (Vector2.Distance(player.transform.position, transform.position) < retreatDistance)
         {
-            transform.position = Vector2.MoveTowards(transform.position, player.position, -speed * Time.deltaTime);
+            Vector2 dir = (player.transform.position - transform.position).normalized;
+            this.GetComponent<Rigidbody2D>().velocity = speed * -dir * Time.deltaTime;
         }
-        
-        if(timeBtwShots <= 0)
+
+        if (timeBtwShots <= 0)
         {
-            Instantiate(projectile, this.transform.position, Quaternion.identity);
+            Vector2 dir = (player.transform.position - transform.position).normalized;
+            GameObject bullet = Instantiate(Bullet, transform.position, Quaternion.identity);
+            bullet.GetComponent<Rigidbody2D>().velocity = BulletSpeed * dir;
+            bullet.transform.Rotate(0, Mathf.Atan2(dir.y, dir.x), 0);
             timeBtwShots = startTimeBtwShots;
         }
         else
