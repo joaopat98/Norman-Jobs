@@ -4,16 +4,28 @@ using UnityEngine;
 
 public class BulletHit : MonoBehaviour
 {
-
+    public string[] targets;
+    public string[] avoid;
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.CompareTag("Enemy"))
+        foreach (var target in targets)
         {
-            Destroy(col.gameObject);
-            Destroy(gameObject);
+            if (col.CompareTag(target))
+            {
+                Destroy(col.gameObject);
+                Destroy(gameObject);
+                return;
+            }
         }
-        else if (!col.CompareTag("Player") && !col.CompareTag("Bullet"))
-            Destroy(gameObject);
+        foreach (var avoidable in avoid)
+        {
+            if (!col.CompareTag(avoidable))
+            {
+                Destroy(gameObject);
+                return;
+            }
+        }
+        Destroy(gameObject);
 
     }
     // Start is called before the first frame update
