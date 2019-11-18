@@ -19,9 +19,8 @@ public class BulletHit : MonoBehaviour
         }
         foreach (var avoidable in avoid)
         {
-            if (!col.CompareTag(avoidable))
+            if (col.CompareTag(avoidable))
             {
-                Destroy(gameObject);
                 return;
             }
         }
