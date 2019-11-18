@@ -366,7 +366,7 @@ MonoBehaviour:
   Reticle: {fileID: 1532730626}
   Bullet: {fileID: 4552690898155934356, guid: cba84912ee6f2de43a12aa4363b0027f, type: 3}
   BulletSpeed: 5
-  ShootInterval: 0.05
+  ShootInterval: 0.5
 --- !u!1 &1436615497
 GameObject:
   m_ObjectHideFlags: 0
