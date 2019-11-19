@@ -4,6 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Projectile
+  - Bullet
+  - Enemy
   - Weapon
   layers:
   - Default
