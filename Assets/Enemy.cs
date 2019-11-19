@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class Enemy : MonoBehaviour, HealthSystem
 {
     public float speed;
     public float retreatDistance;
@@ -24,13 +24,13 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Vector2.Distance(player.transform.position, transform.position) > stopDistance)
+        if (Vector2.Distance(player.transform.position, transform.position) > stopDistance)
         {
-            Vector2 dir = (player.transform.position - transform.position ).normalized;
+            Vector2 dir = (player.transform.position - transform.position).normalized;
             this.GetComponent<Rigidbody2D>().velocity = speed * dir * Time.deltaTime;
-            
+
         }
-        else if (Vector2.Distance(player.transform.position, transform.position) < stopDistance && Vector2.Distance(player.transform.position, transform.position) >retreatDistance)
+        else if (Vector2.Distance(player.transform.position, transform.position) < stopDistance && Vector2.Distance(player.transform.position, transform.position) > retreatDistance)
         {
             this.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
         }
@@ -52,5 +52,10 @@ public class Enemy : MonoBehaviour
         {
             timeBtwShots -= Time.deltaTime;
         }
+    }
+
+    public void Hit(GameObject obj, int value)
+    {
+        Destroy(gameObject);
     }
 }

@@ -1,15 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class MouseMovement : MonoBehaviour
 {
     public GameObject Reticle;
-    public GameObject Bullet;
-    public float BulletSpeed = 1;
-    public float ShootInterval;
+    public float Range = 1f;
 
-    private float shootTimer = 0;
+    private Weapon weapon = null;
+
 
     // Start is called before the first frame update
     void Start()
@@ -23,17 +23,35 @@ public class MouseMovement : MonoBehaviour
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Reticle.transform.position = mousePos;
 
-        if (shootTimer <= 0 && (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0)))
+        if ((Input.GetMouseButtonDown(0) || Input.GetMouseButton(0)) && weapon != null)
         {
-            Vector2 dir = (mousePos - (Vector2)transform.position).normalized;
-            GameObject shot = Instantiate(Bullet, transform.position, Quaternion.identity);
-            shot.GetComponent<Rigidbody2D>().velocity = BulletSpeed * dir;
-            shot.transform.Rotate(0, Mathf.Atan2(dir.y, dir.x), 0);
-            shootTimer = ShootInterval;
+            weapon.Shoot(transform.position, (mousePos - (Vector2)transform.position).normalized);
         }
-        if (shootTimer > 0)
+
+        if (Input.GetButtonDown("Grab"))
         {
-            shootTimer -= Time.deltaTime;
+            Weapon[] weapons = GameObject.FindGameObjectsWithTag("Weapon").Select(w => w.GetComponent<Weapon>()).ToArray();
+            float minDist = Mathf.Infinity;
+            foreach (var w in weapons)
+            {
+                float dist = (transform.position - w.transform.position).magnitude;
+                if (weapon != w && dist < Range && dist < minDist)
+                {
+                    w.transform.SetParent(transform);
+                    w.transform.position = transform.position;
+                    weapon = w;
+                }
+            }
         }
+    }
+
+    public void SetWeapon(Weapon weapon)
+    {
+        this.weapon = weapon;
+    }
+
+    public Weapon GetWeapon()
+    {
+        return weapon;
     }
 }
