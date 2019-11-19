@@ -12,7 +12,7 @@ public class BulletHit : MonoBehaviour
         {
             if (col.CompareTag(target))
             {
-                Destroy(col.gameObject);
+                col.GetComponent<HealthSystem>().Hit(null, 1);
                 Destroy(gameObject);
                 return;
             }
