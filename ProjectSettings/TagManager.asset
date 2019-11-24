@@ -9,6 +9,8 @@ TagManager:
   - Enemy
   - Weapon
   - Ground
+  - Unlock
+  - EnemyFather
   layers:
   - Default
   - TransparentFX
