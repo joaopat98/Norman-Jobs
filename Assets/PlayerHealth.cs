@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PlayerHealth : MonoBehaviour, HealthSystem
+public class PlayerHealth : MonoBehaviour, IHealthSystem
 {
     public Canvas Canvas;
     public GameObject Heart;
@@ -51,12 +51,12 @@ public class PlayerHealth : MonoBehaviour, HealthSystem
         }
     }
 
-    public void Hit(GameObject obj, int value)
+    public void Hit(GameObject obj, float value)
     {
-        HP = Mathf.Max(HP - value, 0);
+        HP = (int)Mathf.Round(Mathf.Max(HP - value, 0));
         if (HP == 0)
         {
-            for (int i = 0; i < hearts.Count; i--)
+            for (int i = 0; i < hearts.Count; i++)
             {
                 Destroy(hearts[i]);
             }

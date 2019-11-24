@@ -2,10 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BulletHit : MonoBehaviour
+public class BulletHit : MonoBehaviour, IDamaging
 {
     public string[] targets;
     public string[] avoid;
+
+    private float damage;
+
+    public float GetDamage()
+    {
+        return damage;
+    }
+
+    public void setDamage(float value)
+    {
+        damage = value;
+    }
 
     void OnTriggerEnter2D(Collider2D col)
     {
@@ -13,7 +25,7 @@ public class BulletHit : MonoBehaviour
         {
             if (col.CompareTag(target))
             {
-                col.GetComponent<HealthSystem>().Hit(null, 1);
+                col.GetComponent<IHealthSystem>().Hit(null, GetDamage());
                 Destroy(gameObject);
                 return;
             }

@@ -4,65 +4,69 @@ using UnityEngine;
 
 public class MeleeEnemy : Enemy
 {
-    
+
     // Start is called before the first frame update
-    private float timeBtwPunchs;
-    public float startTimeBtwPubchs;
+    private float timeBtwPunches;
+    public float startTimeBtwPunches;
+    public float punchDuration;
+    public float attackDistance;
 
     public GameObject Punch;
-    public float MeleeSpeed = 1;
     public Sprite attackSprite;
     public Sprite normalSprite;
     public SpriteRenderer sprite;
     new void Start()
     {
         base.Start();
-        timeBtwPunchs = startTimeBtwPubchs;
+        timeBtwPunches = startTimeBtwPunches;
         normalSprite = GetComponent<SpriteRenderer>().sprite;
         sprite = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
-    void Update()
+    new void Update()
     {
-        if (Vector2.Distance(player.transform.position, transform.position) > stopDistance)
+        base.Update();
+        timeBtwPunches -= Time.deltaTime;
+    }
+    protected override void Act()
+    {
+        if (player != null && Vector2.Distance(player.transform.position, transform.position) > stopDistance)
         {
             Vector2 dir = (player.transform.position - transform.position).normalized;
-            this.GetComponent<Rigidbody2D>().velocity = speed * dir * Time.deltaTime;
-
+            this.GetComponent<Rigidbody2D>().velocity = speed * dir;
         }
-        else if (Vector2.Distance(player.transform.position, transform.position) < stopDistance)
+        else
         {
             this.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
-
-            if (timeBtwPunchs <= 0)
+        }
+        if (player != null && Vector2.Distance(player.transform.position, transform.position) < attackDistance)
+        {
+            if (timeBtwPunches <= 0)
             {
-                Vector2 dir = (player.transform.position - transform.position).normalized;
-               
-                GameObject punch = Instantiate(Punch, transform.position, Quaternion.identity);
-
-               
-
-                punch.GetComponent<Rigidbody2D>().velocity = MeleeSpeed * dir;
-                punch.transform.Rotate(0, Mathf.Atan2(dir.y, dir.x), 0);
-                timeBtwPunchs = startTimeBtwPubchs;
-
+                timeBtwPunches = startTimeBtwPunches;
+                player.GetComponent<IHealthSystem>().Hit(null, 2);
                 StartCoroutine(ChangeSprite());
 
             }
-            else
-            {
-                timeBtwPunchs -= Time.deltaTime;
-            }
         }
+    }
 
-
+    protected override void Idle()
+    {
+        this.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
     }
 
     IEnumerator ChangeSprite()
     {
+        Vector2 dir = (player.transform.position - transform.position).normalized;
+
+        GameObject punch = Instantiate(Punch, player.transform.position, Quaternion.identity);
+
+        punch.transform.Rotate(0, Mathf.Atan2(dir.y, dir.x), 0);
         sprite.sprite = attackSprite;
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(punchDuration);
         sprite.sprite = normalSprite;
+        Destroy(punch);
     }
 }

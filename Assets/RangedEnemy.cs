@@ -19,22 +19,29 @@ public class RangedEnemy : Enemy
     }
 
     // Update is called once per frame
-    void Update()
+    new void Update()
     {
-        if (Vector2.Distance(player.transform.position, transform.position) > stopDistance)
+        base.Update();
+        timeBtwShots -= Time.deltaTime;
+    }
+
+    protected override void Act()
+    {
+        float dist = Vector2.Distance(player.transform.position, transform.position);
+        if (dist > stopDistance)
         {
             Vector2 dir = (player.transform.position - transform.position).normalized;
-            this.GetComponent<Rigidbody2D>().velocity = speed * dir * Time.deltaTime;
+            this.GetComponent<Rigidbody2D>().velocity = speed * dir;
 
         }
-        else if (Vector2.Distance(player.transform.position, transform.position) < stopDistance && Vector2.Distance(player.transform.position, transform.position) > retreatDistance)
+        else if (dist < stopDistance && dist > retreatDistance)
         {
             this.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
         }
-        else if (Vector2.Distance(player.transform.position, transform.position) < retreatDistance)
+        else if (dist < retreatDistance)
         {
             Vector2 dir = (player.transform.position - transform.position).normalized;
-            this.GetComponent<Rigidbody2D>().velocity = speed * -dir * Time.deltaTime;
+            this.GetComponent<Rigidbody2D>().velocity = speed * -dir;
         }
 
         if (timeBtwShots <= 0)
@@ -45,9 +52,10 @@ public class RangedEnemy : Enemy
             bullet.transform.Rotate(0, Mathf.Atan2(dir.y, dir.x), 0);
             timeBtwShots = startTimeBtwShots;
         }
-        else
-        {
-            timeBtwShots -= Time.deltaTime;
-        }
+    }
+
+    protected override void Idle()
+    {
+        this.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
     }
 }

@@ -23,31 +23,41 @@ public class MouseMovement : MonoBehaviour
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Reticle.transform.position = mousePos;
 
-        if ((Input.GetMouseButtonDown(0) || Input.GetMouseButton(0)) && weapon != null)
+        if ((Input.GetButtonDown("Fire1") || Input.GetButton("Fire1")) && weapon != null)
         {
             weapon.Shoot(transform.position, (mousePos - (Vector2)transform.position).normalized);
         }
 
         if (Input.GetButtonDown("Grab"))
         {
+            Weapon switchWeapon = null;
             Weapon[] weapons = GameObject.FindGameObjectsWithTag("Weapon").Select(w => w.GetComponent<Weapon>()).ToArray();
             float minDist = Mathf.Infinity;
             foreach (var w in weapons)
             {
                 float dist = (transform.position - w.transform.position).magnitude;
                 if (weapon != w && dist < Range && dist < minDist)
-                {
-                    w.transform.SetParent(transform);
-                    w.transform.position = transform.position;
-                    weapon = w;
-                }
+                    switchWeapon = w;
             }
+            if (switchWeapon)
+                SetWeapon(switchWeapon);
         }
     }
 
-    public void SetWeapon(Weapon weapon)
+    public void SetWeapon(Weapon newWeapon)
     {
-        this.weapon = weapon;
+        if (weapon)
+        {
+            weapon.transform.SetParent(null);
+            if (newWeapon)
+                weapon.transform.position = newWeapon.transform.position;
+        }
+        if (newWeapon)
+        {
+            newWeapon.transform.SetParent(transform);
+            newWeapon.transform.position = transform.position;
+        }
+        weapon = newWeapon;
     }
 
     public Weapon GetWeapon()

@@ -3,6 +3,7 @@
 public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 1f;
+    public Vector2 lookingAt;
     private Rigidbody2D rb;
 
     // Start is called before the first frame update
@@ -14,6 +15,8 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        rb.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized * moveSpeed;
+        Vector2 dir = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
+        lookingAt = dir.magnitude == 0 ? lookingAt : dir;
+        rb.velocity = dir * moveSpeed;
     }
 }

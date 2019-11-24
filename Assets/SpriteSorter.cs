@@ -15,7 +15,10 @@ public class SpriteSorter : MonoBehaviour
     {
         foreach (var sprite in GetSprites())
         {
-            sprite.sortingOrder = 10000 - Mathf.RoundToInt(sprite.bounds.min.y * 100f);
+            if (sprite.tag == "Bullet")
+                sprite.sortingOrder = 20000 - Mathf.RoundToInt(sprite.bounds.min.y * 100f);
+            else
+                sprite.sortingOrder = 10000 - Mathf.RoundToInt(sprite.bounds.min.y * 100f);
         }
     }
 

@@ -18,13 +18,11 @@ public class EnemyController : MonoBehaviour
     }
     private void FixedUpdate()
     {
-       // myRB.velocity = transform.forward * moveSpeed;
+        // myRB.velocity = transform.forward * moveSpeed;
     }
     // Update is called once per frame
     void Update()
     {
-        if (Vector2.Distance(transform.position, thePlayer.transform.position) > stoppingDistance) { 
-        transform.position = Vector2.MoveTowards(transform.position, thePlayer.transform.position, moveSpeed * Time.deltaTime);
-    }
+
     }
 }
