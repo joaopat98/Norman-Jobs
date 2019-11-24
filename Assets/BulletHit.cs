@@ -6,6 +6,7 @@ public class BulletHit : MonoBehaviour
 {
     public string[] targets;
     public string[] avoid;
+
     void OnTriggerEnter2D(Collider2D col)
     {
         foreach (var target in targets)
