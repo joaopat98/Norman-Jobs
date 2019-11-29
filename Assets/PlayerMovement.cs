@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
     public Vector2 lookingAt;
     private Rigidbody2D rb;
     private Animator animator;
+    private Punch punch;
 
 
     private void OnAnimatorMove()
@@ -17,12 +18,13 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        punch = GetComponent<Punch>();
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (!GetComponent<Punch>().punching)
+        if (!punch.punching)
         {
             Vector2 dir = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
             lookingAt = dir.magnitude == 0 ? lookingAt : dir;

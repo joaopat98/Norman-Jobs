@@ -10,12 +10,15 @@ public class RangedEnemy : Enemy
     public float startTimeBtwShots;
 
     public GameObject Bullet;
+    
+    private Rigidbody2D rb;
 
     // Start is called before the first frame update
     new void Start()
     {
         base.Start();
         timeBtwShots = startTimeBtwShots;
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -31,17 +34,17 @@ public class RangedEnemy : Enemy
         if (dist > stopDistance)
         {
             Vector2 dir = (player.transform.position - transform.position).normalized;
-            this.GetComponent<Rigidbody2D>().velocity = speed * dir;
+            rb.velocity = speed * dir;
 
         }
         else if (dist < stopDistance && dist > retreatDistance)
         {
-            this.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
+            rb.velocity = Vector3.zero;
         }
         else if (dist < retreatDistance)
         {
             Vector2 dir = (player.transform.position - transform.position).normalized;
-            this.GetComponent<Rigidbody2D>().velocity = speed * -dir;
+            rb.velocity = speed * -dir;
         }
 
         if (timeBtwShots <= 0)
@@ -57,6 +60,6 @@ public class RangedEnemy : Enemy
 
     protected override void Idle()
     {
-        this.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
+        rb.velocity = Vector3.zero;
     }
 }

@@ -24,9 +24,13 @@ public class Weapon : MonoBehaviour
 
     private float shootTimer = 0;
     private GameObject thePlayer;
+    private MouseMovement mouse;
+    private SpriteRenderer spr;
     void Start()
     {
         thePlayer = GameObject.FindGameObjectWithTag("Player");
+        mouse = thePlayer.GetComponent<MouseMovement>();
+        spr = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -42,9 +46,8 @@ public class Weapon : MonoBehaviour
     {
         if (thePlayer != null)
         {
-            var playerScript = thePlayer.GetComponent<MouseMovement>();
-            if (playerScript.GetWeapon() == this)
-                gameObject.GetComponent<SpriteRenderer>().sortingOrder = thePlayer.GetComponent<SpriteRenderer>().sortingOrder + 1;
+            if (mouse.GetWeapon() == this)
+                spr.sortingOrder = thePlayer.GetComponent<SpriteRenderer>().sortingOrder + 1;
         }
     }
 
@@ -64,7 +67,7 @@ public class Weapon : MonoBehaviour
 
                 if (Ammo == 0)
                 {
-                    thePlayer.GetComponent<MouseMovement>().SetWeapon(null);
+                    mouse.SetWeapon(null);
                     Destroy(gameObject);
                 }
             }

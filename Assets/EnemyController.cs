@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
 
-    private Rigidbody2D myRB;
+    private Rigidbody2D rb;
     public float moveSpeed;
     public float stoppingDistance;
 
@@ -13,7 +13,7 @@ public class EnemyController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        myRB = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
         thePlayer = FindObjectOfType<PlayerMovement>();
     }
     private void FixedUpdate()

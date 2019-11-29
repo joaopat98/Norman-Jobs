@@ -13,15 +13,17 @@ public class Punch : MonoBehaviour
     public bool punching = false;
 
     private Animator anim;
+    private PlayerMovement movement;
 
     void Start()
     {
         anim = GetComponent<Animator>();
+        movement = GetComponent<PlayerMovement>();
     }
 
     void Update()
     {
-        Vector2 dir = GetComponent<PlayerMovement>().lookingAt;
+        Vector2 dir = movement.lookingAt;
         Debug.DrawRay(transform.position, dir * attackDistance, Color.green, 0.016f);
 
         if (timeBtwPunches <= 0 && Input.GetButtonDown("Fire2"))
@@ -38,7 +40,7 @@ public class Punch : MonoBehaviour
 
     public void TryPunch()
     {
-        Vector2 dir = GetComponent<PlayerMovement>().lookingAt;
+        Vector2 dir = movement.lookingAt;
         var hit = Physics2D.BoxCast(transform.position, Vector2.one * BoxSize, 0, dir, attackDistance, LayerMask.GetMask("Enemies"));
         if (hit.collider != null)
         {

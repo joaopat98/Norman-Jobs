@@ -15,12 +15,15 @@ public class MeleeEnemy : Enemy
     public Sprite attackSprite;
     public Sprite normalSprite;
     public SpriteRenderer sprite;
+
+    private Rigidbody2D rb;
     new void Start()
     {
         base.Start();
         timeBtwPunches = startTimeBtwPunches;
         normalSprite = GetComponent<SpriteRenderer>().sprite;
         sprite = GetComponent<SpriteRenderer>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -34,11 +37,11 @@ public class MeleeEnemy : Enemy
         if (player != null && Vector2.Distance(player.transform.position, transform.position) > stopDistance)
         {
             Vector2 dir = (player.transform.position - transform.position).normalized;
-            this.GetComponent<Rigidbody2D>().velocity = speed * dir;
+            rb.velocity = speed * dir;
         }
         else
         {
-            this.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
+            rb.velocity = Vector3.zero;
         }
         if (player != null && Vector2.Distance(player.transform.position, transform.position) < attackDistance)
         {
@@ -54,7 +57,7 @@ public class MeleeEnemy : Enemy
 
     protected override void Idle()
     {
-        this.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
+        rb.velocity = Vector3.zero;
     }
 
     IEnumerator ChangeSprite()

@@ -15,10 +15,13 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
 
     public float HP;
 
+    private SpriteRenderer spr;
+
     // Start is called before the first frame update
     protected void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        spr = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -47,7 +50,6 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
 
     IEnumerator Tint()
     {
-        var spr = GetComponent<SpriteRenderer>();
         var oldColor = spr.color;
         spr.color = Color.red;
         yield return new WaitForSeconds(0.2f);
