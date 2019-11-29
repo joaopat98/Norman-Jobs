@@ -82,6 +82,17 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.1308515
       objectReference: {fileID: 0}
+    - target: {fileID: 7413762460416964829, guid: 976fdb6675407444597b352d6310cf28,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 493d91f802863334ab8b62518341a7a9,
+        type: 3}
+    - target: {fileID: 7413762460416964829, guid: 976fdb6675407444597b352d6310cf28,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7413762460416964831, guid: 976fdb6675407444597b352d6310cf28,
         type: 3}
       propertyPath: Damage
