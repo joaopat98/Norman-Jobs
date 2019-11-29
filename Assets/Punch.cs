@@ -7,30 +7,28 @@ public class Punch : MonoBehaviour
 
     public float timeBtwPunches;
     public float startTimeBtwPunches;
-    public float punchDuration;
     public float attackDistance;
     public float Damage;
     public float BoxSize;
-    void OnTriggerStay2D(Collider2D col)
+    public bool punching = false;
+
+    private Animator anim;
+
+    void Start()
     {
-        if (col.gameObject.tag == "Enemy" && Input.GetKeyDown(KeyCode.Space))
-        {
-            Destroy(col.gameObject);
-        }
+        anim = GetComponent<Animator>();
     }
 
     void Update()
     {
+        Vector2 dir = GetComponent<PlayerMovement>().lookingAt;
+        Debug.DrawRay(transform.position, dir * attackDistance, Color.green, 0.016f);
 
         if (timeBtwPunches <= 0 && Input.GetButtonDown("Fire2"))
         {
+            punching = true;
+            anim.SetTrigger("punch");
             timeBtwPunches = startTimeBtwPunches;
-            Vector2 dir = GetComponent<PlayerMovement>().lookingAt;
-            var hit = Physics2D.BoxCast(transform.position, Vector2.one * BoxSize, Mathf.Atan2(dir.x, dir.y), dir, attackDistance, LayerMask.GetMask("Enemies"));
-            if (hit.collider != null)
-            {
-                hit.transform.GetComponent<Enemy>().Hit(null, Damage);
-            }
         }
         else
         {
@@ -38,4 +36,18 @@ public class Punch : MonoBehaviour
         }
     }
 
+    public void TryPunch()
+    {
+        Vector2 dir = GetComponent<PlayerMovement>().lookingAt;
+        var hit = Physics2D.BoxCast(transform.position, Vector2.one * BoxSize, 0, dir, attackDistance, LayerMask.GetMask("Enemies"));
+        if (hit.collider != null)
+        {
+            hit.transform.GetComponent<Enemy>().Hit(null, Damage);
+        }
+    }
+
+    public void FinishPunch()
+    {
+        punching = false;
+    }
 }

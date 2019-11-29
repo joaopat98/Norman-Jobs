@@ -48,6 +48,7 @@ public class RangedEnemy : Enemy
         {
             Vector2 dir = (player.transform.position - transform.position).normalized;
             GameObject bullet = Instantiate(Bullet, transform.position, Quaternion.identity);
+            bullet.GetComponent<BulletHit>().setDamage(1);
             bullet.GetComponent<Rigidbody2D>().velocity = BulletSpeed * dir;
             bullet.transform.Rotate(0, Mathf.Atan2(dir.y, dir.x), 0);
             timeBtwShots = startTimeBtwShots;

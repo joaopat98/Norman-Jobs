@@ -96,6 +96,6 @@ MonoBehaviour:
   type: 1
   Bullet: {fileID: 8626814864672146064, guid: ce4cb70cd2f18f541bab023cac24d2d3, type: 3}
   BulletSpeed: 7
-  ShootInterval: 1
+  ShootInterval: 0.5
   Damage: 1
   Ammo: 3

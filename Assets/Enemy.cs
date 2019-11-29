@@ -35,12 +35,23 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
     public void Hit(GameObject obj, float value)
     {
         HP -= value;
+        StartCoroutine(Tint());
         if (HP <= 0)
         {
             if (WeaponDrop)
                 Instantiate(WeaponDrop, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
+
+    }
+
+    IEnumerator Tint()
+    {
+        var spr = GetComponent<SpriteRenderer>();
+        var oldColor = spr.color;
+        spr.color = Color.red;
+        yield return new WaitForSeconds(0.2f);
+        spr.color = oldColor;
     }
 
     protected abstract void Act();
