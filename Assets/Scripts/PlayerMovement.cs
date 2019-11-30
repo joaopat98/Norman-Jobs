@@ -8,7 +8,6 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
     private Punch punch;
 
-
     private void OnAnimatorMove()
     {
         rb.velocity = animator.deltaPosition / Time.deltaTime;
@@ -31,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
             rb.MovePosition(rb.position + dir * moveSpeed * Time.fixedDeltaTime);
             animator.SetInteger("x", Mathf.RoundToInt(lookingAt.x));
             animator.SetInteger("y", Mathf.RoundToInt(lookingAt.y));
+    
             if (lookingAt.x > 0)
             {
                 var scale = transform.localScale;
