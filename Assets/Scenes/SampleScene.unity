@@ -953,6 +953,12 @@ MonoBehaviour:
   MaxHP: 10
   HP: 10
   CameraShake: {fileID: 519420030}
+  flashingColor: {r: 0.9433962, g: 0.022249907, b: 0.022249907, a: 0}
+  regularColor: {r: 1, g: 1, b: 1, a: 1}
+  flashDuration: 0.1
+  numberOfFlashes: 4
+  triggerCollider: {fileID: 917962099}
+  mySprite: {fileID: 917962101}
 --- !u!95 &917962107
 Animator:
   serializedVersion: 3
