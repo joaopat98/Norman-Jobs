@@ -13,6 +13,9 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
     private List<GameObject> hearts;
     private Vector2 finalScale, leftTop;
 
+    public CameraShake CameraShake;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +31,9 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
         {
             hearts.Add(Instantiate(Heart, leftTop + new Vector2(finalScale.x / 2, -finalScale.y / 2) + new Vector2(i * finalScale.x, 0), Quaternion.identity, Canvas.transform));
         }
+
+
+
     }
 
     // Update is called once per frame
@@ -36,6 +42,7 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
         int dif = HP - hearts.Count;
         if (dif < 0)
         {
+            StartCoroutine(CameraShake.Shake(0.4f, 0.1f));
             for (int i = 0; i > dif; i--)
             {
                 Destroy(hearts[hearts.Count - 1]);

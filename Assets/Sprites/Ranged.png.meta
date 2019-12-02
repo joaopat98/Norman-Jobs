@@ -1,0 +1,1063 @@
+fileFormatVersion: 2
+guid: c4bb6bdf594a2fe4f95f2e5127618ea3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7732536935501668650
+    second: Ranged_0
+  - first:
+      213: 6881070974795746682
+    second: Ranged_1
+  - first:
+      213: 551511483551330700
+    second: Ranged_2
+  - first:
+      213: 6071924038191180861
+    second: Ranged_3
+  - first:
+      213: 8540728703566797535
+    second: Ranged_4
+  - first:
+      213: -3673213244469214759
+    second: Ranged_5
+  - first:
+      213: 3052184602717240612
+    second: Ranged_6
+  - first:
+      213: 4659408231154345067
+    second: Ranged_7
+  - first:
+      213: -2412316272250886367
+    second: Ranged_8
+  - first:
+      213: -6173052174644712322
+    second: Ranged_9
+  - first:
+      213: 8651093285960387768
+    second: Ranged_10
+  - first:
+      213: 5704938559048430634
+    second: Ranged_11
+  - first:
+      213: 8724689064729096580
+    second: Ranged_12
+  - first:
+      213: 6549564908911304652
+    second: Ranged_13
+  - first:
+      213: 3404522344236794711
+    second: Ranged_14
+  - first:
+      213: -7017948156345417531
+    second: Ranged_15
+  - first:
+      213: 642080570830656641
+    second: Ranged_16
+  - first:
+      213: -2971644640664242064
+    second: Ranged_17
+  - first:
+      213: 8004030093755227584
+    second: Ranged_18
+  - first:
+      213: 5262231783542454416
+    second: Ranged_19
+  - first:
+      213: 301585725669518055
+    second: Ranged_20
+  - first:
+      213: 6914714781416233100
+    second: Ranged_21
+  - first:
+      213: -3601968496016442982
+    second: Ranged_22
+  - first:
+      213: 8130923618457074984
+    second: Ranged_23
+  - first:
+      213: -4712616812464230383
+    second: Ranged_24
+  - first:
+      213: 6398930276865089986
+    second: Ranged_25
+  - first:
+      213: 35045776432938144
+    second: Ranged_26
+  - first:
+      213: -4551800133301715330
+    second: Ranged_27
+  - first:
+      213: -3405263155378002047
+    second: Ranged_28
+  - first:
+      213: 3462495063691498718
+    second: Ranged_29
+  - first:
+      213: 5109194675209395653
+    second: Ranged_30
+  - first:
+      213: 1176728064071189283
+    second: Ranged_31
+  - first:
+      213: 6269742311964661563
+    second: Ranged_32
+  - first:
+      213: -293920656414216651
+    second: Ranged_33
+  - first:
+      213: -8508589831008343712
+    second: Ranged_34
+  - first:
+      213: -4576724175786485314
+    second: Ranged_35
+  - first:
+      213: -2309724142518436848
+    second: Ranged_36
+  - first:
+      213: 8139370460161875796
+    second: Ranged_37
+  - first:
+      213: 2198443439328696914
+    second: Ranged_38
+  - first:
+      213: -8056777609574933224
+    second: Ranged_39
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ranged_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 643
+        width: 46
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5defd39e3e84f344788b7524ccf713fd
+      internalID: -7732536935501668650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 644
+        width: 44
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1299be8174a0a9845bc3b7042a8f146f
+      internalID: 6881070974795746682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 641
+        width: 39
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0079eafcb65024ab66e0c3b68455cd
+      internalID: 551511483551330700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_3
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 642
+        width: 39
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2bbb8d453ca3694bbef7a90604e27bd
+      internalID: 6071924038191180861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_4
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 637
+        width: 43
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97493268063f824e9d175ab5fa141a2
+      internalID: 8540728703566797535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 552
+        width: 47
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17afe051726f87498d551320635ca7d
+      internalID: -3673213244469214759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_6
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 553
+        width: 45
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3e094f94430b44fbe40b973ab2e009
+      internalID: 3052184602717240612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_7
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 549
+        width: 35
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f147e14151bbd6245a2c0a5fd66538a5
+      internalID: 4659408231154345067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_8
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 551
+        width: 35
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc16024a08de444785bdff38d09ce0a
+      internalID: -2412316272250886367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_9
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 546
+        width: 42
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5a63afbab988f47a6cb71b88185aeb
+      internalID: -6173052174644712322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 462
+        width: 48
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1e406488552174dabcb920255f5388
+      internalID: 8651093285960387768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_11
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 463
+        width: 44
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ab01124a97c294f9d84f4945bf2c0c
+      internalID: 5704938559048430634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_12
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 460
+        width: 38
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4b036a555cf6b46ac3364228d6d355
+      internalID: 8724689064729096580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_13
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 461
+        width: 35
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b97900a1fce0e46993ac0ac579861c
+      internalID: 6549564908911304652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_14
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 456
+        width: 43
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c63ffe36598954baf926b7ce63e8d5
+      internalID: 3404522344236794711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 372
+        width: 47
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba3382dc7e24ce4c9c567fb1c580e93
+      internalID: -7017948156345417531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_16
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 373
+        width: 46
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06246d0d2c1c51644b5e7507ff575ec1
+      internalID: 642080570830656641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_17
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 369
+        width: 33
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0caa89c0b93004abe31f979684e7e8
+      internalID: -2971644640664242064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_18
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 370
+        width: 36
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6442f1a5f4c8f3c43a4d480dafe3f12d
+      internalID: 8004030093755227584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_19
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 365
+        width: 42
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8e267182d4dd74e9e08d382b130d49
+      internalID: 5262231783542454416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_20
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 282
+        width: 47
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ac56f9bf2917e46814ef7756a30fcd
+      internalID: 301585725669518055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_21
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 282
+        width: 46
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e40b2bce306b44ab80a5d2f3fc08ea
+      internalID: 6914714781416233100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_22
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 279
+        width: 42
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59824cefe5816a44a69f9d8d69664b3
+      internalID: -3601968496016442982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_23
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 280
+        width: 42
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799156fc9bb4e7f4c8c041eea76cf9b6
+      internalID: 8130923618457074984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_24
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 276
+        width: 39
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5b83db2d60c26459068b3d74287ecb
+      internalID: -4712616812464230383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_25
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 188
+        width: 38
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b77beafa22d10478a6d9a1ebc02fd0
+      internalID: 6398930276865089986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_26
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 189
+        width: 43
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5114177dd2d60a14389ed6495bef0f4f
+      internalID: 35045776432938144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_27
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 186
+        width: 57
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7fa025e25ab0644ae6fcec9aaf1185
+      internalID: -4551800133301715330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_28
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 187
+        width: 45
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f5ccb74c4e142438e26dbd8f38e2c5
+      internalID: -3405263155378002047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_29
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 182
+        width: 37
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d77b18dbe552b04391cc280074b4f8b
+      internalID: 3462495063691498718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_30
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 95
+        width: 38
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca3a08609ba7bf4295be890697ed247
+      internalID: 5109194675209395653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_31
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 96
+        width: 47
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355d4c3d434effc45a34c8227a3f6c31
+      internalID: 1176728064071189283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_32
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 93
+        width: 64
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02da7efd7d12d5c49bfce6ef9b493f9e
+      internalID: 6269742311964661563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_33
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 94
+        width: 50
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21223bed2ce3f474cb1c16ae20ccd963
+      internalID: -293920656414216651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_34
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 89
+        width: 39
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5d10e0590a6194990262df512b78c7
+      internalID: -8508589831008343712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_35
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 51
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ecd1627365ddd740a324b7fc2ac6f9e
+      internalID: -4576724175786485314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_36
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 0
+        width: 53
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4753ff9a6e6d1354dbd24b2cabefdc30
+      internalID: -2309724142518436848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_37
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 3
+        width: 57
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553e3e52b5cec3746a65daacea6d4d05
+      internalID: 8139370460161875796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_38
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 16
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3869ccf92833a4e9a941ffde99195f
+      internalID: 2198443439328696914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_39
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 25
+        width: 67
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a1a24d5c74a1549b201668bde7e87a
+      internalID: -8056777609574933224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
