@@ -377,7 +377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71e48ed5a2a20aa4bac03b34de87f057, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2.5
   stopDistance: 1
   WeaponDrop: {fileID: 7413762460416964832, guid: 976fdb6675407444597b352d6310cf28,
     type: 3}
@@ -932,7 +932,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeBtwPunches: 0
   startTimeBtwPunches: 0.2
-  attackDistance: 0.75
+  attackDistance: 1
   Damage: 1
   BoxSize: 0.2
   punching: 0
@@ -1034,6 +1034,7 @@ GameObject:
   - component: {fileID: 1035684143}
   - component: {fileID: 1035684142}
   - component: {fileID: 1035684141}
+  - component: {fileID: 1035684145}
   m_Layer: 10
   m_Name: EnemyRanged (2)
   m_TagString: Enemy
@@ -1050,7 +1051,7 @@ Transform:
   m_GameObject: {fileID: 1035684139}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.29, y: 0.67, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.25, y: 1.25, z: 1}
   m_Children: []
   m_Father: {fileID: 965436548}
   m_RootOrder: 4
@@ -1067,15 +1068,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79971d93c852844fbe48bec124ab35b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 2
   stopDistance: 3
   WeaponDrop: {fileID: 0}
   Radar: 5
   HP: 1.5
   retreatDistance: 2
-  BulletSpeed: 30
+  BulletSpeed: 15
   startTimeBtwShots: 2
   Bullet: {fileID: 627809046778125993, guid: 0c355a31ce366d2498997bd55e2103d1, type: 3}
+  HitDistance: 1
+  HitTime: 0.25
 --- !u!61 &1035684142
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1162,7 +1165,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 7521697981a15d24cb8a582c5f3f3d49, type: 3}
-  m_Color: {r: 0, g: 0.14819956, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1172,6 +1175,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1035684145
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035684139}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9b704d8b898832b42a9ceed5652796f5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 1
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1074158860
 GameObject:
   m_ObjectHideFlags: 0
@@ -1185,6 +1207,7 @@ GameObject:
   - component: {fileID: 1074158861}
   - component: {fileID: 1074158862}
   - component: {fileID: 1074158866}
+  - component: {fileID: 1074158865}
   m_Layer: 10
   m_Name: EnemyRanged
   m_TagString: Enemy
@@ -1278,7 +1301,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 7521697981a15d24cb8a582c5f3f3d49, type: 3}
-  m_Color: {r: 0, g: 0.14819956, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1297,11 +1320,30 @@ Transform:
   m_GameObject: {fileID: 1074158860}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.79, y: 4.83, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.25, y: 1.25, z: 1}
   m_Children: []
   m_Father: {fileID: 965436548}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1074158865
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074158860}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9b704d8b898832b42a9ceed5652796f5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 1
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &1074158866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1314,15 +1356,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79971d93c852844fbe48bec124ab35b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 2
   stopDistance: 3
   WeaponDrop: {fileID: 0}
   Radar: 5
   HP: 1.5
   retreatDistance: 2
-  BulletSpeed: 30
+  BulletSpeed: 15
   startTimeBtwShots: 2
   Bullet: {fileID: 627809046778125993, guid: 0c355a31ce366d2498997bd55e2103d1, type: 3}
+  HitDistance: 1
+  HitTime: 0.25
 --- !u!1 &1143492690
 GameObject:
   m_ObjectHideFlags: 0
@@ -1334,8 +1378,9 @@ GameObject:
   - component: {fileID: 1143492691}
   - component: {fileID: 1143492695}
   - component: {fileID: 1143492694}
-  - component: {fileID: 1143492693}
+  - component: {fileID: 1143492696}
   - component: {fileID: 1143492692}
+  - component: {fileID: 1143492693}
   m_Layer: 10
   m_Name: EnemyRanged (1)
   m_TagString: Enemy
@@ -1352,7 +1397,7 @@ Transform:
   m_GameObject: {fileID: 1143492690}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.56, y: -1.34, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.25, y: 1.25, z: 1}
   m_Children: []
   m_Father: {fileID: 965436548}
   m_RootOrder: 2
@@ -1369,42 +1414,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79971d93c852844fbe48bec124ab35b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 2
   stopDistance: 3
   WeaponDrop: {fileID: 7747544163262954004, guid: bbbdd9182f07d3c48b3ed4fd2d7a7d15,
     type: 3}
   Radar: 5
   HP: 1.5
   retreatDistance: 2
-  BulletSpeed: 30
+  BulletSpeed: 15
   startTimeBtwShots: 2
   Bullet: {fileID: 627809046778125993, guid: 0c355a31ce366d2498997bd55e2103d1, type: 3}
---- !u!61 &1143492693
-BoxCollider2D:
+  HitDistance: 1
+  HitTime: 0.25
+--- !u!95 &1143492693
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1143492690}
   m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9b704d8b898832b42a9ceed5652796f5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 1
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!50 &1143492694
 Rigidbody2D:
   serializedVersion: 4
@@ -1465,7 +1505,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 7521697981a15d24cb8a582c5f3f3d49, type: 3}
-  m_Color: {r: 0, g: 0.14819956, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1475,6 +1515,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1143492696
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143492690}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 0.37, y: 0.88}
+  m_EdgeRadius: 0
 --- !u!1 &1174304215
 GameObject:
   m_ObjectHideFlags: 0
@@ -1521,7 +1587,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71e48ed5a2a20aa4bac03b34de87f057, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2.5
   stopDistance: 1
   WeaponDrop: {fileID: 7747544163262954004, guid: bbbdd9182f07d3c48b3ed4fd2d7a7d15,
     type: 3}
@@ -1990,6 +2056,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7413762460416964831, guid: 976fdb6675407444597b352d6310cf28,
+        type: 3}
+      propertyPath: ShootInterval
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7413762460416964829, guid: 976fdb6675407444597b352d6310cf28,
         type: 3}
       propertyPath: m_Sprite
@@ -2000,11 +2071,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7413762460416964831, guid: 976fdb6675407444597b352d6310cf28,
-        type: 3}
-      propertyPath: ShootInterval
-      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 976fdb6675407444597b352d6310cf28, type: 3}

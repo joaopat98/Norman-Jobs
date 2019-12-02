@@ -16,16 +16,18 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
     public float HP;
 
     private SpriteRenderer spr;
+    private Color oldColor;
 
     // Start is called before the first frame update
     protected void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         spr = GetComponent<SpriteRenderer>();
+        oldColor = spr.color;
     }
 
     // Update is called once per frame
-    protected void Update()
+    protected void FixedUpdate()
     {
         float dist = Vector2.Distance(player.transform.position, transform.position);
         if (dist < Radar)
@@ -35,7 +37,7 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
             Idle();
         }
     }
-    public void Hit(GameObject obj, float value)
+    public virtual void Hit(GameObject obj, float value)
     {
         HP -= value;
         StartCoroutine(Tint());
@@ -48,9 +50,8 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
 
     }
 
-    IEnumerator Tint()
+    protected IEnumerator Tint()
     {
-        var oldColor = spr.color;
         spr.color = Color.red;
         yield return new WaitForSeconds(0.2f);
         spr.color = oldColor;

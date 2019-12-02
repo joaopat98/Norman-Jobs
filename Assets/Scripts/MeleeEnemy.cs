@@ -27,9 +27,9 @@ public class MeleeEnemy : Enemy
     }
 
     // Update is called once per frame
-    new void Update()
+    new void FixedUpdate()
     {
-        base.Update();
+        base.FixedUpdate();
         timeBtwPunches -= Time.deltaTime;
     }
     protected override void Act()
@@ -48,7 +48,7 @@ public class MeleeEnemy : Enemy
             if (timeBtwPunches <= 0)
             {
                 timeBtwPunches = startTimeBtwPunches;
-                player.GetComponent<IHealthSystem>().Hit(null, 2);
+                player.GetComponent<IHealthSystem>().Hit(gameObject, 2);
                 StartCoroutine(ChangeSprite());
 
             }

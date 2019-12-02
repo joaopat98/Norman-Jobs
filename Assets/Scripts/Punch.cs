@@ -44,7 +44,7 @@ public class Punch : MonoBehaviour
         var hit = Physics2D.BoxCast(transform.position, Vector2.one * BoxSize, 0, dir, attackDistance, LayerMask.GetMask("Enemies"));
         if (hit.collider != null)
         {
-            hit.transform.GetComponent<Enemy>().Hit(null, Damage);
+            hit.transform.GetComponent<Enemy>().Hit(gameObject, Damage);
         }
     }
 
