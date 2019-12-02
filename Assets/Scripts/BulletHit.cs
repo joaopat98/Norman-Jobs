@@ -25,7 +25,7 @@ public class BulletHit : MonoBehaviour, IDamaging
         {
             if (col.CompareTag(target))
             {
-                col.GetComponent<IHealthSystem>().Hit(null, GetDamage());
+                col.GetComponent<IHealthSystem>().Hit(gameObject, GetDamage());
                 Destroy(gameObject);
                 return;
             }

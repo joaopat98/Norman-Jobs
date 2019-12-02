@@ -20,17 +20,20 @@ public class BulletDisplay : MonoBehaviour
     void Update()
     {
 
-        weapon = player.GetComponent<MouseMovement>().GetWeapon();
-        if (weapon != null)
+        if (player)
         {
-            hasWeapon = true;
-            bulletText.text = weapon.Ammo.ToString();
-            
-        }
-        else if(hasWeapon && weapon == null)
-        {
-            hasWeapon = false;
-            bulletText.text = "0";
+            weapon = player.GetComponent<MouseMovement>().GetWeapon();
+            if (weapon != null)
+            {
+                hasWeapon = true;
+                bulletText.text = weapon.Ammo.ToString();
+
+            }
+            else if (hasWeapon && weapon == null)
+            {
+                hasWeapon = false;
+                bulletText.text = "0";
+            }
         }
     }
 }
