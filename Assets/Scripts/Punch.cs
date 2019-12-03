@@ -11,7 +11,8 @@ public class Punch : MonoBehaviour
     public float Damage;
     public float BoxSize;
     public bool punching = false;
-
+    public AudioClip punchSound;
+    public float punchSoundVolume;
     private Animator anim;
     private PlayerMovement movement;
 
@@ -41,6 +42,7 @@ public class Punch : MonoBehaviour
     public void TryPunch()
     {
         Vector2 dir = movement.lookingAt;
+        AudioSource.PlayClipAtPoint(punchSound, Camera.main.transform.position, punchSoundVolume);
         var hit = Physics2D.BoxCast(transform.position, Vector2.one * BoxSize, 0, dir, attackDistance, LayerMask.GetMask("Enemies"));
         if (hit.collider != null)
         {
