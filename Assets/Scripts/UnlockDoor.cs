@@ -18,7 +18,7 @@ public class UnlockDoor : MonoBehaviour
         if (transform.childCount <= 0 && lockDoor)
         {
             lockDoor = false;
-            Destroy(door);
+            door.SetActive(false);
         }
     }
 

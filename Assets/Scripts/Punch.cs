@@ -11,9 +11,9 @@ public class Punch : MonoBehaviour
     public float Damage;
     public float BoxSize;
     public bool punching = false;
-
     public float AttackTime = 0.25f, AttackDistance = 1f;
-
+    public AudioClip punchSound;
+    public float punchSoundVolume;
     private Animator anim;
     private PlayerMovement movement;
     private Rigidbody2D rb;
@@ -63,6 +63,8 @@ public class Punch : MonoBehaviour
     {
         Vector2 dir = movement.lookingAt;
         var hit = Physics2D.BoxCast(transform.position, Vector2.one * BoxSize, 0, dir, AttackRange, LayerMask.GetMask("Enemies"));
+        AudioSource.PlayClipAtPoint(punchSound, Camera.main.transform.position, punchSoundVolume);
+        var hit = Physics2D.BoxCast(transform.position, Vector2.one * BoxSize, 0, dir, attackDistance, LayerMask.GetMask("Enemies"));
         if (hit.collider != null)
         {
             hit.transform.GetComponent<Enemy>().Hit(gameObject, Damage);
