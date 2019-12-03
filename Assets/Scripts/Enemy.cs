@@ -39,6 +39,8 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
     // Update is called once per frame
     protected void FixedUpdate()
     {
+        Vector2 S = spr.sprite.bounds.size;
+        gameObject.GetComponent<BoxCollider2D>().size = S;
         float dist = Vector2.Distance(player.transform.position, transform.position);
         if (dist < Radar)
             Act();

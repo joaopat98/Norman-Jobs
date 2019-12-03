@@ -59,13 +59,15 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
         int dif = HP - hearts.Count;
         if (dif < 0)
         {
-            StartCoroutine(Flashing());
+          
             StartCoroutine(CameraShake.Shake(0.4f, 0.1f));
+            StartCoroutine(Flashing());
             for (int i = 0; i > dif; i--)
             {
                 Destroy(hearts[hearts.Count - 1]);
                 hearts.RemoveAt(hearts.Count - 1);
             }
+           
         }
         else if (dif > 0)
         {
@@ -78,7 +80,9 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
 
     public void Hit(GameObject obj, float value)
     {
+        
         HP = (int)Mathf.Round(Mathf.Max(HP - value, 0));
+       
         if (HP == 0)
         {
             for (int i = 0; i < hearts.Count; i++)
@@ -139,7 +143,7 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
     private IEnumerator Flashing()
     {
         int temp = 0;
-        triggerCollider.enabled = false;
+        Physics2D.IgnoreLayerCollision(9, 8, true);
         while (temp < numberOfFlashes)
         {
             mySprite.color = flashingColor;
@@ -148,6 +152,8 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
             yield return new WaitForSeconds(flashDuration);
             temp++;
         }
-        triggerCollider.enabled = true;
+        yield return new WaitForSeconds(1.0f);
+        Physics2D.IgnoreLayerCollision(9, 8, false);
+        
     }
 }

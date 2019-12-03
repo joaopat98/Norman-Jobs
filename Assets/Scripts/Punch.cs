@@ -63,6 +63,7 @@ public class Punch : MonoBehaviour
 
     public void TryPunch()
     {
+        GetComponent<PlayerHealth>().hurting = false;
         Vector2 dir = movement.lookingAt;
         AudioSource.PlayClipAtPoint(punchSound, Camera.main.transform.position, punchSoundVolume);
         enemyTrigger = Instantiate(EnemyTriggerPrefab, rb.position, Quaternion.identity, transform);
