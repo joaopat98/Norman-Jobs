@@ -344,6 +344,7 @@ GameObject:
   - component: {fileID: 180838583}
   - component: {fileID: 180838582}
   - component: {fileID: 180838581}
+  - component: {fileID: 180838585}
   m_Layer: 10
   m_Name: EnemyMelee (1)
   m_TagString: Enemy
@@ -360,10 +361,10 @@ Transform:
   m_GameObject: {fileID: 180838579}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.01, y: 1.56, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 965436548}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &180838581
 MonoBehaviour:
@@ -381,15 +382,17 @@ MonoBehaviour:
   stopDistance: 1
   WeaponDrop: {fileID: 7413762460416964832, guid: 976fdb6675407444597b352d6310cf28,
     type: 3}
-  Radar: 3
+  Radar: 4
   HP: 1
-  startTimeBtwPunches: 1
+  Damage: 2
+  HitTime: 0.25
+  HitDistance: 1
+  startTimeBtwPunches: 2
   punchDuration: 0.5
-  attackDistance: 1.5
-  Punch: {fileID: 7456162145201925154, guid: c6c729efa93ceec429d5ee118ca997d7, type: 3}
-  attackSprite: {fileID: 21300000, guid: 83b6629032a23c2448de4df3d642dd3b, type: 3}
-  normalSprite: {fileID: 0}
-  sprite: {fileID: 0}
+  AttackRange: 1
+  AttackTime: 0.25
+  AttackDistance: 1
+  BoxSize: 1
 --- !u!61 &180838582
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -476,7 +479,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 7521697981a15d24cb8a582c5f3f3d49, type: 3}
-  m_Color: {r: 0.7345767, g: 0.7372549, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -486,6 +489,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &180838585
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180838579}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a5e05183c5587014ca3dab24b049c59f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &510268202
 GameObject:
   m_ObjectHideFlags: 0
@@ -818,7 +840,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 4
-  lookingAt: {x: 0, y: 1}
+  lookingAt: {x: 0, y: 0}
 --- !u!212 &917962101
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -918,6 +940,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Reticle: {fileID: 1532730626}
   Range: 1.4
+  MousePos: {x: 0, y: 0}
 --- !u!114 &917962105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -932,10 +955,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeBtwPunches: 0
   startTimeBtwPunches: 0.2
-  attackDistance: 1
+  AttackRange: 0
   Damage: 1
   BoxSize: 0.2
   punching: 0
+  AttackTime: 0.25
+  AttackDistance: 1
 --- !u!114 &917962106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -953,6 +978,9 @@ MonoBehaviour:
   MaxHP: 10
   HP: 10
   CameraShake: {fileID: 519420030}
+  hurting: 0
+  HitDistance: 1
+  HitTime: 0.25
 --- !u!95 &917962107
 Animator:
   serializedVersion: 3
@@ -1000,11 +1028,11 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1074158864}
   - {fileID: 1174304216}
-  - {fileID: 1143492691}
   - {fileID: 180838580}
+  - {fileID: 1074158864}
   - {fileID: 1035684140}
+  - {fileID: 1143492691}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1041,7 +1069,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1035684140
 Transform:
   m_ObjectHideFlags: 0
@@ -1054,7 +1082,7 @@ Transform:
   m_LocalScale: {x: 1.25, y: 1.25, z: 1}
   m_Children: []
   m_Father: {fileID: 965436548}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1035684141
 MonoBehaviour:
@@ -1073,12 +1101,13 @@ MonoBehaviour:
   WeaponDrop: {fileID: 0}
   Radar: 5
   HP: 1.5
+  Damage: 1
+  HitTime: 0.25
+  HitDistance: 1
   retreatDistance: 2
   BulletSpeed: 15
   startTimeBtwShots: 2
   Bullet: {fileID: 627809046778125993, guid: 0c355a31ce366d2498997bd55e2103d1, type: 3}
-  HitDistance: 1
-  HitTime: 0.25
 --- !u!61 &1035684142
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1214,7 +1243,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!50 &1074158861
 Rigidbody2D:
   serializedVersion: 4
@@ -1323,7 +1352,7 @@ Transform:
   m_LocalScale: {x: 1.25, y: 1.25, z: 1}
   m_Children: []
   m_Father: {fileID: 965436548}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1074158865
 Animator:
@@ -1361,12 +1390,13 @@ MonoBehaviour:
   WeaponDrop: {fileID: 0}
   Radar: 5
   HP: 1.5
+  Damage: 1
+  HitTime: 0.25
+  HitDistance: 1
   retreatDistance: 2
   BulletSpeed: 15
   startTimeBtwShots: 2
   Bullet: {fileID: 627809046778125993, guid: 0c355a31ce366d2498997bd55e2103d1, type: 3}
-  HitDistance: 1
-  HitTime: 0.25
 --- !u!1 &1143492690
 GameObject:
   m_ObjectHideFlags: 0
@@ -1387,7 +1417,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1143492691
 Transform:
   m_ObjectHideFlags: 0
@@ -1400,7 +1430,7 @@ Transform:
   m_LocalScale: {x: 1.25, y: 1.25, z: 1}
   m_Children: []
   m_Father: {fileID: 965436548}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1143492692
 MonoBehaviour:
@@ -1420,12 +1450,13 @@ MonoBehaviour:
     type: 3}
   Radar: 5
   HP: 1.5
+  Damage: 1
+  HitTime: 0.25
+  HitDistance: 1
   retreatDistance: 2
   BulletSpeed: 15
   startTimeBtwShots: 2
   Bullet: {fileID: 627809046778125993, guid: 0c355a31ce366d2498997bd55e2103d1, type: 3}
-  HitDistance: 1
-  HitTime: 0.25
 --- !u!95 &1143492693
 Animator:
   serializedVersion: 3
@@ -1554,6 +1585,7 @@ GameObject:
   - component: {fileID: 1174304219}
   - component: {fileID: 1174304218}
   - component: {fileID: 1174304217}
+  - component: {fileID: 1174304221}
   m_Layer: 10
   m_Name: EnemyMelee
   m_TagString: Enemy
@@ -1570,10 +1602,10 @@ Transform:
   m_GameObject: {fileID: 1174304215}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.6, y: 3.32, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 965436548}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1174304217
 MonoBehaviour:
@@ -1591,15 +1623,17 @@ MonoBehaviour:
   stopDistance: 1
   WeaponDrop: {fileID: 7747544163262954004, guid: bbbdd9182f07d3c48b3ed4fd2d7a7d15,
     type: 3}
-  Radar: 3
-  HP: 0
-  startTimeBtwPunches: 1
+  Radar: 4
+  HP: 1
+  Damage: 2
+  HitTime: 0.25
+  HitDistance: 1
+  startTimeBtwPunches: 2
   punchDuration: 0.5
-  attackDistance: 1.5
-  Punch: {fileID: 7456162145201925154, guid: c6c729efa93ceec429d5ee118ca997d7, type: 3}
-  attackSprite: {fileID: 21300000, guid: 83b6629032a23c2448de4df3d642dd3b, type: 3}
-  normalSprite: {fileID: 0}
-  sprite: {fileID: 0}
+  AttackRange: 1
+  AttackTime: 0.25
+  AttackDistance: 1
+  BoxSize: 1
 --- !u!61 &1174304218
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1686,7 +1720,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 7521697981a15d24cb8a582c5f3f3d49, type: 3}
-  m_Color: {r: 0.7345767, g: 0.7372549, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1696,6 +1730,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1174304221
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174304215}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a5e05183c5587014ca3dab24b049c59f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1306132331
 GameObject:
   m_ObjectHideFlags: 0
