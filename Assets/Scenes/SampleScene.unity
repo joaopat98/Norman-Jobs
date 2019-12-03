@@ -344,7 +344,7 @@ GameObject:
   - component: {fileID: 180838583}
   - component: {fileID: 180838582}
   - component: {fileID: 180838581}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: EnemyMelee (1)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -988,7 +988,7 @@ GameObject:
   m_Component:
   - component: {fileID: 965436548}
   - component: {fileID: 965436549}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EnemyFather
   m_TagString: EnemyFather
   m_Icon: {fileID: 0}
@@ -1041,7 +1041,7 @@ GameObject:
   - component: {fileID: 1035684142}
   - component: {fileID: 1035684141}
   - component: {fileID: 1035684145}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: EnemyRanged (2)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -1214,7 +1214,7 @@ GameObject:
   - component: {fileID: 1074158862}
   - component: {fileID: 1074158866}
   - component: {fileID: 1074158865}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: EnemyRanged
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -1387,7 +1387,7 @@ GameObject:
   - component: {fileID: 1143492696}
   - component: {fileID: 1143492692}
   - component: {fileID: 1143492693}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: EnemyRanged (1)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -1560,7 +1560,7 @@ GameObject:
   - component: {fileID: 1174304219}
   - component: {fileID: 1174304218}
   - component: {fileID: 1174304217}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: EnemyMelee
   m_TagString: Enemy
   m_Icon: {fileID: 0}
