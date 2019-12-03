@@ -9,10 +9,8 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
     public GameObject Heart;
     public int MaxHP;
     public int HP;
-
     private List<GameObject> hearts;
     private Vector2 finalScale, leftTop;
-
     public CameraShake CameraShake;
     public bool hurting;
     private Animator animator;
@@ -21,6 +19,15 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
     public float HitDistance;
 
     public float HitTime;
+
+    [Header("Invulnerability Stuff")]
+    public Color flashingColor;
+    public Color regularColor;
+    public float flashDuration;
+    public int numberOfFlashes;
+    public Collider2D triggerCollider;
+    public SpriteRenderer mySprite;
+    
 
 
     // Start is called before the first frame update
@@ -52,6 +59,7 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
         int dif = HP - hearts.Count;
         if (dif < 0)
         {
+            StartCoroutine(Flashing());
             StartCoroutine(CameraShake.Shake(0.4f, 0.1f));
             for (int i = 0; i > dif; i--)
             {
@@ -125,5 +133,20 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
     public void FinishHurting()
     {
         hurting = false;
+    }
+
+    private IEnumerator Flashing()
+    {
+        int temp = 0;
+        triggerCollider.enabled = false;
+        while (temp < numberOfFlashes)
+        {
+            mySprite.color = flashingColor;
+            yield return new WaitForSeconds(flashDuration);
+            mySprite.color = regularColor;
+            yield return new WaitForSeconds(flashDuration);
+            temp++;
+        }
+        triggerCollider.enabled = true;
     }
 }
