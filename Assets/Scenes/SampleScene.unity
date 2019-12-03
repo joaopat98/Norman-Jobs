@@ -891,12 +891,13 @@ MonoBehaviour:
     type: 3}
   Radar: 5
   HP: 1.5
+  Damage: 1
+  HitTime: 0.25
+  HitDistance: 1
   retreatDistance: 2
   BulletSpeed: 15
   startTimeBtwShots: 2
   Bullet: {fileID: 627809046778125993, guid: 0c355a31ce366d2498997bd55e2103d1, type: 3}
-  HitDistance: 1
-  HitTime: 0.25
 --- !u!61 &328425385
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1064,12 +1065,13 @@ MonoBehaviour:
   WeaponDrop: {fileID: 0}
   Radar: 5
   HP: 1.5
+  Damage: 1
+  HitTime: 0.25
+  HitDistance: 1
   retreatDistance: 2
   BulletSpeed: 15
   startTimeBtwShots: 2
   Bullet: {fileID: 627809046778125993, guid: 0c355a31ce366d2498997bd55e2103d1, type: 3}
-  HitDistance: 1
-  HitTime: 0.25
 --- !u!61 &485158897
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1743,7 +1745,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 917962098}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -6.13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1804,9 +1806,11 @@ MonoBehaviour:
   BoxSize: 0.2
   punching: 0
   AttackTime: 0.25
-  AttackDistance: 1
+  AttackDistance: 1.5
   punchSound: {fileID: 8300000, guid: bd4e639b26bb61944a652d8c49ccccac, type: 3}
-  punchSoundVolume: 0.5
+  punchSoundVolume: 0.35
+  EnemyTriggerPrefab: {fileID: 2926048434759540211, guid: df5f7c7032abed64dadf826ac843f874,
+    type: 3}
 --- !u!114 &917962106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1824,15 +1828,15 @@ MonoBehaviour:
   MaxHP: 10
   HP: 10
   CameraShake: {fileID: 519420030}
+  hurting: 0
+  HitDistance: 1
+  HitTime: 0.25
   flashingColor: {r: 0.9433962, g: 0.022249907, b: 0.022249907, a: 0}
   regularColor: {r: 1, g: 1, b: 1, a: 1}
   flashDuration: 0.1
   numberOfFlashes: 4
   triggerCollider: {fileID: 917962099}
   mySprite: {fileID: 917962101}
-  hurting: 0
-  HitDistance: 1
-  HitTime: 0.25
 --- !u!95 &917962107
 Animator:
   serializedVersion: 3
@@ -1884,6 +1888,7 @@ Transform:
   - {fileID: 180838580}
   - {fileID: 1074158864}
   - {fileID: 1035684140}
+  - {fileID: 1143492691}
   m_Father: {fileID: 1892831612}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2040,7 +2045,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1035684140
 Transform:
   m_ObjectHideFlags: 0
@@ -2214,7 +2219,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!50 &1074158861
 Rigidbody2D:
   serializedVersion: 4
@@ -2388,7 +2393,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1143492691
 Transform:
   m_ObjectHideFlags: 0
@@ -3587,13 +3592,15 @@ MonoBehaviour:
     type: 3}
   Radar: 3
   HP: 1
+  Damage: 1
+  HitTime: 0.25
+  HitDistance: 1
   startTimeBtwPunches: 1
   punchDuration: 0.5
-  attackDistance: 1.5
-  Punch: {fileID: 7456162145201925154, guid: c6c729efa93ceec429d5ee118ca997d7, type: 3}
-  attackSprite: {fileID: 21300000, guid: 83b6629032a23c2448de4df3d642dd3b, type: 3}
-  normalSprite: {fileID: 0}
-  sprite: {fileID: 0}
+  AttackRange: 0
+  AttackTime: 0
+  AttackDistance: 0
+  BoxSize: 1
 --- !u!61 &1665962375
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3869,13 +3876,15 @@ MonoBehaviour:
     type: 3}
   Radar: 3
   HP: 0
+  Damage: 1
+  HitTime: 0.25
+  HitDistance: 1
   startTimeBtwPunches: 1
   punchDuration: 0.5
-  attackDistance: 1.5
-  Punch: {fileID: 7456162145201925154, guid: c6c729efa93ceec429d5ee118ca997d7, type: 3}
-  attackSprite: {fileID: 21300000, guid: 83b6629032a23c2448de4df3d642dd3b, type: 3}
-  normalSprite: {fileID: 0}
-  sprite: {fileID: 0}
+  AttackRange: 0
+  AttackTime: 0
+  AttackDistance: 0
+  BoxSize: 1
 --- !u!61 &1910622875
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4181,12 +4190,13 @@ MonoBehaviour:
   WeaponDrop: {fileID: 0}
   Radar: 5
   HP: 1.5
+  Damage: 1
+  HitTime: 0.25
+  HitDistance: 1
   retreatDistance: 2
   BulletSpeed: 15
   startTimeBtwShots: 2
   Bullet: {fileID: 627809046778125993, guid: 0c355a31ce366d2498997bd55e2103d1, type: 3}
-  HitDistance: 1
-  HitTime: 0.25
 --- !u!61 &2142878216
 BoxCollider2D:
   m_ObjectHideFlags: 0

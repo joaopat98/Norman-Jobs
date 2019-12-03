@@ -27,7 +27,7 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
     public int numberOfFlashes;
     public Collider2D triggerCollider;
     public SpriteRenderer mySprite;
-    
+
 
 
     // Start is called before the first frame update
@@ -93,6 +93,7 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
             if (!hurting)
             {
                 hurting = true;
+                GetComponent<Punch>().punching = false;
                 var lookAt = ((Vector2)obj.transform.position - (Vector2)transform.position).ToSpriteDirection(0.2f);
 
                 if (lookAt.x > 0)
