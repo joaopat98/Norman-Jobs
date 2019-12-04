@@ -12,6 +12,13 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
     private List<GameObject> hearts;
     private Vector2 finalScale, leftTop;
     public CameraShake CameraShake;
+    public bool hurting;
+    private Animator animator;
+    private Rigidbody2D rb;
+
+    public float HitDistance;
+
+    public float HitTime;
 
     [Header("Invulnerability Stuff")]
     public Color flashingColor;
@@ -20,12 +27,15 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
     public int numberOfFlashes;
     public Collider2D triggerCollider;
     public SpriteRenderer mySprite;
-    
+
 
 
     // Start is called before the first frame update
     void Start()
     {
+        animator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
+
         hearts = new List<GameObject>();
         HP = MaxHP;
         var rect = Canvas.pixelRect;
@@ -82,6 +92,52 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
             hearts.Clear();
             Destroy(gameObject);
         }
+        else
+        {
+            if (!hurting)
+            {
+                hurting = true;
+                GetComponent<Punch>().punching = false;
+                var lookAt = ((Vector2)obj.transform.position - (Vector2)transform.position).ToSpriteDirection(0.2f);
+
+                if (lookAt.x > 0)
+                {
+                    var scale = transform.localScale;
+                    scale.x = -1;
+                    transform.localScale = scale;
+                }
+                else
+                {
+                    var scale = transform.localScale;
+                    scale.x = 1;
+                    transform.localScale = scale;
+                }
+
+                animator.SetInteger("x", lookAt.x);
+                animator.SetInteger("y", lookAt.y);
+                StartCoroutine(PushBack(transform.position - obj.transform.position, value));
+                animator.SetTrigger("hurt");
+            }
+        }
+    }
+
+    IEnumerator PushBack(Vector3 direction, float damage)
+    {
+        float curTime = 0;
+        Vector2 finalPos = transform.position + (direction.normalized * HitDistance * damage);
+        Vector2 origPos = transform.position;
+        float startTime = Time.time;
+        while (curTime < HitTime)
+        {
+            rb.MovePosition(Vector2.Lerp(origPos, finalPos, EasingFunction.EaseOutCubic(0, 1, curTime / HitTime)));
+            yield return new WaitForFixedUpdate();
+            curTime = Time.time - startTime;
+        }
+    }
+
+    public void FinishHurting()
+    {
+        hurting = false;
     }
 
     private IEnumerator Flashing()

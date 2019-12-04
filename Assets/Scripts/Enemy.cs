@@ -15,20 +15,32 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
 
     public float HP;
 
-    private SpriteRenderer spr;
+    public float Damage = 1f;
+
+    public float HitTime = 0.25f, HitDistance = 1f;
+
+    protected SpriteRenderer spr;
+    protected Animator animator;
+    protected Rigidbody2D rb;
     private Color oldColor;
+
+    protected bool hurting;
 
     // Start is called before the first frame update
     protected void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         spr = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
         oldColor = spr.color;
     }
 
     // Update is called once per frame
     protected void FixedUpdate()
     {
+        Vector2 S = spr.sprite.bounds.size;
+        gameObject.GetComponent<BoxCollider2D>().size = S;
         float dist = Vector2.Distance(player.transform.position, transform.position);
         if (dist < Radar)
             Act();
@@ -47,6 +59,15 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
                 Instantiate(WeaponDrop, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
+        else
+        {
+            if (!hurting)
+            {
+                hurting = true;
+                StartCoroutine(PushBack(transform.position - obj.transform.position, value));
+            }
+            animator.SetTrigger("hurt");
+        }
 
     }
 
@@ -59,6 +80,26 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
 
     protected abstract void Act();
     protected abstract void Idle();
+
+
+    public void FinishHurting()
+    {
+        hurting = false;
+    }
+
+    IEnumerator PushBack(Vector3 direction, float damage)
+    {
+        float curTime = 0;
+        Vector2 finalPos = transform.position + (direction.normalized * HitDistance * damage);
+        Vector2 origPos = transform.position;
+        float startTime = Time.time;
+        while (curTime < HitTime)
+        {
+            rb.MovePosition(Vector2.Lerp(origPos, finalPos, EasingFunction.EaseOutCubic(0, 1, curTime / HitTime)));
+            yield return new WaitForFixedUpdate();
+            curTime = Time.time - startTime;
+        }
+    }
 }
 
 

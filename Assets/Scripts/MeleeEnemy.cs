@@ -9,21 +9,19 @@ public class MeleeEnemy : Enemy
     private float timeBtwPunches;
     public float startTimeBtwPunches;
     public float punchDuration;
-    public float attackDistance;
+    public float AttackRange;
 
-    public GameObject Punch;
-    public Sprite attackSprite;
-    public Sprite normalSprite;
-    public SpriteRenderer sprite;
+    public float AttackTime;
+    public float AttackDistance;
+    public float BoxSize = 1;
 
-    private Rigidbody2D rb;
+    private Vector2 punchDir;
+    private bool punching;
+
     new void Start()
     {
         base.Start();
         timeBtwPunches = startTimeBtwPunches;
-        normalSprite = GetComponent<SpriteRenderer>().sprite;
-        sprite = GetComponent<SpriteRenderer>();
-        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -32,26 +30,40 @@ public class MeleeEnemy : Enemy
         base.FixedUpdate();
         timeBtwPunches -= Time.deltaTime;
     }
+
     protected override void Act()
     {
-        if (player != null && Vector2.Distance(player.transform.position, transform.position) > stopDistance)
+        float dist = Vector2.Distance(player.transform.position, transform.position);
+        Vector2 dir = (player.transform.position - transform.position).normalized;
+
+        Vector2Int dir_ceil = dir.ToSpriteDirection(0.2f);
+
+        if (dir.x > 0)
         {
-            Vector2 dir = (player.transform.position - transform.position).normalized;
-            rb.velocity = speed * dir;
+            var scale = transform.localScale;
+            scale.x = -Mathf.Abs(scale.x);
+            transform.localScale = scale;
         }
         else
         {
-            rb.velocity = Vector3.zero;
+            var scale = transform.localScale;
+            scale.x = Mathf.Abs(scale.x);
+            transform.localScale = scale;
         }
-        if (player != null && Vector2.Distance(player.transform.position, transform.position) < attackDistance)
-        {
-            if (timeBtwPunches <= 0)
-            {
-                timeBtwPunches = startTimeBtwPunches;
-                player.GetComponent<IHealthSystem>().Hit(gameObject, 2);
-                StartCoroutine(ChangeSprite());
 
-            }
+        if (player != null && dist > stopDistance && !punching)
+        {
+            rb.MovePosition(rb.position + (dir * speed * Time.fixedDeltaTime));
+            animator.SetInteger("x", dir_ceil.x);
+            animator.SetInteger("y", dir_ceil.y);
+        }
+        if (player != null && dist < AttackRange && timeBtwPunches <= 0)
+        {
+            punching = true;
+            timeBtwPunches = startTimeBtwPunches;
+            animator.SetTrigger("punch");
+            punchDir = (Vector2)player.transform.position - rb.position;
+            MoveTo(punchDir);
         }
     }
 
@@ -60,16 +72,32 @@ public class MeleeEnemy : Enemy
         rb.velocity = Vector3.zero;
     }
 
-    IEnumerator ChangeSprite()
+    public void TryPunch()
     {
-        Vector2 dir = (player.transform.position - transform.position).normalized;
+        var hit = Physics2D.BoxCast(transform.position, Vector2.one * BoxSize, 0, punchDir, AttackRange, LayerMask.GetMask("Player"));
+        if (hit.collider != null)
+        {
+            hit.transform.GetComponent<IHealthSystem>().Hit(gameObject, Damage);
+        }
+    }
 
-        GameObject punch = Instantiate(Punch, player.transform.position, Quaternion.identity);
+    public void FinishPunching()
+    {
+        punching = false;
+    }
 
-        punch.transform.Rotate(0, Mathf.Atan2(dir.y, dir.x), 0);
-        sprite.sprite = attackSprite;
-        yield return new WaitForSeconds(punchDuration);
-        sprite.sprite = normalSprite;
-        Destroy(punch);
+    IEnumerator MoveTo(Vector2 direction)
+    {
+        float curTime = 0;
+        Debug.Log(direction);
+        Vector2 finalPos = (Vector2)transform.position + (direction.normalized * AttackDistance);
+        Vector2 origPos = transform.position;
+        float startTime = Time.time;
+        while (curTime < AttackTime)
+        {
+            rb.MovePosition(Vector2.Lerp(origPos, finalPos, EasingFunction.EaseOutCubic(0, 1, curTime / AttackTime)));
+            yield return new WaitForFixedUpdate();
+            curTime = Time.time - startTime;
+        }
     }
 }
