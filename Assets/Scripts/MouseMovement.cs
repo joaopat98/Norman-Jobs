@@ -8,7 +8,9 @@ public class MouseMovement : MonoBehaviour
     public GameObject Reticle;
     public float Range = 1f;
 
+    public Vector2 MousePos;
     private Weapon weapon = null;
+   
 
 
     // Start is called before the first frame update
@@ -20,12 +22,13 @@ public class MouseMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Reticle.transform.position = mousePos;
+        MousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Reticle.transform.position = MousePos;
 
-        if ((Input.GetButtonDown("Fire1") || Input.GetButton("Fire1")) && weapon != null)
+        if ((Input.GetButtonDown("Fire1") || Input.GetButton("Fire1")) && weapon != null && weapon.type == WeaponType.Ranged)
         {
-            weapon.Shoot(transform.position, (mousePos - (Vector2)transform.position).normalized);
+
+           weapon.Shoot(transform.position, (MousePos - (Vector2)transform.position).normalized);
         }
 
         if (Input.GetButtonDown("Grab"))
@@ -64,4 +67,6 @@ public class MouseMovement : MonoBehaviour
     {
         return weapon;
     }
+
+
 }

@@ -87,5 +87,10 @@ PrefabInstance:
       propertyPath: avoid.Array.data[0]
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 114855674965831726, guid: cba84912ee6f2de43a12aa4363b0027f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cba84912ee6f2de43a12aa4363b0027f, type: 3}

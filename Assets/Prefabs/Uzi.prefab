@@ -113,5 +113,25 @@ PrefabInstance:
       propertyPath: BulletSpeed
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 3220259734599863803, guid: 976fdb6675407444597b352d6310cf28,
+        type: 3}
+      propertyPath: BulletSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3220259734599863803, guid: 976fdb6675407444597b352d6310cf28,
+        type: 3}
+      propertyPath: ShootInterval
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3220259734599863803, guid: 976fdb6675407444597b352d6310cf28,
+        type: 3}
+      propertyPath: Ammo
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3220259734599863803, guid: 976fdb6675407444597b352d6310cf28,
+        type: 3}
+      propertyPath: Damage
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 976fdb6675407444597b352d6310cf28, type: 3}

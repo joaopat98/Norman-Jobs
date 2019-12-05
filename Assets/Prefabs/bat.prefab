@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5994763743879323403}
   - component: {fileID: 5994763743879323402}
   - component: {fileID: 5994763743879323405}
+  - component: {fileID: 6632706731939425763}
   m_Layer: 0
   m_Name: bat
   m_TagString: Weapon
@@ -114,12 +115,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  Bullet: {fileID: 0}
-  BulletSpeed: 1
-  ShootInterval: 0
-  Damage: 2
+  Damage: 1
   Ammo: 5
   timeBtwAttacks: 0
   startTimeBtwAttacks: 0.2
   attackDistance: 1
-  BoxSize: 2
+  BoxSize: 1
+--- !u!50 &6632706731939425763
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5994763743879323404}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
