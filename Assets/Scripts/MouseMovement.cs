@@ -27,8 +27,7 @@ public class MouseMovement : MonoBehaviour
 
         if ((Input.GetButtonDown("Fire1") || Input.GetButton("Fire1")) && weapon != null && weapon.type == WeaponType.Ranged)
         {
-
-           weapon.Shoot(transform.position, (MousePos - (Vector2)transform.position).normalized);
+            weapon.Shoot(transform.position, (MousePos - (Vector2)transform.position).normalized);
         }
 
         if (Input.GetButtonDown("Grab"))

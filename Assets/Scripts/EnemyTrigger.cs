@@ -5,7 +5,6 @@ using UnityEngine;
 public class EnemyTrigger : MonoBehaviour
 {
     public Punch punch;
-   
     private bool hasHit = false;
 
     void OnTriggerEnter2D(Collider2D col)
@@ -14,10 +13,6 @@ public class EnemyTrigger : MonoBehaviour
         {
             punch.HitEnemy(col.GetComponent<Enemy>());
             hasHit = true;
-        }
-        else
-        {
-            hasHit = false;
         }
     }
     // Update is called once per frame

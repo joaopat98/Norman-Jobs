@@ -72,40 +72,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7183917258075267583, guid: cba84912ee6f2de43a12aa4363b0027f,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7183917258075267583, guid: cba84912ee6f2de43a12aa4363b0027f,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 0.6603774
-      objectReference: {fileID: 0}
-    - target: {fileID: 7183917258075267583, guid: cba84912ee6f2de43a12aa4363b0027f,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 0.06132657
-      objectReference: {fileID: 0}
-    - target: {fileID: 114855674965831726, guid: cba84912ee6f2de43a12aa4363b0027f,
-        type: 3}
-      propertyPath: targets.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114855674965831726, guid: cba84912ee6f2de43a12aa4363b0027f,
-        type: 3}
-      propertyPath: avoid.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114855674965831726, guid: cba84912ee6f2de43a12aa4363b0027f,
-        type: 3}
-      propertyPath: targets.Array.data[0]
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 114855674965831726, guid: cba84912ee6f2de43a12aa4363b0027f,
-        type: 3}
-      propertyPath: avoid.Array.data[0]
-      value: Enemy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cba84912ee6f2de43a12aa4363b0027f, type: 3}
