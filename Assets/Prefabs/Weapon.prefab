@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7413762460416964828}
   - component: {fileID: 7413762460416964829}
-  - component: {fileID: 7413762460416964831}
+  - component: {fileID: 3220259734599863803}
   m_Layer: 0
   m_Name: Weapon
   m_TagString: Weapon
@@ -70,8 +70,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: 493d91f802863334ab8b62518341a7a9, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: f739f7d69733e6f4e876a7a66bb2dff8, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -81,7 +81,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7413762460416964831
+--- !u!114 &3220259734599863803
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -90,12 +90,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 7413762460416964832}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c4a76596d1920745a6d72ebb8707422, type: 3}
+  m_Script: {fileID: 11500000, guid: 7faed4cd8ee4381409d15a668cf2b75a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
+  Damage: 1
+  Ammo: 5
   Bullet: {fileID: 8626814864672146064, guid: ce4cb70cd2f18f541bab023cac24d2d3, type: 3}
   BulletSpeed: 15
   ShootInterval: 0.5
-  Damage: 1
-  Ammo: 5

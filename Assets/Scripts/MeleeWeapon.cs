@@ -8,36 +8,35 @@ public class MeleeWeapon : Weapon
     public float timeBtwAttacks;
     public float startTimeBtwAttacks;
     public float attackDistance;
-    public float BoxSize;
-    // public int Ammo;
-    // public int Damage;
-    // public GameObject Slash;
+    public float BoxSize = 1.0f;
 
     private Animator anim;
     private PlayerMovement movement;
-    private GameObject player;
+   
 
-    void Start()
+
+    new void Start()
     {
-        anim = GetComponent<Animator>();
-        player = GameObject.FindGameObjectWithTag("Player");
-        movement = player.GetComponent<PlayerMovement>();
+       base.Start();
+       anim = GetComponent<Animator>();
+       type = WeaponType.Melee;
+       movement = thePlayer.GetComponent<PlayerMovement>();
+     
     }
 
     void Update()
     {
         Vector2 dir = movement.lookingAt;
-
-        if (timeBtwAttacks <= 0 && Input.GetButtonDown("Fire1") && player.GetComponent<MouseMovement>().GetWeapon() != null
-            && player.GetComponent<MouseMovement>().GetWeapon() == this)
+        Debug.DrawRay(transform.position, dir * attackDistance, Color.green, 0.016f);
+        if (timeBtwAttacks <= 0 && Input.GetButtonDown("Fire1") && thePlayer.GetComponent<MouseMovement>().GetWeapon() != null
+            && thePlayer.GetComponent<MouseMovement>().GetWeapon() == this)
         {
 
             anim.SetTrigger("bat");
             anim.SetBool("go_Normal", false);
-            timeBtwAttacks = startTimeBtwAttacks;
 
-            /*var slash = Instantiate(Slash, transform.position, Quaternion.identity);
-            slash.GetComponent<IDamaging>().setDamage(Damage);*/
+
+            timeBtwAttacks = startTimeBtwAttacks;
 
         }
         else
@@ -50,26 +49,31 @@ public class MeleeWeapon : Weapon
     {
         Vector2 dir = movement.lookingAt;
 
-        var hit = Physics2D.BoxCast(player.transform.position, Vector2.one * BoxSize, 0, dir, attackDistance, LayerMask.GetMask("Enemies"));
+        var hit = Physics2D.BoxCast(thePlayer.transform.position, Vector2.one * BoxSize, 0, dir, attackDistance, LayerMask.GetMask("Enemies"));
+        thePlayer.GetComponent<PlayerHealth>().hurting = false;
         if (hit.collider != null)
         {
-
-            hit.transform.GetComponent<Enemy>().Hit(null, Damage);
-            Ammo--;
+           
+            hit.transform.GetComponent<Enemy>().Hit(thePlayer, Damage);
+            
+            Ammo -= 1;
 
             if (Ammo == 0)
             {
-
+                mouse.SetWeapon(null);
                 Destroy(gameObject);
             }
         }
+       
+
     }
 
     public void FinishAttack()
     {
-
         anim.SetBool("go_Normal", true);
     }
+
+
 
 
 }

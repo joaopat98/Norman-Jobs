@@ -70,7 +70,7 @@ PrefabInstance:
     - target: {fileID: 7413762460416964829, guid: 976fdb6675407444597b352d6310cf28,
         type: 3}
       propertyPath: m_Color.r
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7413762460416964829, guid: 976fdb6675407444597b352d6310cf28,
         type: 3}
@@ -80,13 +80,13 @@ PrefabInstance:
     - target: {fileID: 7413762460416964829, guid: 976fdb6675407444597b352d6310cf28,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.1308515
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7413762460416964829, guid: 976fdb6675407444597b352d6310cf28,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 493d91f802863334ab8b62518341a7a9,
+      objectReference: {fileID: 21300000, guid: 01064e665bf470540902be4b6cb0986c,
         type: 3}
     - target: {fileID: 7413762460416964829, guid: 976fdb6675407444597b352d6310cf28,
         type: 3}
@@ -112,6 +112,26 @@ PrefabInstance:
         type: 3}
       propertyPath: BulletSpeed
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3220259734599863803, guid: 976fdb6675407444597b352d6310cf28,
+        type: 3}
+      propertyPath: BulletSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3220259734599863803, guid: 976fdb6675407444597b352d6310cf28,
+        type: 3}
+      propertyPath: ShootInterval
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3220259734599863803, guid: 976fdb6675407444597b352d6310cf28,
+        type: 3}
+      propertyPath: Ammo
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3220259734599863803, guid: 976fdb6675407444597b352d6310cf28,
+        type: 3}
+      propertyPath: Damage
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 976fdb6675407444597b352d6310cf28, type: 3}

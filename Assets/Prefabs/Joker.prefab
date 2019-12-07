@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5483063500546810844}
   - component: {fileID: 5483063500546810845}
   - component: {fileID: 5483063500546810842}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: HealthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   - component: {fileID: 5483063500948400244}
   - component: {fileID: 5483063500948400245}
   - component: {fileID: 5483063500948400242}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Joker
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -277,7 +277,7 @@ GameObject:
   - component: {fileID: 5483063502011545567}
   - component: {fileID: 5483063502011545564}
   - component: {fileID: 5483063502011545565}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: HealthBarCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
