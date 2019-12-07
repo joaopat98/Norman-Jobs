@@ -1149,12 +1149,12 @@ PrefabInstance:
     - target: {fileID: 7413762460416964828, guid: 976fdb6675407444597b352d6310cf28,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.55
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: 7413762460416964828, guid: 976fdb6675407444597b352d6310cf28,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.6
+      value: -4.37
       objectReference: {fileID: 0}
     - target: {fileID: 7413762460416964828, guid: 976fdb6675407444597b352d6310cf28,
         type: 3}
@@ -1383,12 +1383,12 @@ PrefabInstance:
     - target: {fileID: 5994763743879323400, guid: 2bcaa5f556600f94d855ae41d3dc755d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.34
+      value: 5.65
       objectReference: {fileID: 0}
     - target: {fileID: 5994763743879323400, guid: 2bcaa5f556600f94d855ae41d3dc755d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.2
+      value: 5.78
       objectReference: {fileID: 0}
     - target: {fileID: 5994763743879323400, guid: 2bcaa5f556600f94d855ae41d3dc755d,
         type: 3}
@@ -1964,6 +1964,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MusicPlayer
       objectReference: {fileID: 0}
+    - target: {fileID: 4924847370626300852, guid: 9d36c402a81038a4e908b41272db3960,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4924847370626300853, guid: 9d36c402a81038a4e908b41272db3960,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2017,11 +2022,6 @@ PrefabInstance:
     - target: {fileID: 4924847370626300853, guid: 9d36c402a81038a4e908b41272db3960,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4924847370626300852, guid: 9d36c402a81038a4e908b41272db3960,
-        type: 3}
-      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2217,12 +2217,12 @@ PrefabInstance:
       propertyPath: m_Size.x
       value: 0.99226916
       objectReference: {fileID: 0}
-    - target: {fileID: 8203956660542810574, guid: d071e1bfa1cb1c74a9efc35cf3493e0a,
+    - target: {fileID: 8203956660165120065, guid: d071e1bfa1cb1c74a9efc35cf3493e0a,
         type: 3}
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
-    - target: {fileID: 8203956660165120065, guid: d071e1bfa1cb1c74a9efc35cf3493e0a,
+    - target: {fileID: 8203956660542810574, guid: d071e1bfa1cb1c74a9efc35cf3493e0a,
         type: 3}
       propertyPath: m_Layer
       value: 9
