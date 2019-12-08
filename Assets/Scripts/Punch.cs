@@ -86,7 +86,7 @@ public class Punch : MonoBehaviour
     IEnumerator MoveTo(Vector2 direction)
     {
         float curTime = 0;
-        Debug.Log(direction);
+
         Vector2 finalPos;
         if (direction.magnitude > AttackDistance)
         {
