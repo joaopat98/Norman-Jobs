@@ -94,7 +94,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  weaponSound: {fileID: 8300000, guid: c540e65c5f7e2fe458a1ffd00bf228fe, type: 3}
+  weaponSound: {fileID: 8300000, guid: b2a8629227d1de54f9429e32741d5f22, type: 3}
   weaponSoundVolume: 0.5
   Damage: 1
   Ammo: 10
