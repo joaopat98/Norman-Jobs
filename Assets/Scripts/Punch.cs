@@ -13,6 +13,7 @@ public class Punch : MonoBehaviour
     public bool punching = false;
     public float AttackTime = 0.25f, AttackDistance = 1f;
     public AudioClip punchSound;
+    public AudioClip tryPunchSound;
     public float punchSoundVolume;
     public GameObject EnemyTriggerPrefab;
     private Animator anim;
@@ -65,7 +66,7 @@ public class Punch : MonoBehaviour
     {
         GetComponent<PlayerHealth>().hurting = false;
         Vector2 dir = movement.lookingAt;
-        AudioSource.PlayClipAtPoint(punchSound, Camera.main.transform.position, punchSoundVolume);
+        AudioSource.PlayClipAtPoint(tryPunchSound, Camera.main.transform.position, punchSoundVolume);
         enemyTrigger = Instantiate(EnemyTriggerPrefab, rb.position, Quaternion.identity, transform);
         enemyTrigger.GetComponent<EnemyTrigger>().punch = this;
     }
@@ -73,6 +74,7 @@ public class Punch : MonoBehaviour
     public void HitEnemy(Enemy enemy)
     {
         enemy.Hit(gameObject, Damage);
+        AudioSource.PlayClipAtPoint(punchSound, Camera.main.transform.position, punchSoundVolume);
     }
 
     public void FinishPunch()

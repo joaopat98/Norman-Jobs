@@ -3,7 +3,7 @@
 public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 1f;
-    public Vector2 lookingAt;
+    public Vector2Int lookingAt;
     private Rigidbody2D rb;
     private Animator animator;
     private Punch punch;
@@ -30,8 +30,8 @@ public class PlayerMovement : MonoBehaviour
             Vector2 dir = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
             lookingAt = dir.magnitude == 0 ? lookingAt : dir.ToSpriteDirection(0.2f);
             rb.MovePosition(rb.position + dir * moveSpeed * Time.fixedDeltaTime);
-            animator.SetInteger("x", Mathf.RoundToInt(lookingAt.x));
-            animator.SetInteger("y", Mathf.RoundToInt(lookingAt.y));
+            animator.SetInteger("x", lookingAt.x);
+            animator.SetInteger("y", lookingAt.y);
 
             if (lookingAt.x > 0)
             {

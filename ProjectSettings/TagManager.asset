@@ -11,6 +11,8 @@ TagManager:
   - Ground
   - Unlock
   - EnemyFather
+  - MeleeWeapon
+  - PlayerBullet
   layers:
   - Default
   - TransparentFX
@@ -21,8 +23,8 @@ TagManager:
   - 
   - 
   - Environment
-  - Player
   - Enemies
+  - Player
   - 
   - 
   - 
