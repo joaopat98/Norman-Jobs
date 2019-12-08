@@ -143,7 +143,8 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
     private IEnumerator Flashing()
     {
         int temp = 0;
-        Physics2D.IgnoreLayerCollision(9, 8, true);
+        Physics2D.IgnoreLayerCollision(10, 8, true);
+        Physics2D.IgnoreLayerCollision(10, 9, true);
         while (temp < numberOfFlashes)
         {
             mySprite.color = flashingColor;
@@ -153,7 +154,8 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
             temp++;
         }
         yield return new WaitForSeconds(1.0f);
-        Physics2D.IgnoreLayerCollision(9, 8, false);
-        
+        Physics2D.IgnoreLayerCollision(10, 8, false);
+        Physics2D.IgnoreLayerCollision(10, 9, false);
+
     }
 }

@@ -7,7 +7,7 @@ public class RangedWeapon : Weapon
     public GameObject Bullet;
     public float BulletSpeed = 1;
     public float ShootInterval;
-    private float shootTimer = 0;
+    protected float shootTimer = 0;
     // Start is called before the first frame update
     new void Start()
     {
@@ -44,6 +44,7 @@ public class RangedWeapon : Weapon
                 shot.GetComponent<Rigidbody2D>().velocity = BulletSpeed * direction;
                 shot.transform.Rotate(0, Mathf.Atan2(direction.y, direction.x), 0);
                 shootTimer = ShootInterval;
+                AudioSource.PlayClipAtPoint(weaponSound, Camera.main.transform.position, weaponSoundVolume);
 
                 Ammo -= 1;
 

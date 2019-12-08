@@ -12,7 +12,7 @@ public class MeleeWeapon : Weapon
 
     private Animator anim;
     private PlayerMovement movement;
-   
+    public AudioClip hitSound;
 
 
     new void Start()
@@ -51,11 +51,13 @@ public class MeleeWeapon : Weapon
 
         var hit = Physics2D.BoxCast(thePlayer.transform.position, Vector2.one * BoxSize, 0, dir, attackDistance, LayerMask.GetMask("Enemies"));
         thePlayer.GetComponent<PlayerHealth>().hurting = false;
+        
         if (hit.collider != null)
         {
            
             hit.transform.GetComponent<Enemy>().Hit(thePlayer, Damage);
-            
+            AudioSource.PlayClipAtPoint(hitSound, Camera.main.transform.position, weaponSoundVolume);
+
             Ammo -= 1;
 
             if (Ammo == 0)
@@ -63,6 +65,10 @@ public class MeleeWeapon : Weapon
                 mouse.SetWeapon(null);
                 Destroy(gameObject);
             }
+        }
+        else
+        {
+            AudioSource.PlayClipAtPoint(weaponSound, Camera.main.transform.position, weaponSoundVolume);
         }
        
 

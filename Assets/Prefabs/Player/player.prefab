@@ -138,6 +138,8 @@ MonoBehaviour:
   Reticle: {fileID: 0}
   Range: 1.4
   MousePos: {x: 0, y: 0}
+  weaponGrabSound: {fileID: 8300000, guid: 4d2c2b493c79a4f419bd2a89da9ca794, type: 3}
+  weaponGrabSoundVolume: 0.5
 --- !u!114 &9006042026615078892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,7 +160,8 @@ MonoBehaviour:
   punching: 0
   AttackTime: 0.25
   AttackDistance: 1.5
-  punchSound: {fileID: 8300000, guid: bd4e639b26bb61944a652d8c49ccccac, type: 3}
+  punchSound: {fileID: 8300000, guid: 41f77a10fc601da46a00a0940363fb74, type: 3}
+  tryPunchSound: {fileID: 8300000, guid: 7ba40f4392493e84889d9934a912efea, type: 3}
   punchSoundVolume: 0.35
   EnemyTriggerPrefab: {fileID: 2926048434759540211, guid: df5f7c7032abed64dadf826ac843f874,
     type: 3}

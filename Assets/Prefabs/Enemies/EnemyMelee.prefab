@@ -150,7 +150,7 @@ MonoBehaviour:
     type: 3}
   Radar: 4
   HP: 1
-  Damage: 2
+  Damage: 1
   HitTime: 0.25
   HitDistance: 1
   startTimeBtwPunches: 2

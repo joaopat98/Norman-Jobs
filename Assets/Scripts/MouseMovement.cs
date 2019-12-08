@@ -10,8 +10,10 @@ public class MouseMovement : MonoBehaviour
 
     public Vector2 MousePos;
     private Weapon weapon = null;
-   
 
+    [Header("Sound Stuff")]
+    public AudioClip weaponGrabSound;
+    public float weaponGrabSoundVolume;
 
     // Start is called before the first frame update
     void Start()
@@ -42,7 +44,11 @@ public class MouseMovement : MonoBehaviour
                     switchWeapon = w;
             }
             if (switchWeapon)
+            {
                 SetWeapon(switchWeapon);
+                AudioSource.PlayClipAtPoint(weaponGrabSound, Camera.main.transform.position, weaponGrabSoundVolume);
+            }
+                
         }
     }
 
