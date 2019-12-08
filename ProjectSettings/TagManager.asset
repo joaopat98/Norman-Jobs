@@ -12,6 +12,7 @@ TagManager:
   - Unlock
   - EnemyFather
   - MeleeWeapon
+  - PlayerBullet
   layers:
   - Default
   - TransparentFX

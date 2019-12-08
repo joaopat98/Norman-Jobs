@@ -7,7 +7,7 @@ public class RangedWeapon : Weapon
     public GameObject Bullet;
     public float BulletSpeed = 1;
     public float ShootInterval;
-    private float shootTimer = 0;
+    protected float shootTimer = 0;
     // Start is called before the first frame update
     new void Start()
     {
