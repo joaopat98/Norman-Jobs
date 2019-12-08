@@ -11,6 +11,10 @@ public class Boss : Enemy
 
     public GameObject Bullet;
 
+    BossConfigs bossConfig;
+    List<Transform> waypoints;
+    private int waypointIndex = 0;
+
     private bool shooting;
 
 
@@ -24,6 +28,9 @@ public class Boss : Enemy
     {
         base.Start();
         timeBtwShots = startTimeBtwShots;
+
+        waypoints = bossConfig.getWaypoints();
+        transform.position = waypoints[waypointIndex].transform.position;
     }
 
     // Update is called once per frame
@@ -100,5 +107,23 @@ public class Boss : Enemy
     protected override void Idle()
     {
         rb.velocity = Vector3.zero;
+    }
+
+    private void Move()
+    {
+        if (waypointIndex <= waypoints.Count - 1)
+        {
+            var targetPosition = waypoints[waypointIndex].transform.position;
+            var movementThisFrame = bossConfig.getMoveSpeed() * Time.deltaTime;
+            transform.position = Vector2.MoveTowards(transform.position, targetPosition, movementThisFrame);
+            if (transform.position == targetPosition)
+            {
+                waypointIndex++;
+            }
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 }
