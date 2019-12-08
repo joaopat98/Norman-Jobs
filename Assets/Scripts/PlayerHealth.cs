@@ -9,6 +9,8 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
     public GameObject Heart;
     public int MaxHP;
     public int HP;
+
+    public bool alive = true;
     private List<GameObject> hearts;
     private Vector2 finalScale, leftTop;
     public CameraShake CameraShake;
@@ -59,7 +61,7 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
         int dif = HP - hearts.Count;
         if (dif < 0)
         {
-          
+
             StartCoroutine(CameraShake.Shake(0.4f, 0.1f));
             StartCoroutine(Flashing());
             for (int i = 0; i > dif; i--)
@@ -67,7 +69,7 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
                 Destroy(hearts[hearts.Count - 1]);
                 hearts.RemoveAt(hearts.Count - 1);
             }
-           
+
         }
         else if (dif > 0)
         {
@@ -80,9 +82,9 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
 
     public void Hit(GameObject obj, float value)
     {
-        
+
         HP = (int)Mathf.Round(Mathf.Max(HP - value, 0));
-       
+
         if (HP == 0)
         {
             for (int i = 0; i < hearts.Count; i++)
@@ -90,7 +92,8 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
                 Destroy(hearts[i]);
             }
             hearts.Clear();
-            Destroy(gameObject);
+            alive = false;
+            animator.SetBool("alive", false);
         }
         else
         {
@@ -157,5 +160,10 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
         Physics2D.IgnoreLayerCollision(10, 8, false);
         Physics2D.IgnoreLayerCollision(10, 9, false);
 
+    }
+
+    public bool isAlive()
+    {
+        return alive;
     }
 }

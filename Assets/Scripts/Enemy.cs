@@ -41,12 +41,15 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
     {
         Vector2 S = spr.sprite.bounds.size;
         gameObject.GetComponent<BoxCollider2D>().size = S;
-        float dist = Vector2.Distance(player.transform.position, transform.position);
-        if (dist < Radar)
-            Act();
-        else
+        if (player.GetComponent<IHealthSystem>().isAlive())
         {
-            Idle();
+            float dist = Vector2.Distance(player.transform.position, transform.position);
+            if (dist < Radar)
+                Act();
+            else
+            {
+                Idle();
+            }
         }
     }
     public virtual void Hit(GameObject obj, float value)
@@ -57,17 +60,16 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
         {
             if (WeaponDrop)
                 Instantiate(WeaponDrop, transform.position, Quaternion.identity);
-            Destroy(gameObject);
+            GetComponent<Collider2D>().enabled = false;
+            animator.SetBool("alive", false);
+            return;
         }
-        else
+        if (!hurting)
         {
-            if (!hurting)
-            {
-                hurting = true;
-                StartCoroutine(PushBack(transform.position - obj.transform.position, value));
-            }
-            animator.SetTrigger("hurt");
+            hurting = true;
+            StartCoroutine(PushBack(transform.position - obj.transform.position, value));
         }
+        animator.SetTrigger("hurt");
 
     }
 
@@ -99,6 +101,33 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
             yield return new WaitForFixedUpdate();
             curTime = Time.time - startTime;
         }
+    }
+
+    public void Die()
+    {
+        StartCoroutine(Flashing());
+    }
+
+    private IEnumerator Flashing()
+    {
+        int temp = 0;
+
+        var flashingColor = new Color(1, 1, 1, 0);
+        var regularColor = new Color(1, 1, 1, 1);
+        while (temp < 3)
+        {
+            spr.color = flashingColor;
+            yield return new WaitForSeconds(0.1f);
+            spr.color = regularColor;
+            yield return new WaitForSeconds(0.1f);
+            temp++;
+        }
+        Destroy(gameObject);
+    }
+
+    public bool isAlive()
+    {
+        return HP > 0;
     }
 }
 

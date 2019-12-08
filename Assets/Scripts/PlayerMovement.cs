@@ -3,7 +3,7 @@
 public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 1f;
-    public Vector2Int lookingAt;
+    public Vector2 lookingAt;
     private Rigidbody2D rb;
     private Animator animator;
     private Punch punch;
@@ -25,25 +25,28 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (!punch.punching && !health.hurting)
+        if (health.alive)
         {
-            Vector2 dir = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
-            lookingAt = dir.magnitude == 0 ? lookingAt : dir.ToSpriteDirection(0.2f);
-            rb.MovePosition(rb.position + dir * moveSpeed * Time.fixedDeltaTime);
-            animator.SetInteger("x", lookingAt.x);
-            animator.SetInteger("y", lookingAt.y);
+            if (!punch.punching && !health.hurting)
+            {
+                Vector2 dir = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
+                lookingAt = dir.magnitude == 0 ? lookingAt : dir.ToSpriteDirection(0.2f);
+                rb.MovePosition(rb.position + dir * moveSpeed * Time.fixedDeltaTime);
+                animator.SetInteger("x", Mathf.RoundToInt(lookingAt.x));
+                animator.SetInteger("y", Mathf.RoundToInt(lookingAt.y));
 
-            if (lookingAt.x > 0)
-            {
-                var scale = transform.localScale;
-                scale.x = -1;
-                transform.localScale = scale;
-            }
-            else
-            {
-                var scale = transform.localScale;
-                scale.x = 1;
-                transform.localScale = scale;
+                if (lookingAt.x > 0)
+                {
+                    var scale = transform.localScale;
+                    scale.x = -1;
+                    transform.localScale = scale;
+                }
+                else
+                {
+                    var scale = transform.localScale;
+                    scale.x = 1;
+                    transform.localScale = scale;
+                }
             }
         }
     }
