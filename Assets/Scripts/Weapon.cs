@@ -15,9 +15,12 @@ public class Weapon : MonoBehaviour
     // Start is called before the first frame update
     public WeaponType type;
 
-   /* public GameObject Bullet;
-    public float BulletSpeed = 1;
-    public float ShootInterval;*/
+    public AudioClip weaponSound;
+    public float weaponSoundVolume;
+
+    /* public GameObject Bullet;
+     public float BulletSpeed = 1;
+     public float ShootInterval;*/
     public float Damage;
 
     public int Ammo;

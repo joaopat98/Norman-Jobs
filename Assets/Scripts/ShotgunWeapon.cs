@@ -41,6 +41,8 @@ public class ShotgunWeapon : RangedWeapon
                 ThirdShot.transform.Rotate(0, Mathf.Atan2(ThirdShotDir.y, ThirdShotDir.x), 0);
                 shootTimer = ShootInterval;
 
+                AudioSource.PlayClipAtPoint(weaponSound, Camera.main.transform.position, weaponSoundVolume);
+
                 Ammo -= 1;
 
                 if (Ammo == 0)

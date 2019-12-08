@@ -44,6 +44,7 @@ public class RangedWeapon : Weapon
                 shot.GetComponent<Rigidbody2D>().velocity = BulletSpeed * direction;
                 shot.transform.Rotate(0, Mathf.Atan2(direction.y, direction.x), 0);
                 shootTimer = ShootInterval;
+                AudioSource.PlayClipAtPoint(weaponSound, Camera.main.transform.position, weaponSoundVolume);
 
                 Ammo -= 1;
 
