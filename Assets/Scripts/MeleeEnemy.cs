@@ -17,6 +17,7 @@ public class MeleeEnemy : Enemy
 
     private Vector2 punchDir;
     private bool punching;
+    
 
     new void Start()
     {
@@ -78,6 +79,7 @@ public class MeleeEnemy : Enemy
         if (hit.collider != null)
         {
             hit.transform.GetComponent<IHealthSystem>().Hit(gameObject, Damage);
+            AudioSource.PlayClipAtPoint(attackSound, this.transform.position, attackSoundVolume);
         }
     }
 
@@ -89,7 +91,7 @@ public class MeleeEnemy : Enemy
     IEnumerator MoveTo(Vector2 direction)
     {
         float curTime = 0;
-        Debug.Log(direction);
+       
         Vector2 finalPos = (Vector2)transform.position + (direction.normalized * AttackDistance);
         Vector2 origPos = transform.position;
         float startTime = Time.time;

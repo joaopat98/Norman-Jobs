@@ -153,7 +153,7 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
             yield return new WaitForSeconds(flashDuration);
             temp++;
         }
-        yield return new WaitForSeconds(1.0f);
+        yield return new WaitForSeconds(0.70f);
         Physics2D.IgnoreLayerCollision(10, 8, false);
         Physics2D.IgnoreLayerCollision(10, 9, false);
 

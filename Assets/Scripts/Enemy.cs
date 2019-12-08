@@ -23,8 +23,13 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
     protected Animator animator;
     protected Rigidbody2D rb;
     private Color oldColor;
-
     protected bool hurting;
+
+    
+    public float attackSoundVolume;
+    public AudioClip attackSound;
+
+    
 
     // Start is called before the first frame update
     protected void Start()
