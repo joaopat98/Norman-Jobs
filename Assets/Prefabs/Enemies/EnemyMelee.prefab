@@ -149,10 +149,10 @@ MonoBehaviour:
   WeaponDrop: {fileID: 7747544163262954004, guid: bbbdd9182f07d3c48b3ed4fd2d7a7d15,
     type: 3}
   Radar: 4
-  HP: 1
+  HP: 3
   Damage: 1
   HitTime: 0.25
-  HitDistance: 1
+  HitDistance: 0.6
   attackSoundVolume: 1.75
   attackSound: {fileID: 8300000, guid: c771d7baf98c0d34d9463a74d08570ff, type: 3}
   startTimeBtwPunches: 2
