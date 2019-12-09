@@ -271,7 +271,7 @@ MonoBehaviour:
   Damage: 1.5
   HitTime: 0.25
   HitDistance: 1
-  attackSoundVolume: 0.5
+  attackSoundVolume: 0.75
   attackSound: {fileID: 8300000, guid: 0015e4838a8798141a921a8614c1cedf, type: 3}
   deathSound: {fileID: 8300000, guid: 0e4dadcd51650b34e8bf0588bdaefb55, type: 3}
   retreatDistance: 2
