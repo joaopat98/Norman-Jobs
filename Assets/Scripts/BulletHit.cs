@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BulletHit : MonoBehaviour, IDamaging
 {
+    public GameObject FeedbackPrefab;
     public string[] targets;
     public string[] avoid;
 
@@ -25,10 +26,11 @@ public class BulletHit : MonoBehaviour, IDamaging
         {
             if (col.CompareTag(target))
             {
-                
+
                 col.GetComponent<IHealthSystem>().Hit(gameObject, GetDamage());
+                Instantiate(FeedbackPrefab, transform.position, Quaternion.identity);
                 Destroy(gameObject);
-                
+
                 return;
             }
         }

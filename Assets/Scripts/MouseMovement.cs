@@ -41,7 +41,10 @@ public class MouseMovement : MonoBehaviour
             {
                 float dist = (transform.position - w.transform.position).magnitude;
                 if (weapon != w && dist < Range && dist < minDist)
+                {
                     switchWeapon = w;
+                    minDist = dist;
+                }
             }
             if (switchWeapon)
             {
