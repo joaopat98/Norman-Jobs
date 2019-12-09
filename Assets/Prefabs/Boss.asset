@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bossPrefab: {fileID: 5483063500948400240, guid: 581ee8b087cf92243803c95c522435a1,
     type: 3}
-  pathPrefab: {fileID: 6284289166099315539, guid: 598a2165a0069bc418b3b4a7ed10ffc8,
+  pathPrefab: {fileID: 2496636174024607500, guid: 598a2165a0069bc418b3b4a7ed10ffc8,
     type: 3}
   timeBetweenSpawns: 0.5
   spawnRandomFactor: 0.3
