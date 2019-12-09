@@ -46,7 +46,7 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
     {
         Vector2 S = spr.sprite.bounds.size;
         gameObject.GetComponent<BoxCollider2D>().size = S;
-        if (player.GetComponent<IHealthSystem>().isAlive() && isAlive())
+        if (!hurting && player.GetComponent<IHealthSystem>().isAlive() && isAlive())
         {
             float dist = Vector2.Distance(player.transform.position, transform.position);
             if (dist < Radar)
@@ -59,6 +59,7 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
     }
     public virtual void Hit(GameObject obj, float value)
     {
+        Radar = Mathf.Infinity;
         HP -= value;
         StartCoroutine(Tint());
         if (HP <= 0)
@@ -72,6 +73,9 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
         else if (!hurting)
         {
             hurting = true;
+            var dir = ((Vector2)(obj.transform.position - transform.position)).ToSpriteDirection(0.2f);
+            animator.SetInteger("x", Mathf.RoundToInt(dir.x));
+            animator.SetInteger("y", Mathf.RoundToInt(dir.y));
             StartCoroutine(PushBack(transform.position - obj.transform.position, value));
         }
         animator.SetTrigger("hurt");

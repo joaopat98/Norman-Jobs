@@ -96,7 +96,8 @@ MonoBehaviour:
   type: 1
   weaponSound: {fileID: 8300000, guid: 0015e4838a8798141a921a8614c1cedf, type: 3}
   weaponSoundVolume: 0.5
-  Damage: 5
+  Held: 0
+  Damage: 2
   Ammo: 6
   Bullet: {fileID: 8626814864672146064, guid: ce4cb70cd2f18f541bab023cac24d2d3, type: 3}
   BulletSpeed: 20
