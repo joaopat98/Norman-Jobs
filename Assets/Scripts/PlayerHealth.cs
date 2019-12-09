@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour, IHealthSystem
@@ -9,12 +10,14 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
     public GameObject Heart;
     public int MaxHP;
     public int HP;
+    public GameObject panel;
 
     public bool alive = true;
     private List<GameObject> hearts;
     private Vector2 finalScale, leftTop;
     public CameraShake CameraShake;
     public bool hurting;
+
     private Animator animator;
     private Rigidbody2D rb;
 
@@ -23,8 +26,12 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
     public float HitDistance;
 
     public float HitTime;
+
+    [Header("Sound Stuff")]
     public AudioClip deathSound;
     public float deathSoundVolume;
+    public AudioClip loseSound;
+    public float loseSoundVolume;
 
     [Header("Invulnerability Stuff")]
     public Color flashingColor;
@@ -42,8 +49,9 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         punch = GetComponent<Punch>();
-
+       
         hearts = new List<GameObject>();
+        panel.SetActive(false);
         HP = MaxHP;
         var rect = Canvas.pixelRect;
         leftTop = new Vector2(rect.xMin, rect.yMax);
@@ -100,6 +108,7 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
             alive = false;
             animator.SetBool("alive", false);
             AudioSource.PlayClipAtPoint(deathSound, Camera.main.transform.position, deathSoundVolume);
+            StartCoroutine(LoseSound());
         }
         else
         {
@@ -173,4 +182,14 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
     {
         return alive;
     }
+
+    IEnumerator LoseSound()
+    {
+        yield return new WaitForSeconds(2.0f);
+        AudioSource.PlayClipAtPoint(loseSound, Camera.main.transform.position, loseSoundVolume);
+        yield return new WaitForSeconds(2.0f);
+
+        panel.SetActive(true);
+    }
+
 }
