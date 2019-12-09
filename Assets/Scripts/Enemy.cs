@@ -46,7 +46,7 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
     {
         Vector2 S = spr.sprite.bounds.size;
         gameObject.GetComponent<BoxCollider2D>().size = S;
-        if (player.GetComponent<IHealthSystem>().isAlive())
+        if (player.GetComponent<IHealthSystem>().isAlive() && isAlive())
         {
             float dist = Vector2.Distance(player.transform.position, transform.position);
             if (dist < Radar)
