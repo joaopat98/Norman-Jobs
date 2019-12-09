@@ -16,6 +16,7 @@ public class Punch : MonoBehaviour
     public AudioClip tryPunchSound;
     public float punchSoundVolume;
     public GameObject EnemyTriggerPrefab;
+    private PlayerHealth health;
     private Animator anim;
     private PlayerMovement movement;
     private Rigidbody2D rb;
@@ -24,6 +25,7 @@ public class Punch : MonoBehaviour
 
     void Start()
     {
+        health = GetComponent<PlayerHealth>();
         anim = GetComponent<Animator>();
         movement = GetComponent<PlayerMovement>();
         rb = GetComponent<Rigidbody2D>();
@@ -32,33 +34,35 @@ public class Punch : MonoBehaviour
 
     void Update()
     {
-
-        if (timeBtwPunches <= 0 && Input.GetButtonDown("Fire2"))
+        if (health.isAlive())
         {
-            punching = true;
-            anim.SetTrigger("punch");
-            Vector2 dir = (mouse.MousePos - rb.position).normalized;
-            var dir_sprite = dir.ToSpriteDirection(0.2f);
-            anim.SetInteger("x", dir_sprite.x);
-            anim.SetInteger("y", dir_sprite.y);
-            if (dir_sprite.x > 0)
+            if (timeBtwPunches <= 0 && Input.GetButtonDown("Fire2"))
             {
-                var scale = transform.localScale;
-                scale.x = -1;
-                transform.localScale = scale;
+                punching = true;
+                anim.SetTrigger("punch");
+                Vector2 dir = (mouse.MousePos - rb.position).normalized;
+                var dir_sprite = dir.ToSpriteDirection(0.2f);
+                anim.SetInteger("x", dir_sprite.x);
+                anim.SetInteger("y", dir_sprite.y);
+                if (dir_sprite.x > 0)
+                {
+                    var scale = transform.localScale;
+                    scale.x = -1;
+                    transform.localScale = scale;
+                }
+                else
+                {
+                    var scale = transform.localScale;
+                    scale.x = 1;
+                    transform.localScale = scale;
+                }
+                StartCoroutine(MoveTo(mouse.MousePos - rb.position));
+                timeBtwPunches = startTimeBtwPunches;
             }
             else
             {
-                var scale = transform.localScale;
-                scale.x = 1;
-                transform.localScale = scale;
+                timeBtwPunches -= Time.deltaTime;
             }
-            StartCoroutine(MoveTo(mouse.MousePos - rb.position));
-            timeBtwPunches = startTimeBtwPunches;
-        }
-        else
-        {
-            timeBtwPunches -= Time.deltaTime;
         }
     }
 

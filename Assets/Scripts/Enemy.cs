@@ -25,11 +25,11 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
     private Color oldColor;
     protected bool hurting;
 
-    
+
     public float attackSoundVolume;
     public AudioClip attackSound;
 
-    
+
 
     // Start is called before the first frame update
     protected void Start()
@@ -69,7 +69,7 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
             animator.SetBool("alive", false);
             return;
         }
-        if (!hurting)
+        else if (!hurting)
         {
             hurting = true;
             StartCoroutine(PushBack(transform.position - obj.transform.position, value));
@@ -116,7 +116,6 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
     private IEnumerator Flashing()
     {
         int temp = 0;
-
         var flashingColor = new Color(1, 1, 1, 0);
         var regularColor = new Color(1, 1, 1, 1);
         while (temp < 3)
