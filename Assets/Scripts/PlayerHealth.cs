@@ -18,6 +18,8 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
     public CameraShake CameraShake;
     public bool hurting;
 
+    private bool invincible;
+
     private Animator animator;
     private Rigidbody2D rb;
 
@@ -49,7 +51,7 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         punch = GetComponent<Punch>();
-       
+
         hearts = new List<GameObject>();
         panel.SetActive(false);
         HP = MaxHP;
@@ -74,9 +76,6 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
         int dif = HP - hearts.Count;
         if (dif < 0)
         {
-
-            StartCoroutine(CameraShake.Shake(0.4f, 0.1f));
-            StartCoroutine(Flashing());
             for (int i = 0; i > dif; i--)
             {
                 Destroy(hearts[hearts.Count - 1]);
@@ -133,6 +132,9 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
 
                 animator.SetInteger("x", lookAt.x);
                 animator.SetInteger("y", lookAt.y);
+                StartCoroutine(CameraShake.Shake(0.4f, 0.1f));
+                invincible = true;
+                StartCoroutine(Flashing());
                 StartCoroutine(PushBack(transform.position - obj.transform.position, value));
                 animator.SetTrigger("hurt");
             }
@@ -162,8 +164,6 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
     private IEnumerator Flashing()
     {
         int temp = 0;
-        Physics2D.IgnoreLayerCollision(10, 8, true);
-        Physics2D.IgnoreLayerCollision(10, 9, true);
         while (temp < numberOfFlashes)
         {
             mySprite.color = flashingColor;
@@ -173,8 +173,7 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
             temp++;
         }
         yield return new WaitForSeconds(0.70f);
-        Physics2D.IgnoreLayerCollision(10, 8, false);
-        Physics2D.IgnoreLayerCollision(10, 9, false);
+        invincible = false;
 
     }
 

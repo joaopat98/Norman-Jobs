@@ -27,7 +27,7 @@ public class MouseMovement : MonoBehaviour
         MousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Reticle.transform.position = MousePos;
 
-        if ((Input.GetButtonDown("Fire1") || Input.GetButton("Fire1")) && weapon != null)
+        if (GetComponent<PlayerHealth>().isAlive() && (Input.GetButtonDown("Fire1") || Input.GetButton("Fire1")) && weapon != null)
         {
             weapon.Shoot(transform.position, (MousePos - (Vector2)transform.position).normalized);
         }

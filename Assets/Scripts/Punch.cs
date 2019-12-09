@@ -34,7 +34,7 @@ public class Punch : MonoBehaviour
 
     void Update()
     {
-        if (health.isAlive())
+        if (health.isAlive() && !health.hurting)
         {
             if (timeBtwPunches <= 0 && Input.GetButtonDown("Fire2"))
             {

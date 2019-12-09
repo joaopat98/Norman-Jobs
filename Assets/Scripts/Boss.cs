@@ -8,7 +8,9 @@ public class Boss : Enemy
     public float BulletSpeed = 1;
     private float timeBtwShots;
     public float startTimeBtwShots;
-  
+
+    public GameObject PistolPrefab, BatPrefab;
+
 
     public GameObject Bullet;
 
@@ -150,15 +152,28 @@ public class Boss : Enemy
         yield return new WaitForSeconds(2.0f);
         /*if (waypointIndex >= 0)
         {*/
+        bool dropsWeapon = Random.Range(0f, 1f) > 0.66;
         if (melee)
         {
-            var enemy = Instantiate(meleeEnemy, transform.position, Quaternion.identity);
+            var enemy = Instantiate(meleeEnemy, transform.position, Quaternion.identity).GetComponent<Enemy>();
+            if (dropsWeapon)
+            {
+                enemy.WeaponDrop = BatPrefab;
+            }
+            else
+                enemy.WeaponDrop = null;
             melee = false;
 
         }
         else
         {
-            var enemy = Instantiate(rangedEnemy, transform.position, Quaternion.identity);
+            var enemy = Instantiate(rangedEnemy, transform.position, Quaternion.identity).GetComponent<Enemy>();
+            if (dropsWeapon)
+            {
+                enemy.WeaponDrop = PistolPrefab;
+            }
+            else
+                enemy.WeaponDrop = null;
             melee = true;
 
         }

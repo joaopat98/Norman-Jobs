@@ -17,7 +17,7 @@ public class MeleeEnemy : Enemy
 
     private Vector2 punchDir;
     private bool punching;
-
+    
 
     new void Start()
     {
@@ -58,7 +58,6 @@ public class MeleeEnemy : Enemy
             animator.SetInteger("x", dir_ceil.x);
             animator.SetInteger("y", dir_ceil.y);
         }
-        Debug.Log(dist);
         if (player != null && dist < AttackRange && timeBtwPunches <= 0)
         {
             punching = true;
@@ -92,7 +91,7 @@ public class MeleeEnemy : Enemy
     IEnumerator MoveTo(Vector2 direction)
     {
         float curTime = 0;
-
+       
         Vector2 finalPos = (Vector2)transform.position + (direction.normalized * AttackDistance);
         Vector2 origPos = transform.position;
         float startTime = Time.time;

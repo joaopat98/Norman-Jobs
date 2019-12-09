@@ -272,10 +272,14 @@ MonoBehaviour:
   HitTime: 0.25
   HitDistance: 1
   attackSoundVolume: 0
-  attackSound: {fileID: 0}
+  attackSound: {fileID: 8300000, guid: c69ce2fcdc16f9d4fab8d35de9bd21e7, type: 3}
   retreatDistance: 2
   BulletSpeed: 15
   startTimeBtwShots: 0.5
+  PistolPrefab: {fileID: 7413762460416964832, guid: 976fdb6675407444597b352d6310cf28,
+    type: 3}
+  BatPrefab: {fileID: 5994763743879323404, guid: 2bcaa5f556600f94d855ae41d3dc755d,
+    type: 3}
   Bullet: {fileID: 627809046778125993, guid: 0c355a31ce366d2498997bd55e2103d1, type: 3}
   bossConfig: {fileID: 11400000, guid: 71d03e0d7873897468de66ac0a5a95ee, type: 2}
 --- !u!1 &5730606430335500426
