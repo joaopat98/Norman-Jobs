@@ -28,6 +28,8 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
 
     public float attackSoundVolume;
     public AudioClip attackSound;
+    private float deathSoundVolume = 0.1f;
+    public AudioClip deathSound;
 
 
 
@@ -68,6 +70,7 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
                 Instantiate(WeaponDrop, transform.position, Quaternion.identity);
             GetComponent<Collider2D>().enabled = false;
             animator.SetBool("alive", false);
+            AudioSource.PlayClipAtPoint(deathSound, Camera.main.transform.position, deathSoundVolume);
             return;
         }
         else if (!hurting)

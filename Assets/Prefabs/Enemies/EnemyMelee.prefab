@@ -155,6 +155,7 @@ MonoBehaviour:
   HitDistance: 0.6
   attackSoundVolume: 1.75
   attackSound: {fileID: 8300000, guid: c771d7baf98c0d34d9463a74d08570ff, type: 3}
+  deathSound: {fileID: 8300000, guid: 99f4486cc0eed814cb8746476aec9e83, type: 3}
   startTimeBtwPunches: 2
   punchDuration: 0.5
   AttackRange: 1.2
