@@ -7,37 +7,43 @@ public class MeleeWeapon : Weapon
 
     public float timeBtwAttacks;
     public float startTimeBtwAttacks;
-    public float attackDistance;
+    public float AttackDistance;
+    public float AttackRadius;
     public float BoxSize = 1.0f;
+    public float angleDelta = 30f;
 
-    private Animator anim;
     private PlayerMovement movement;
     public AudioClip hitSound;
+    public float AttackTime;
 
+    private bool attacking;
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (attacking && col.CompareTag("Enemy"))
+        {
+            AudioSource.PlayClipAtPoint(hitSound, Camera.main.transform.position, weaponSoundVolume);
+            col.GetComponent<IHealthSystem>().Hit(gameObject, 1);
+        }
+    }
 
     new void Start()
     {
-       base.Start();
-       anim = GetComponent<Animator>();
-       type = WeaponType.Melee;
-       movement = thePlayer.GetComponent<PlayerMovement>();
-     
+        base.Start();
+        attacking = false;
+        type = WeaponType.Melee;
+        movement = thePlayer.GetComponent<PlayerMovement>();
     }
 
     void Update()
     {
-        Vector2 dir = movement.lookingAt;
-        Debug.DrawRay(transform.position, dir * attackDistance, Color.green, 0.016f);
         if (timeBtwAttacks <= 0 && Input.GetButtonDown("Fire1") && thePlayer.GetComponent<MouseMovement>().GetWeapon() != null
-            && thePlayer.GetComponent<MouseMovement>().GetWeapon() == this)
+       && thePlayer.GetComponent<MouseMovement>().GetWeapon() == this)
         {
-
-            anim.SetTrigger("bat");
-            anim.SetBool("go_Normal", false);
-
-
             timeBtwAttacks = startTimeBtwAttacks;
-
+            Ammo -= 1;
+            attacking = true;
+            StartCoroutine(Swipe());
         }
         else
         {
@@ -45,41 +51,33 @@ public class MeleeWeapon : Weapon
         }
     }
 
-    public void TryAttack()
+    IEnumerator Swipe()
     {
-        Vector2 dir = movement.lookingAt;
-
-        var hit = Physics2D.BoxCast(thePlayer.transform.position, Vector2.one * BoxSize, 0, dir, attackDistance, LayerMask.GetMask("Enemies"));
-        thePlayer.GetComponent<PlayerHealth>().hurting = false;
-        
-        if (hit.collider != null)
+        Vector2 dir = (mouse.MousePos - (Vector2)thePlayer.transform.position).normalized;
+        float angle = Mathf.Atan2(dir.y, dir.x);
+        float startAngle = angle - Mathf.Deg2Rad * angleDelta / 2;
+        float endAngle = angle + Mathf.Deg2Rad * angleDelta / 2;
+        float t = 0;
+        AudioSource.PlayClipAtPoint(weaponSound, Camera.main.transform.position, weaponSoundVolume);
+        while (t < AttackTime)
         {
-           
-            hit.transform.GetComponent<Enemy>().Hit(thePlayer, Damage);
-            AudioSource.PlayClipAtPoint(hitSound, Camera.main.transform.position, weaponSoundVolume);
+            float curAngle = MathfMap.Map(t, 0, AttackTime, startAngle, endAngle);
 
-            Ammo -= 1;
-
-            if (Ammo == 0)
-            {
-                mouse.SetWeapon(null);
-                Destroy(gameObject);
-            }
+            if (thePlayer.transform.localScale.x > 0)
+                transform.eulerAngles = new Vector3(0, 0, Mathf.Rad2Deg * curAngle - 45);
+            else
+                transform.eulerAngles = new Vector3(0, 0, Mathf.Rad2Deg * curAngle - 135);
+            transform.position = thePlayer.transform.position + new Vector3(Mathf.Cos(curAngle), Mathf.Sin(curAngle)) * AttackRadius;
+            yield return new WaitForFixedUpdate();
+            t += Time.fixedDeltaTime;
         }
-        else
+        transform.localEulerAngles = Vector3.zero;
+        transform.localPosition = Vector3.zero;
+        attacking = false;
+        if (Ammo == 0)
         {
-            AudioSource.PlayClipAtPoint(weaponSound, Camera.main.transform.position, weaponSoundVolume);
+            mouse.SetWeapon(null);
+            Destroy(gameObject);
         }
-       
-
     }
-
-    public void FinishAttack()
-    {
-        anim.SetBool("go_Normal", true);
-    }
-
-
-
-
 }
