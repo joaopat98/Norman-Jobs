@@ -18,6 +18,8 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
     private Animator animator;
     private Rigidbody2D rb;
 
+    private Punch punch;
+
     public float HitDistance;
 
     public float HitTime;
@@ -37,6 +39,7 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
     {
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        punch = GetComponent<Punch>();
 
         hearts = new List<GameObject>();
         HP = MaxHP;
@@ -140,6 +143,7 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
 
     public void FinishHurting()
     {
+        punch.punching = false;
         hurting = false;
     }
 

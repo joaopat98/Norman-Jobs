@@ -20,8 +20,7 @@ public class Boss : Enemy
     private bool stop;
     private GameObject rangedEnemy;
     private GameObject meleeEnemy;
-
-
+    private bool awake;
 
     private void OnAnimatorMove()
     {
@@ -34,7 +33,7 @@ public class Boss : Enemy
         base.Start();
 
         stop = true;
-        waypoints = bossConfig.getWaypoints();       
+        waypoints = bossConfig.getWaypoints();
         transform.position = waypoints[waypointIndex].transform.position;
         rangedEnemy = bossConfig.enemyRangedPrefab;
         meleeEnemy = bossConfig.enemyMeleePrefab;
@@ -44,13 +43,16 @@ public class Boss : Enemy
 
     new void FixedUpdate()
     {
-        Move();
-        if (!hurting)
-            timeBtwShots -= Time.deltaTime;
+        if (awake)
+        {
+            Move();
+            if (!hurting)
+                timeBtwShots -= Time.deltaTime;
+        }
     }
 
 
-protected override void Act()
+    protected override void Act()
     {
         if (!hurting)
         {
@@ -73,10 +75,10 @@ protected override void Act()
 
             if (!shooting)
             {
-           
-                    rb.MovePosition(rb.position + (dir * speed * Time.fixedDeltaTime));
-                    animator.SetInteger("x", dir_ceil.x);
-                    animator.SetInteger("y", dir_ceil.y);
+
+                rb.MovePosition(rb.position + (dir * speed * Time.fixedDeltaTime));
+                animator.SetInteger("x", dir_ceil.x);
+                animator.SetInteger("y", dir_ceil.y);
 
             }
 
@@ -143,23 +145,27 @@ protected override void Act()
         yield return new WaitForSeconds(2.0f);
         /*if (waypointIndex >= 0)
         {*/
-            if (melee)
-            {
-                var enemy = Instantiate(meleeEnemy, transform.position, Quaternion.identity);
-                melee = false;
-               
-            }
-            else
-            {
-                var enemy = Instantiate(rangedEnemy, transform.position, Quaternion.identity);
-                melee = true;
-                
-            }
-       // }*/
+        if (melee)
+        {
+            var enemy = Instantiate(meleeEnemy, transform.position, Quaternion.identity);
+            melee = false;
+
+        }
+        else
+        {
+            var enemy = Instantiate(rangedEnemy, transform.position, Quaternion.identity);
+            melee = true;
+
+        }
+        // }*/
         stop = true;
-       
+
 
     }
 
-    
+    public void WakeUp()
+    {
+        awake = true;
+    }
+
 }

@@ -21,11 +21,13 @@ public class Weapon : MonoBehaviour
     /* public GameObject Bullet;
      public float BulletSpeed = 1;
      public float ShootInterval;*/
+    public bool Held;
+
     public float Damage;
 
     public int Ammo;
 
-   // private float shootTimer = 0;
+    // private float shootTimer = 0;
     protected GameObject thePlayer;
     protected MouseMovement mouse;
     protected SpriteRenderer spr;
@@ -33,17 +35,18 @@ public class Weapon : MonoBehaviour
 
     protected void Start()
     {
+        Held = false;
         thePlayer = GameObject.FindGameObjectWithTag("Player");
         mouse = thePlayer.GetComponent<MouseMovement>();
         spr = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
-   /* void FixedUpdate()
+    protected void FixedUpdate()
     {
-        if (shootTimer > 0)
+        if (Held)
         {
-            shootTimer -= Time.fixedDeltaTime;
+            transform.position = thePlayer.transform.position;
         }
     }
 
@@ -54,7 +57,7 @@ public class Weapon : MonoBehaviour
             if (mouse.GetWeapon() == this)
                 spr.sortingOrder = thePlayer.GetComponent<SpriteRenderer>().sortingOrder + 1;
         }
-    }*/
+    }
 
     public virtual void Shoot(Vector3 origin, Vector3 direction)
     {

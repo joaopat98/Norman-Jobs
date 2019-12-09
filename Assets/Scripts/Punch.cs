@@ -83,6 +83,7 @@ public class Punch : MonoBehaviour
     public void FinishPunch()
     {
         punching = false;
+        health.hurting = false;
         Destroy(enemyTrigger);
     }
 

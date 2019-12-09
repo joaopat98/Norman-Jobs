@@ -14,6 +14,8 @@ public class MeleeWeapon : Weapon
 
     private PlayerMovement movement;
     public AudioClip hitSound;
+
+    private Rigidbody2D rb;
     public float AttackTime;
 
     private bool attacking;
@@ -33,12 +35,15 @@ public class MeleeWeapon : Weapon
         attacking = false;
         type = WeaponType.Melee;
         movement = thePlayer.GetComponent<PlayerMovement>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
-    void Update()
+    new void FixedUpdate()
     {
+        if (!attacking)
+            base.FixedUpdate();
         if (timeBtwAttacks <= 0 && Input.GetButtonDown("Fire1") && thePlayer.GetComponent<MouseMovement>().GetWeapon() != null
-       && thePlayer.GetComponent<MouseMovement>().GetWeapon() == this)
+        && thePlayer.GetComponent<MouseMovement>().GetWeapon() == this)
         {
             timeBtwAttacks = startTimeBtwAttacks;
             Ammo -= 1;
@@ -59,20 +64,17 @@ public class MeleeWeapon : Weapon
         float endAngle = angle + Mathf.Deg2Rad * angleDelta / 2;
         float t = 0;
         AudioSource.PlayClipAtPoint(weaponSound, Camera.main.transform.position, weaponSoundVolume);
+        var oldRotation = rb.rotation;
         while (t < AttackTime)
         {
             float curAngle = MathfMap.Map(t, 0, AttackTime, startAngle, endAngle);
-
-            if (thePlayer.transform.localScale.x > 0)
-                transform.eulerAngles = new Vector3(0, 0, Mathf.Rad2Deg * curAngle - 45);
-            else
-                transform.eulerAngles = new Vector3(0, 0, Mathf.Rad2Deg * curAngle - 135);
-            transform.position = thePlayer.transform.position + new Vector3(Mathf.Cos(curAngle), Mathf.Sin(curAngle)) * AttackRadius;
+            rb.rotation = oldRotation + Mathf.Rad2Deg * curAngle - 45;
+            rb.MovePosition(thePlayer.transform.position + new Vector3(Mathf.Cos(curAngle), Mathf.Sin(curAngle)) * AttackRadius);
             yield return new WaitForFixedUpdate();
             t += Time.fixedDeltaTime;
         }
-        transform.localEulerAngles = Vector3.zero;
-        transform.localPosition = Vector3.zero;
+        rb.rotation = oldRotation;
+        rb.MovePosition(thePlayer.transform.position);
         attacking = false;
         if (Ammo == 0)
         {

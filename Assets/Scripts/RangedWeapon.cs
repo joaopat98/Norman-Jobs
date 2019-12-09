@@ -16,8 +16,9 @@ public class RangedWeapon : Weapon
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    new void FixedUpdate()
     {
+        base.FixedUpdate();
         if (shootTimer > 0)
         {
             shootTimer -= Time.fixedDeltaTime;

@@ -48,7 +48,7 @@ public class MouseMovement : MonoBehaviour
                 SetWeapon(switchWeapon);
                 AudioSource.PlayClipAtPoint(weaponGrabSound, Camera.main.transform.position, weaponGrabSoundVolume);
             }
-                
+
         }
     }
 
@@ -56,14 +56,16 @@ public class MouseMovement : MonoBehaviour
     {
         if (weapon)
         {
-            weapon.transform.SetParent(null);
+            weapon.Held = false;
             if (newWeapon)
+            {
+                newWeapon.Held = true;
                 weapon.transform.position = newWeapon.transform.position;
+            }
         }
         if (newWeapon)
         {
-            newWeapon.transform.SetParent(transform);
-            newWeapon.transform.position = transform.position;
+            newWeapon.Held = true;
         }
         weapon = newWeapon;
     }

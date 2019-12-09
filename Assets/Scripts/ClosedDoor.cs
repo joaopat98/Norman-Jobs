@@ -8,6 +8,7 @@ public class ClosedDoor : MonoBehaviour
     public bool doorBoss;
     public AudioClip bossAudioClip;
     public AudioSource audioSource;
+    public Boss boss;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -18,6 +19,7 @@ public class ClosedDoor : MonoBehaviour
         if (doorBoss)
         {
             switchSong();
+            boss.WakeUp();
             doorBoss = false;
         }
     }
