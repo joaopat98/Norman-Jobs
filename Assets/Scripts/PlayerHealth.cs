@@ -23,6 +23,8 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
     public float HitDistance;
 
     public float HitTime;
+    public AudioClip deathSound;
+    public float deathSoundVolume;
 
     [Header("Invulnerability Stuff")]
     public Color flashingColor;
@@ -97,6 +99,7 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
             hearts.Clear();
             alive = false;
             animator.SetBool("alive", false);
+            AudioSource.PlayClipAtPoint(deathSound, Camera.main.transform.position, deathSoundVolume);
         }
         else
         {
