@@ -11,11 +11,16 @@ public class Boss : Enemy
 
     public GameObject Bullet;
 
-    BossConfigs bossConfig;
+    public BossConfigs bossConfig;
     List<Transform> waypoints;
     private int waypointIndex = 0;
 
     private bool shooting;
+    private bool melee;
+    private bool stop;
+    private GameObject rangedEnemy;
+    private GameObject meleeEnemy;
+
 
 
     private void OnAnimatorMove()
@@ -27,21 +32,25 @@ public class Boss : Enemy
     new void Start()
     {
         base.Start();
-        timeBtwShots = startTimeBtwShots;
 
-        waypoints = bossConfig.getWaypoints();
+        stop = true;
+        waypoints = bossConfig.getWaypoints();       
         transform.position = waypoints[waypointIndex].transform.position;
+        rangedEnemy = bossConfig.enemyRangedPrefab;
+        meleeEnemy = bossConfig.enemyMeleePrefab;
+
     }
 
-    // Update is called once per frame
+
     new void FixedUpdate()
     {
-        base.FixedUpdate();
+        Move();
         if (!hurting)
             timeBtwShots -= Time.deltaTime;
     }
 
-    protected override void Act()
+
+protected override void Act()
     {
         if (!hurting)
         {
@@ -64,18 +73,11 @@ public class Boss : Enemy
 
             if (!shooting)
             {
-                if (dist > stopDistance)
-                {
+           
                     rb.MovePosition(rb.position + (dir * speed * Time.fixedDeltaTime));
                     animator.SetInteger("x", dir_ceil.x);
                     animator.SetInteger("y", dir_ceil.y);
-                }
-                else if (dist < retreatDistance)
-                {
-                    rb.MovePosition(rb.position - (dir * speed * Time.fixedDeltaTime));
-                    animator.SetInteger("x", -dir_ceil.x);
-                    animator.SetInteger("y", -dir_ceil.y);
-                }
+
             }
 
             if (timeBtwShots <= 0 && dist < stopDistance)
@@ -113,17 +115,51 @@ public class Boss : Enemy
     {
         if (waypointIndex <= waypoints.Count - 1)
         {
-            var targetPosition = waypoints[waypointIndex].transform.position;
-            var movementThisFrame = bossConfig.getMoveSpeed() * Time.deltaTime;
-            transform.position = Vector2.MoveTowards(transform.position, targetPosition, movementThisFrame);
-            if (transform.position == targetPosition)
+
+            if (stop)
             {
-                waypointIndex++;
+                var targetPosition = waypoints[waypointIndex].transform.position;
+                var movementThisFrame = bossConfig.getMoveSpeed() * Time.deltaTime;
+                transform.position = Vector2.MoveTowards(transform.position, targetPosition, movementThisFrame);
+                Act();
+                if (transform.position == targetPosition)
+                {
+
+                    StartCoroutine(SpawnEnemies());
+                    waypointIndex++;
+                }
             }
+
         }
         else
         {
-            Destroy(gameObject);
+            waypointIndex = 0;
         }
     }
+
+    IEnumerator SpawnEnemies()
+    {
+        stop = false;
+        yield return new WaitForSeconds(2.0f);
+        /*if (waypointIndex >= 0)
+        {*/
+            if (melee)
+            {
+                var enemy = Instantiate(meleeEnemy, transform.position, Quaternion.identity);
+                melee = false;
+               
+            }
+            else
+            {
+                var enemy = Instantiate(rangedEnemy, transform.position, Quaternion.identity);
+                melee = true;
+                
+            }
+       // }*/
+        stop = true;
+       
+
+    }
+
+    
 }

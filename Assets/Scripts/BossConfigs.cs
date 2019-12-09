@@ -9,20 +9,22 @@ public class BossConfigs : ScriptableObject
     public GameObject pathPrefab;
     public float timeBetweenSpawns = 0.5f;
     public float spawnRandomFactor = 0.3f;
-    public int numberOfEnemies = 5;
+    public int numberOfEnemies = 1;
     public float moveSpeed = 2f;
+    public GameObject enemyRangedPrefab;
+    public GameObject enemyMeleePrefab;
 
     public GameObject getEnemyPrefab() { return bossPrefab; }
 
     public List<Transform> getWaypoints()
     {
-        var waveWaypoints = new List<Transform>();
+        var waypoints = new List<Transform>();
         foreach (Transform child in pathPrefab.transform)
         {
-            waveWaypoints.Add(child);
+            waypoints.Add(child);
         }
 
-        return waveWaypoints;
+        return waypoints;
     }
 
     public float getTimeBetweenSpawns() { return timeBetweenSpawns; }
