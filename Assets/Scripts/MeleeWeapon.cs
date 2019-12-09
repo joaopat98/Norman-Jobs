@@ -42,23 +42,22 @@ public class MeleeWeapon : Weapon
     {
         if (!attacking)
             base.FixedUpdate();
-        if (timeBtwAttacks <= 0 && Input.GetButtonDown("Fire1") && thePlayer.GetComponent<MouseMovement>().GetWeapon() != null
-        && thePlayer.GetComponent<MouseMovement>().GetWeapon() == this)
+        timeBtwAttacks -= Time.deltaTime;
+    }
+
+    public override void Shoot(Vector3 origin, Vector3 direction)
+    {
+        if (timeBtwAttacks <= 0 && Input.GetButtonDown("Fire1") && Held)
         {
             timeBtwAttacks = startTimeBtwAttacks;
             Ammo -= 1;
             attacking = true;
-            StartCoroutine(Swipe());
-        }
-        else
-        {
-            timeBtwAttacks -= Time.deltaTime;
+            StartCoroutine(Swipe(direction));
         }
     }
 
-    IEnumerator Swipe()
+    IEnumerator Swipe(Vector2 dir)
     {
-        Vector2 dir = (mouse.MousePos - (Vector2)thePlayer.transform.position).normalized;
         float angle = Mathf.Atan2(dir.y, dir.x);
         float startAngle = angle - Mathf.Deg2Rad * angleDelta / 2;
         float endAngle = angle + Mathf.Deg2Rad * angleDelta / 2;
