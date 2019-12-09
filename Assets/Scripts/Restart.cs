@@ -11,19 +11,42 @@ public class Restart : MonoBehaviour
         if (col.CompareTag("Player"))
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }*/
-    public GameObject player;
+    public GameObject boss;
+    public GameObject panel;
+    public AudioClip winSound;
+    public float winSoundVolume;
+    private bool justOne;
+
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
+        winSoundVolume = 0.5f;
+        panel.SetActive(false);
+        justOne = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(player == null)
+        if(boss == null && justOne)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
+            StartCoroutine(LoseSound());
+            justOne = false;
         }
+
+    }
+
+    IEnumerator LoseSound()
+    {
+        AudioSource.PlayClipAtPoint(winSound, Camera.main.transform.position, winSoundVolume);
+        yield return new WaitForSeconds(2.0f);
+        panel.SetActive(true);
+    }
+
+    public void RestartScene()
+    {
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
     }
 }

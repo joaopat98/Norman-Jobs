@@ -8,6 +8,7 @@ public class Boss : Enemy
     public float BulletSpeed = 1;
     private float timeBtwShots;
     public float startTimeBtwShots;
+  
 
     public GameObject Bullet;
 
@@ -95,11 +96,15 @@ public class Boss : Enemy
 
     public void Shoot()
     {
-        Vector2 dir = (player.transform.position - transform.position).normalized;
-        GameObject bullet = Instantiate(Bullet, transform.position, Quaternion.identity);
-        bullet.GetComponent<BulletHit>().setDamage(Damage);
-        bullet.GetComponent<Rigidbody2D>().velocity = BulletSpeed * dir;
-        bullet.transform.Rotate(0, Mathf.Atan2(dir.y, dir.x), 0);
+        if (player.GetComponent<PlayerHealth>().isAlive())
+        {
+            Vector2 dir = (player.transform.position - transform.position).normalized;
+            GameObject bullet = Instantiate(Bullet, transform.position, Quaternion.identity);
+            bullet.GetComponent<BulletHit>().setDamage(Damage);
+            bullet.GetComponent<Rigidbody2D>().velocity = BulletSpeed * dir;
+            bullet.transform.Rotate(0, Mathf.Atan2(dir.y, dir.x), 0);
+        }
+
 
     }
 
@@ -162,6 +167,7 @@ public class Boss : Enemy
 
 
     }
+
 
     public void WakeUp()
     {
