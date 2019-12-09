@@ -86,7 +86,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c96f36f7fcb72c449899e0bf3fe1434, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 5483063500948400242}
+  enemy: {fileID: 1652450374}
   maxHP: 0
 --- !u!1 &5483063500948400240
 GameObject:
@@ -98,10 +98,10 @@ GameObject:
   m_Component:
   - component: {fileID: 5483063500948400243}
   - component: {fileID: 5483063500948400246}
-  - component: {fileID: 5483063500948400247}
   - component: {fileID: 5483063500948400244}
   - component: {fileID: 5483063500948400245}
-  - component: {fileID: 5483063500948400242}
+  - component: {fileID: 1652450375}
+  - component: {fileID: 1652450374}
   m_Layer: 9
   m_Name: Joker
   m_TagString: Enemy
@@ -116,7 +116,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5483063500948400240}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.6, y: 3.99, z: 0}
   m_LocalScale: {x: 1.25, y: 1.2499999, z: 1}
   m_Children:
@@ -174,27 +174,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &5483063500948400247
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5483063500948400240}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!61 &5483063500948400244
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -240,7 +219,28 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &5483063500948400242
+--- !u!50 &1652450375
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5483063500948400240}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!114 &1652450374
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -249,22 +249,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 5483063500948400240}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e79971d93c852844fbe48bec124ab35b, type: 3}
+  m_Script: {fileID: 11500000, guid: 59f6c6709c2911849acc997c4812e97c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
   stopDistance: 3
-  WeaponDrop: {fileID: 7747544163262954004, guid: bbbdd9182f07d3c48b3ed4fd2d7a7d15,
-    type: 3}
-  Radar: 5
-  HP: 10
-  Damage: 1
+  WeaponDrop: {fileID: 0}
+  Radar: 8
+  HP: 20
+  Damage: 1.5
   HitTime: 0.25
   HitDistance: 1
   retreatDistance: 2
   BulletSpeed: 15
-  startTimeBtwShots: 1
+  startTimeBtwShots: 0.5
   Bullet: {fileID: 627809046778125993, guid: 0c355a31ce366d2498997bd55e2103d1, type: 3}
+  bossConfig: {fileID: 11400000, guid: 71d03e0d7873897468de66ac0a5a95ee, type: 2}
 --- !u!1 &5483063502011545563
 GameObject:
   m_ObjectHideFlags: 0
