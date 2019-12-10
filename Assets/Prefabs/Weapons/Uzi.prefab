@@ -98,7 +98,7 @@ MonoBehaviour:
   weaponSoundVolume: 0.3
   Held: 0
   Damage: 0.5
-  Ammo: 12
+  Ammo: 25
   Bullet: {fileID: 8626814864672146064, guid: ce4cb70cd2f18f541bab023cac24d2d3, type: 3}
   BulletSpeed: 15
   ShootInterval: 0.1

@@ -270,7 +270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd18da123f960f1429b47410e7ae25dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  regularAudioClip: {fileID: 8300000, guid: 3fd915d493be8e34c946f2174db621ae, type: 3}
+  regularAudioClip: {fileID: 8300000, guid: 857a8e8c1d42b454c9e8a69ef6955173, type: 3}
   bossAudioClip: {fileID: 8300000, guid: 8a0076878c025b0409ba94650fe744b0, type: 3}
 --- !u!114 &1363365768
 MonoBehaviour:
@@ -630,7 +630,7 @@ PrefabInstance:
     - target: {fileID: 2570083643370358628, guid: 58b9eb345f463fa4b901f7dff8b00110,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2570083643370358624, guid: 58b9eb345f463fa4b901f7dff8b00110,
         type: 3}
@@ -686,6 +686,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2570083643370358624, guid: 58b9eb345f463fa4b901f7dff8b00110,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 27.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2570083643370358624, guid: 58b9eb345f463fa4b901f7dff8b00110,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 27.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2570083643370358624, guid: 58b9eb345f463fa4b901f7dff8b00110,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.3525
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58b9eb345f463fa4b901f7dff8b00110, type: 3}

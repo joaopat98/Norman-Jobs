@@ -20,6 +20,9 @@ public class BackgroundScroller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        var pos = transform.position;
+        pos.y = Camera.main.transform.position.y;
+        transform.position = pos;
         myMaterial.mainTextureOffset += offset * Time.deltaTime;
     }
 }
