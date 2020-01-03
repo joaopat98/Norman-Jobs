@@ -24,6 +24,7 @@ public class MeleeWeapon : Weapon
     {
         if (attacking && col.CompareTag("Enemy"))
         {
+            Ammo -= 1;
             AudioSource.PlayClipAtPoint(hitSound, Camera.main.transform.position, weaponSoundVolume);
             col.GetComponent<IHealthSystem>().Hit(gameObject, 1);
         }
@@ -50,7 +51,7 @@ public class MeleeWeapon : Weapon
         if (timeBtwAttacks <= 0 && Input.GetButtonDown("Fire1") && Held)
         {
             timeBtwAttacks = startTimeBtwAttacks;
-            Ammo -= 1;
+            
             attacking = true;
             StartCoroutine(Swipe(direction));
         }
