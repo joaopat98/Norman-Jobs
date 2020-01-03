@@ -99,6 +99,8 @@ MonoBehaviour:
   Held: 0
   Damage: 2
   Ammo: 6
+  BreakSoundVolume: 0.8
+  BreakSound: {fileID: 8300000, guid: 79bd6e83883698f46ab6933bf1cf2f34, type: 3}
   Bullet: {fileID: 8626814864672146064, guid: ce4cb70cd2f18f541bab023cac24d2d3, type: 3}
   BulletSpeed: 20
   ShootInterval: 1

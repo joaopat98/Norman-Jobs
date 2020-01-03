@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7413762460416964829}
   - component: {fileID: 3220259734599863803}
   m_Layer: 0
-  m_Name: Weapon
+  m_Name: Pistol
   m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -99,6 +99,8 @@ MonoBehaviour:
   Held: 0
   Damage: 1
   Ammo: 10
+  BreakSoundVolume: 0.8
+  BreakSound: {fileID: 8300000, guid: 79bd6e83883698f46ab6933bf1cf2f34, type: 3}
   Bullet: {fileID: 8626814864672146064, guid: ce4cb70cd2f18f541bab023cac24d2d3, type: 3}
   BulletSpeed: 15
   ShootInterval: 0.5

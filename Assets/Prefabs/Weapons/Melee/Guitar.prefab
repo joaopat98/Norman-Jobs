@@ -108,6 +108,8 @@ MonoBehaviour:
   BoxSize: 1
   angleDelta: 45
   hitSound: {fileID: 8300000, guid: a1fac2a315b15fe439872704eccd03b6, type: 3}
+  BreakSoundVolume: 0.8
+  BreakSound: {fileID: 8300000, guid: 79bd6e83883698f46ab6933bf1cf2f34, type: 3}
   AttackTime: 0.2
 --- !u!50 &3601135936794869264
 Rigidbody2D:

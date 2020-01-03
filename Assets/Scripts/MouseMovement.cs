@@ -12,7 +12,8 @@ public class MouseMovement : MonoBehaviour
     private Weapon weapon = null;
 
     [Header("Sound Stuff")]
-    public AudioClip weaponGrabSound;
+    public AudioClip MeleeWeaponGrabSound;
+    public AudioClip RangedWeaponGrabSound;
     public float weaponGrabSoundVolume;
 
     // Start is called before the first frame update
@@ -49,7 +50,15 @@ public class MouseMovement : MonoBehaviour
             if (switchWeapon)
             {
                 SetWeapon(switchWeapon);
-                AudioSource.PlayClipAtPoint(weaponGrabSound, Camera.main.transform.position, weaponGrabSoundVolume);
+                if(switchWeapon.type == WeaponType.Ranged)
+                {
+                    AudioSource.PlayClipAtPoint(RangedWeaponGrabSound, Camera.main.transform.position, weaponGrabSoundVolume);
+                }
+                else if(switchWeapon.type == WeaponType.Melee)
+                {
+                    AudioSource.PlayClipAtPoint(MeleeWeaponGrabSound, Camera.main.transform.position, weaponGrabSoundVolume);
+                }
+                
             }
 
         }

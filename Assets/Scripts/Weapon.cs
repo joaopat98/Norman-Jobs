@@ -18,9 +18,7 @@ public class Weapon : MonoBehaviour
     public AudioClip weaponSound;
     public float weaponSoundVolume;
 
-    /* public GameObject Bullet;
-     public float BulletSpeed = 1;
-     public float ShootInterval;*/
+ 
     public bool Held;
 
     public float Damage;
@@ -32,7 +30,8 @@ public class Weapon : MonoBehaviour
     protected MouseMovement mouse;
     protected SpriteRenderer spr;
 
-
+    public float BreakSoundVolume = 0.8f;
+    public AudioClip BreakSound;
     protected void Start()
     {
         Held = false;

@@ -48,6 +48,7 @@ public class ShotgunWeapon : RangedWeapon
                 if (Ammo == 0)
                 {
                     mouse.SetWeapon(null);
+                    AudioSource.PlayClipAtPoint(BreakSound, Camera.main.transform.position, BreakSoundVolume);
                     Destroy(gameObject);
                 }
             }
