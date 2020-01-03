@@ -82,7 +82,7 @@ public class KamikazeEnemy : Enemy
         float deltaTime = 0.15f;
         while (temp < 3 && isAlive())
         {
-            AudioSource.PlayClipAtPoint(ExplosionSound, this.transform.position, ExplosionSoundVolume);
+            
             yellowTime -= deltaTime;
             spr.color = new Color(255, 165, 0, 1);
             yield return new WaitForSeconds(yellowTime);
