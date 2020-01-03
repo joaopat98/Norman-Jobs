@@ -117,6 +117,13 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
                 GetComponent<Punch>().punching = false;
                 var lookAt = ((Vector2)obj.transform.position - (Vector2)transform.position).ToSpriteDirection(0.2f);
 
+                ////BUG DE FICAR PARADO
+                if(lookAt.x == 0 && lookAt.y == 0)
+                {
+                    lookAt.x = 1;
+                }
+                ////-------
+                
                 if (lookAt.x > 0)
                 {
                     var scale = transform.localScale;
@@ -129,6 +136,9 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
                     scale.x = 1;
                     transform.localScale = scale;
                 }
+
+               /* Debug.Log("X: " + lookAt.x);
+                Debug.Log("Y: " + lookAt.y);*/
 
                 animator.SetInteger("x", lookAt.x);
                 animator.SetInteger("y", lookAt.y);

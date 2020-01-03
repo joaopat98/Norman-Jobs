@@ -1053,12 +1053,12 @@ PrefabInstance:
     - target: {fileID: 4260395827119635666, guid: d4975670753a4d144bbb533c437e0d4b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 30.13
+      value: -0.1
       objectReference: {fileID: 0}
     - target: {fileID: 4260395827119635666, guid: d4975670753a4d144bbb533c437e0d4b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -3.2
       objectReference: {fileID: 0}
     - target: {fileID: 4260395827119635666, guid: d4975670753a4d144bbb533c437e0d4b,
         type: 3}
@@ -1468,11 +1468,6 @@ PrefabInstance:
       propertyPath: audioSource
       value: 
       objectReference: {fileID: 1363365769}
-    - target: {fileID: 6859602701938470709, guid: f9aed396b76893c4595d566008032589,
-        type: 3}
-      propertyPath: deathSoundVolume
-      value: 5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9aed396b76893c4595d566008032589, type: 3}
 --- !u!1001 &8753609932467839413
@@ -1497,6 +1492,11 @@ PrefabInstance:
       propertyPath: panel
       value: 
       objectReference: {fileID: 357811206}
+    - target: {fileID: 8753609931368000222, guid: 98704dfa8a8d3444395b5b826f1049f7,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8753609931368000223, guid: 98704dfa8a8d3444395b5b826f1049f7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1574,12 +1574,12 @@ PrefabInstance:
     - target: {fileID: 9006042026615078883, guid: 6b9d1ee437eeecd4f81e9ebe7c06d23d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 29.83
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: 9006042026615078883, guid: 6b9d1ee437eeecd4f81e9ebe7c06d23d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.98
+      value: -6.72
       objectReference: {fileID: 0}
     - target: {fileID: 9006042026615078883, guid: 6b9d1ee437eeecd4f81e9ebe7c06d23d,
         type: 3}
