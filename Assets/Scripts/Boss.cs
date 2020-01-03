@@ -144,7 +144,7 @@ public class Boss : Enemy
                     if(shotType == 1 && enter)
                     {
                         enter = false;
-                       // StartCoroutine(SpawnEnemies());
+                        StartCoroutine(SpawnEnemies());
                         enter = true;
                     }
                    
