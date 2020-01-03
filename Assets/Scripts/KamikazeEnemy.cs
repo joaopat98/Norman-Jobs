@@ -68,8 +68,8 @@ public class KamikazeEnemy : Enemy
             if (stop)
             {
                 stop = false;
-                StartCoroutine(activeExplosion());
-                StartCoroutine(ExplosionTimer());
+                StartCoroutine(ExplosionTimerSound());
+                StartCoroutine(ExplosionTimerColor());
                 
             }
             
@@ -81,7 +81,7 @@ public class KamikazeEnemy : Enemy
         rb.velocity = Vector3.zero;
     }
 
-    private IEnumerator ExplosionTimer()
+    private IEnumerator ExplosionTimerColor()
     {
         int temp = 0;
         float yellowTime = 1.0f;
@@ -113,7 +113,7 @@ public class KamikazeEnemy : Enemy
         var ExplosionInstance = Instantiate(explosion, transform.position,Quaternion.identity);
     }
 
-    private IEnumerator activeExplosion()
+    private IEnumerator ExplosionTimerSound()
     {
 
         int i = 0;
