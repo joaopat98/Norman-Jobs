@@ -533,14 +533,15 @@ MonoBehaviour:
   attackSound: {fileID: 0}
   deathSoundVolume: 0.1
   deathSound: {fileID: 0}
-  startTimeBtwPunches: 2
-  punchDuration: 0.3
   AttackRange: 3
   AttackTime: 0.25
   AttackDistance: 1
   BoxSize: 1
   explosion: {fileID: 7052926188030797802, guid: 9b1fcbff714c61b4ea69ca4778b7c61f,
     type: 3}
+  ExplosionSoundVolume: 5
+  ExplosionSound: {fileID: 8300000, guid: 8f1868c968bc61a428a384ce5b88756a, type: 3}
+  BeepSound: {fileID: 8300000, guid: bc3c2879981634c4b9ae8691df27a1b7, type: 3}
 --- !u!61 &1812274061
 BoxCollider2D:
   m_ObjectHideFlags: 0
