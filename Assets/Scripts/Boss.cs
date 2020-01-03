@@ -5,7 +5,7 @@ using UnityEngine;
 public class Boss : Enemy
 {
     public float retreatDistance;
-    public float BulletSpeed = 1;
+    public float BulletSpeed = 0.001f;
     private float timeBtwShots;
     public float startTimeBtwShots;
 
@@ -13,6 +13,7 @@ public class Boss : Enemy
 
 
     public GameObject Bullet;
+   
 
     public BossConfigs bossConfig;
     List<Transform> waypoints;
@@ -98,13 +99,16 @@ public class Boss : Enemy
 
     public void Shoot()
     {
+       
         if (player.GetComponent<PlayerHealth>().isAlive())
         {
             Vector2 dir = (player.transform.position - transform.position).normalized;
             GameObject bullet = Instantiate(Bullet, transform.position, Quaternion.identity);
-            bullet.GetComponent<BulletHit>().setDamage(Damage);
+            bullet.GetComponent<BulletHitZigZag>().setDamage(Damage);
+            dir = dir.normalized;
+            bullet.GetComponent<BulletHitZigZag>().dir = new Vector3(dir.y, -dir.x);
             bullet.GetComponent<Rigidbody2D>().velocity = BulletSpeed * dir;
-            bullet.transform.Rotate(0, Mathf.Atan2(dir.y, dir.x), 0);
+            //bullet.transform.Rotate(0, Mathf.Atan2(dir.y, dir.x), 0);
             AudioSource.PlayClipAtPoint(attackSound, this.transform.position, attackSoundVolume);
         }
 
@@ -123,6 +127,7 @@ public class Boss : Enemy
 
     private void Move()
     {
+        bool enter = true;
         if (waypointIndex <= waypoints.Count - 1)
         {
 
@@ -134,8 +139,15 @@ public class Boss : Enemy
                 Act();
                 if (transform.position == targetPosition)
                 {
-
-                    StartCoroutine(SpawnEnemies());
+                    Random random = new Random();
+                    int shotType = Random.Range(0, 2);
+                    if(shotType == 1 && enter)
+                    {
+                        enter = false;
+                       // StartCoroutine(SpawnEnemies());
+                        enter = true;
+                    }
+                   
                     waypointIndex++;
                 }
             }
@@ -151,8 +163,6 @@ public class Boss : Enemy
     {
         stop = false;
         yield return new WaitForSeconds(2.0f);
-        /*if (waypointIndex >= 0)
-        {*/
         bool dropsWeapon = Random.Range(0f, 1f) > 0.66;
         if (melee)
         {
@@ -178,7 +188,6 @@ public class Boss : Enemy
             melee = true;
 
         }
-        // }*/
         stop = true;
 
 
