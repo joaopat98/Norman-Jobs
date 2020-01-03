@@ -28,7 +28,7 @@ public class BulletHit : MonoBehaviour, IDamaging
             {
 
                 col.GetComponent<IHealthSystem>().Hit(gameObject, GetDamage());
-                Instantiate(FeedbackPrefab, transform.position, Quaternion.identity);
+                
                 Destroy(gameObject);
 
                 return;

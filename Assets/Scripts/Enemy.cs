@@ -22,7 +22,7 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
     protected SpriteRenderer spr;
     protected Animator animator;
     protected Rigidbody2D rb;
-    private Color oldColor;
+    protected Color oldColor;
     protected bool hurting;
 
 
