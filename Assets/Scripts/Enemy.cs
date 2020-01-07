@@ -63,6 +63,17 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
     {
         Radar = Mathf.Infinity;
         HP -= value;
+
+        if(HP <= 0)
+        {
+            player.GetComponent<ScoreScriptPlayer>().FinalDamage();
+        }
+
+        else
+        {
+            player.GetComponent<ScoreScriptPlayer>().Damage();
+        }
+
         StartCoroutine(Tint());
         if (HP <= 0)
         {
@@ -71,6 +82,10 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
             GetComponent<Collider2D>().enabled = false;
             animator.SetBool("alive", false);
             AudioSource.PlayClipAtPoint(deathSound, Camera.main.transform.position, deathSoundVolume);
+            
+            
+
+
             return;
         }
         else if (!hurting)

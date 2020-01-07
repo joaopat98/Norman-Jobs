@@ -23,6 +23,8 @@ public class Punch : MonoBehaviour
     private MouseMovement mouse;
     private GameObject enemyTrigger;
 
+    public GameObject player;
+
     void Start()
     {
         health = GetComponent<PlayerHealth>();

@@ -12,6 +12,8 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
     public int HP;
     public GameObject panel;
 
+    public GameObject player;
+
     public bool alive = true;
     private List<GameObject> hearts;
     private Vector2 finalScale, leftTop;
@@ -90,10 +92,13 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
                 hearts.Add(Instantiate(Heart, leftTop + new Vector2(finalScale.x / 2, -finalScale.y / 2) + new Vector2(hearts.Count * finalScale.x, 0), Quaternion.identity, Canvas.transform));
             }
         }
+
+        player.GetComponent<ScoreScriptPlayer>().GetHPScore(HP);
     }
 
     public void Hit(GameObject obj, float value)
     {
+
 
         HP = (int)Mathf.Round(Mathf.Max(HP - value, 0));
 
