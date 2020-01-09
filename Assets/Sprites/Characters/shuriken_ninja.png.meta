@@ -1,0 +1,1483 @@
+fileFormatVersion: 2
+guid: 5e58dac467e62aa418a8e88566884118
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3175445567345649281
+    second: shuriken_ninja_0
+  - first:
+      213: 4941431474337033538
+    second: shuriken_ninja_1
+  - first:
+      213: -3178664120913326562
+    second: shuriken_ninja_2
+  - first:
+      213: 5875057950204811593
+    second: shuriken_ninja_3
+  - first:
+      213: 6985967526962130934
+    second: shuriken_ninja_4
+  - first:
+      213: -1360758067860768219
+    second: shuriken_ninja_5
+  - first:
+      213: -7080137073692021886
+    second: shuriken_ninja_6
+  - first:
+      213: 5272609228771354758
+    second: shuriken_ninja_7
+  - first:
+      213: 640938053620347685
+    second: shuriken_ninja_8
+  - first:
+      213: -6142854520472122040
+    second: shuriken_ninja_9
+  - first:
+      213: -8644209577041828200
+    second: shuriken_ninja_10
+  - first:
+      213: -4300918617968170076
+    second: shuriken_ninja_11
+  - first:
+      213: 7830969130453572564
+    second: shuriken_ninja_12
+  - first:
+      213: 3471893473294036320
+    second: shuriken_ninja_13
+  - first:
+      213: 4573732699618255285
+    second: shuriken_ninja_14
+  - first:
+      213: -5930575052244018492
+    second: shuriken_ninja_15
+  - first:
+      213: 4424335263789848448
+    second: shuriken_ninja_16
+  - first:
+      213: -3381484683065299296
+    second: shuriken_ninja_17
+  - first:
+      213: -1114260897455554179
+    second: shuriken_ninja_18
+  - first:
+      213: -6966629190380636166
+    second: shuriken_ninja_19
+  - first:
+      213: 5846890335228013330
+    second: shuriken_ninja_20
+  - first:
+      213: -3690420996619000359
+    second: shuriken_ninja_21
+  - first:
+      213: 3970291429965101711
+    second: shuriken_ninja_22
+  - first:
+      213: -1194519941835453613
+    second: shuriken_ninja_23
+  - first:
+      213: -2605412193778227945
+    second: shuriken_ninja_24
+  - first:
+      213: -4518991806209570766
+    second: shuriken_ninja_25
+  - first:
+      213: -4136883729302436829
+    second: shuriken_ninja_26
+  - first:
+      213: 4560400948572253447
+    second: shuriken_ninja_27
+  - first:
+      213: 8601702982179695271
+    second: shuriken_ninja_28
+  - first:
+      213: 8643900900904614847
+    second: shuriken_ninja_29
+  - first:
+      213: -2013507329936033690
+    second: shuriken_ninja_30
+  - first:
+      213: 1589512260230219059
+    second: shuriken_ninja_31
+  - first:
+      213: 5784545989511106542
+    second: shuriken_ninja_32
+  - first:
+      213: -1591057745231441402
+    second: shuriken_ninja_33
+  - first:
+      213: 1675781821057223510
+    second: shuriken_ninja_34
+  - first:
+      213: -7290101655763833571
+    second: shuriken_ninja_35
+  - first:
+      213: -7631855032801837824
+    second: shuriken_ninja_36
+  - first:
+      213: -7174919753301702404
+    second: shuriken_ninja_37
+  - first:
+      213: 7016110858993197503
+    second: shuriken_ninja_38
+  - first:
+      213: -7688181695511308915
+    second: shuriken_ninja_39
+  - first:
+      213: 1455217560624500992
+    second: shuriken_ninja_40
+  - first:
+      213: -3716852750171675629
+    second: shuriken_ninja_41
+  - first:
+      213: 9087400312809366631
+    second: shuriken_ninja_42
+  - first:
+      213: -86320193103773470
+    second: shuriken_ninja_43
+  - first:
+      213: 5515594970797182715
+    second: shuriken_ninja_44
+  - first:
+      213: 1949704653077539381
+    second: shuriken_ninja_45
+  - first:
+      213: 58888114435059008
+    second: shuriken_ninja_46
+  - first:
+      213: 2277769362410262392
+    second: shuriken_ninja_47
+  - first:
+      213: 5769909707759890094
+    second: shuriken_ninja_48
+  - first:
+      213: 297543740227674545
+    second: shuriken_ninja_49
+  - first:
+      213: 5807787616357859305
+    second: shuriken_ninja_50
+  - first:
+      213: 8842856789431516210
+    second: shuriken_ninja_51
+  - first:
+      213: -3281462418178604214
+    second: shuriken_ninja_52
+  - first:
+      213: -1751483346542199883
+    second: shuriken_ninja_53
+  - first:
+      213: -1873657914692272537
+    second: shuriken_ninja_54
+  - first:
+      213: -830869699486081848
+    second: shuriken_ninja_55
+  - first:
+      213: -7389836303651548608
+    second: shuriken_ninja_56
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shuriken_ninja_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 505
+        width: 46
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05eef9c8361eabf47a73a3efe49692d4
+      internalID: -3175445567345649281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 505
+        width: 74
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8316a4558efdeac4e87285d7805cacf3
+      internalID: 4941431474337033538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_2
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 505
+        width: 77
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30696bc92032a141b560ad82596bbc5
+      internalID: -3178664120913326562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 505
+        width: 53
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9c1a77aed56b34197372827cd760e8
+      internalID: 5875057950204811593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_4
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 505
+        width: 53
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9c34e9321ba7d4ca770a3707aed5b8
+      internalID: 6985967526962130934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_5
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 505
+        width: 67
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b16de5a17d6e484ca46a0c49226ce7b
+      internalID: -1360758067860768219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_6
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 505
+        width: 49
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bd3c91fccafa04ca5ae3e6c3ee20f5
+      internalID: -7080137073692021886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_7
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 505
+        width: 39
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74aa0d445e920f49aa798ae338d8774
+      internalID: 5272609228771354758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_8
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 505
+        width: 35
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335d30db835d5404ea060e1f581b946a
+      internalID: 640938053620347685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_9
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 505
+        width: 33
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8171948222bb83348bad334e35c638f2
+      internalID: -6142854520472122040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_10
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 505
+        width: 29
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072ddd287050f494aa830a9e314553c2
+      internalID: -8644209577041828200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_11
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 505
+        width: 28
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c88b012e6b41214b8267e241b1dd3d6
+      internalID: -4300918617968170076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 415
+        width: 42
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352d0555fbf93344280b8e43d428a469
+      internalID: 7830969130453572564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_13
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 415
+        width: 42
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ed225414d46fc4d9b0859f589ee73b
+      internalID: 3471893473294036320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_14
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 415
+        width: 47
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600935782279ffe47a3d3f2e096043dc
+      internalID: 4573732699618255285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_15
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 415
+        width: 53
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f85a61d4064df24a8b09a97e1d570d2
+      internalID: -5930575052244018492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_16
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 415
+        width: 46
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ceb41dd70772814b9c2c8d97bb4e793
+      internalID: 4424335263789848448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_17
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 415
+        width: 40
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8fd07ee14af993438c933a34aaa1dec
+      internalID: -3381484683065299296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_18
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 415
+        width: 49
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502f8b58b73f7b249b4f130f9d24170c
+      internalID: -1114260897455554179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_19
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 433
+        width: 61
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694d92b1ef891614fb0701fe0678c195
+      internalID: -6966629190380636166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_20
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 433
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e6fd792a865c245985f11c15343f8b
+      internalID: 5846890335228013330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_21
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 415
+        width: 41
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5a3dbdc41f42140856b10832735366
+      internalID: -3690420996619000359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 345
+        width: 72
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6968e1b5cc2d6347a08dfb07e4bcde4
+      internalID: 3970291429965101711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_23
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 345
+        width: 72
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a687f3939172b40bbad6c76951e2b8
+      internalID: -1194519941835453613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_24
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 345
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac36ccdf908c35e419dc029e3c0190b3
+      internalID: -2605412193778227945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_25
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 345
+        width: 74
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd2bab95cdbb2d4b90e3d25dc52ca95
+      internalID: -4518991806209570766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_26
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 345
+        width: 70
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb57eaf2da24914da176c266caede79
+      internalID: -4136883729302436829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_27
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 345
+        width: 70
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687daa8174902ab409a272ac21dab761
+      internalID: 4560400948572253447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_28
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 264
+        width: 65
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65224699652381428e6ae3e5596fe87
+      internalID: 8601702982179695271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_29
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 264
+        width: 45
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079847317ff36de409679e10f30d98d4
+      internalID: 8643900900904614847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_30
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 264
+        width: 44
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a00d18a3c8c2e4ca22e54befb49969
+      internalID: -2013507329936033690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_31
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 264
+        width: 59
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090c49df460ca844881a1c3535c450bd
+      internalID: 1589512260230219059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_32
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 295
+        width: 43
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af2031fc1d38e04da75fac05a0c4451
+      internalID: 5784545989511106542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_33
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 264
+        width: 102
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad31debf2375de843ae426f1341df5e9
+      internalID: -1591057745231441402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_34
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 264
+        width: 63
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa537dda0e0cb24290e1c48817103e3
+      internalID: 1675781821057223510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_35
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 175
+        width: 50
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fd8e83049794d4f83e6724d0c0f139
+      internalID: -7290101655763833571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_36
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 175
+        width: 38
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876470bf08abcf840b29ad42cc139a0d
+      internalID: -7631855032801837824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_37
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 175
+        width: 50
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ba1f905b2de0a4da5a6d35306e0792
+      internalID: -7174919753301702404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_38
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 175
+        width: 53
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffb75607f3e10e4aac39b7ba680b29d
+      internalID: 7016110858993197503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_39
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 175
+        width: 35
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e49290730bb0dd47a40bc1ffb0e41ea
+      internalID: -7688181695511308915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_40
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 175
+        width: 33
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0cda23d33eb72d4f92468364a68c11d
+      internalID: 1455217560624500992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_41
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 175
+        width: 28
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e69e60d80c293449e8ea41a9d567ab
+      internalID: -3716852750171675629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_42
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 175
+        width: 31
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b259943a44f770646843fa482b45f754
+      internalID: 9087400312809366631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_43
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 90
+        width: 70
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9387047e37b0349845c58662fb2bea
+      internalID: -86320193103773470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_44
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 90
+        width: 50
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de75dd3dd807e94485e2778b8b89ee1
+      internalID: 5515594970797182715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_45
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 90
+        width: 94
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5574f6f57a06ee246932e291c5631a85
+      internalID: 1949704653077539381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_46
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 90
+        width: 96
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8b8ba43d2360b458777f0f2290d377
+      internalID: 58888114435059008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_47
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 90
+        width: 46
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a840797808320514daa4330be1e8dd02
+      internalID: 2277769362410262392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_48
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 90
+        width: 93
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e0fb585541a314599e37d4c5bdfd0e
+      internalID: 5769909707759890094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_49
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 90
+        width: 93
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633e90cf25337d84e92ca958bc1ceb69
+      internalID: 297543740227674545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_50
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 48
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98634044639e7004889aa92606f347c0
+      internalID: 5807787616357859305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_51
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1
+        width: 40
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747a09f5cc05f264486ea7b042f3f89b
+      internalID: 8842856789431516210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_52
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1
+        width: 40
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a4bc0f175031343a05fdfcf9126730
+      internalID: -3281462418178604214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_53
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1
+        width: 38
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838e5ac8ddd6e9b4fbf4f9a4cd988f87
+      internalID: -1751483346542199883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_54
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1
+        width: 33
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07da18243ec78894090f28fcfe7d4bbb
+      internalID: -1873657914692272537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_55
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1
+        width: 66
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6699904b54a0ceb4e8128213562ed42c
+      internalID: -830869699486081848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken_ninja_56
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1
+        width: 50
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58c2c7f8f0cdb949bec56806e49602b
+      internalID: -7389836303651548608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
