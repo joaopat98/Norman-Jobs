@@ -33,7 +33,7 @@ public class TimerScript : MonoBehaviour
         float seconds = GetSeconds();
 
         timerText.text = hours.ToString() + ":" + minutes.ToString() + ":" + seconds.ToString("f0");
-
+        player = GameObject.Find("Player");
         player.GetComponent<ScoreScriptPlayer>().GetTimeScorePenalty(TimePenalty());
     }
 

@@ -16,8 +16,10 @@ public class KamikazeEnemy : Enemy
     [Header("Sound Settings")]
     public float ExplosionSoundVolume;
     public AudioClip ExplosionSound;
-    public AudioClip BeepSound;
-
+    public AudioClip BeepSound;
+
+
+
     bool stop = true;
 
     new void Start()
@@ -41,7 +43,7 @@ public class KamikazeEnemy : Enemy
 
         Vector2Int dir_ceil = dir.ToSpriteDirection(0.2f);
 
-        if (dir.x > 0)
+        if (dir.x < 0)
         {
             var scale = transform.localScale;
             scale.x = -Mathf.Abs(scale.x);
@@ -65,12 +67,18 @@ public class KamikazeEnemy : Enemy
         
         if (IsChasing)
         {
-            if (stop)
-            {
-                stop = false;
-                StartCoroutine(ExplosionTimerSound());
-                StartCoroutine(ExplosionTimerColor());
-                
+            if (stop)
+
+            {
+
+                stop = false;
+
+                StartCoroutine(ExplosionTimerSound());
+
+                StartCoroutine(ExplosionTimerColor());
+
+                
+
             }
             
         }
@@ -88,16 +96,22 @@ public class KamikazeEnemy : Enemy
         float deltaTime = 0.2f;
         
         while (temp < 4 && isAlive())
-        {
-
-            yellowTime -= deltaTime;
+        {
+
+
+
+            yellowTime -= deltaTime;
+
             
             spr.color = new Color(255, 165, 0, 1);
             yield return new WaitForSeconds(yellowTime);
             spr.color = oldColor;
-            yield return new WaitForSeconds(yellowTime);
-            temp++;
-
+            yield return new WaitForSeconds(yellowTime);
+
+            temp++;
+
+
+
         }
         yield return new WaitForSeconds(0.50f);
         if (isAlive())
@@ -113,18 +127,29 @@ public class KamikazeEnemy : Enemy
         var ExplosionInstance = Instantiate(explosion, transform.position,Quaternion.identity);
     }
 
-    private IEnumerator ExplosionTimerSound()
-    {
-
-        int i = 0;
+    private IEnumerator ExplosionTimerSound()
+
+    {
+
+
+
+        int i = 0;
+
         while (i < 5 && isAlive())
-        {
-            yield return new WaitForSeconds(0.9f);
-            AudioSource.PlayClipAtPoint(BeepSound, this.transform.position, ExplosionSoundVolume);
-            i++;
-        }
-
-        
+        {
+
+            yield return new WaitForSeconds(0.9f);
+
+            AudioSource.PlayClipAtPoint(BeepSound, this.transform.position, ExplosionSoundVolume);
+
+            i++;
+
+        }
+
+
+
+        
+
     }
 
 }

@@ -14,6 +14,7 @@ public class ScoreScript : MonoBehaviour
     {
         scoreText = GetComponent<Text>();
         scoreText.text = "0";
+        player = GameObject.Find("Player");
     }
 
     // Update is called once per frame
