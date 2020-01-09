@@ -1,0 +1,3355 @@
+fileFormatVersion: 2
+guid: 7ff3a75aca1cd9143998beb164bd7d4a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7501004639286611643
+    second: kamikaze_0
+  - first:
+      213: -8495749236946393341
+    second: kamikaze_1
+  - first:
+      213: 2253427625303929699
+    second: kamikaze_2
+  - first:
+      213: -6709485856437004939
+    second: kamikaze_3
+  - first:
+      213: -7826914972821226873
+    second: kamikaze_4
+  - first:
+      213: -4983940988331868215
+    second: kamikaze_5
+  - first:
+      213: 2201348431737267959
+    second: kamikaze_6
+  - first:
+      213: 3441797955694501024
+    second: kamikaze_7
+  - first:
+      213: 243555473880288313
+    second: kamikaze_8
+  - first:
+      213: 449238910327309915
+    second: kamikaze_9
+  - first:
+      213: 7503961566300821242
+    second: kamikaze_10
+  - first:
+      213: 7269769624730092169
+    second: kamikaze_11
+  - first:
+      213: -7603629772730165904
+    second: kamikaze_12
+  - first:
+      213: -903805828800839023
+    second: kamikaze_13
+  - first:
+      213: -7670468674912212537
+    second: kamikaze_14
+  - first:
+      213: 5517774691171464504
+    second: kamikaze_15
+  - first:
+      213: 4874395373737623588
+    second: kamikaze_16
+  - first:
+      213: 4010754796265324458
+    second: kamikaze_17
+  - first:
+      213: -2801687336208931015
+    second: kamikaze_18
+  - first:
+      213: 7858542338906448741
+    second: kamikaze_19
+  - first:
+      213: 6585340190793226206
+    second: kamikaze_20
+  - first:
+      213: -1942748124265137439
+    second: kamikaze_21
+  - first:
+      213: -6327796015390175277
+    second: kamikaze_22
+  - first:
+      213: -4001662602925646436
+    second: kamikaze_23
+  - first:
+      213: 7757895796327096907
+    second: kamikaze_24
+  - first:
+      213: 5290618388439472672
+    second: kamikaze_25
+  - first:
+      213: -4894873141344940410
+    second: kamikaze_26
+  - first:
+      213: -881537520318363851
+    second: kamikaze_27
+  - first:
+      213: 4534249138424754036
+    second: kamikaze_28
+  - first:
+      213: 4765715405754600678
+    second: kamikaze_29
+  - first:
+      213: 1051752441194748607
+    second: kamikaze_30
+  - first:
+      213: 5225664920497039535
+    second: kamikaze_31
+  - first:
+      213: -2912019004487248056
+    second: kamikaze_32
+  - first:
+      213: -2892746853235203867
+    second: kamikaze_33
+  - first:
+      213: 8090539856766601303
+    second: kamikaze_34
+  - first:
+      213: -3711440426918038957
+    second: kamikaze_35
+  - first:
+      213: 7604096678750181745
+    second: kamikaze_36
+  - first:
+      213: 8810677829105154864
+    second: kamikaze_37
+  - first:
+      213: -5502261872009082667
+    second: kamikaze_38
+  - first:
+      213: -4018854352597125410
+    second: kamikaze_39
+  - first:
+      213: 4522884570086306151
+    second: kamikaze_40
+  - first:
+      213: -3982942900138599074
+    second: kamikaze_41
+  - first:
+      213: -6163724548137219281
+    second: kamikaze_42
+  - first:
+      213: 6621853129899910251
+    second: kamikaze_43
+  - first:
+      213: 496243802832168114
+    second: kamikaze_44
+  - first:
+      213: -6298735014864747498
+    second: kamikaze_45
+  - first:
+      213: -9204773660323000992
+    second: kamikaze_46
+  - first:
+      213: 5020510356050115339
+    second: kamikaze_47
+  - first:
+      213: 8512431740310554373
+    second: kamikaze_48
+  - first:
+      213: 5241781019277187126
+    second: kamikaze_49
+  - first:
+      213: 3571817961752212041
+    second: kamikaze_50
+  - first:
+      213: -8365164341216684646
+    second: kamikaze_51
+  - first:
+      213: 6290895065587996816
+    second: kamikaze_52
+  - first:
+      213: 7526731899016963349
+    second: kamikaze_53
+  - first:
+      213: 3734113065693700897
+    second: kamikaze_54
+  - first:
+      213: -6428749982498117413
+    second: kamikaze_55
+  - first:
+      213: -5569653272994603064
+    second: kamikaze_56
+  - first:
+      213: -2152946709193239712
+    second: kamikaze_57
+  - first:
+      213: 981211084373071211
+    second: kamikaze_58
+  - first:
+      213: -2103887692202228061
+    second: kamikaze_59
+  - first:
+      213: 5368608339908458366
+    second: kamikaze_60
+  - first:
+      213: -7252998701552719843
+    second: kamikaze_61
+  - first:
+      213: 8686291072674714875
+    second: kamikaze_62
+  - first:
+      213: -5832921320350222396
+    second: kamikaze_63
+  - first:
+      213: -6864198668581509942
+    second: kamikaze_64
+  - first:
+      213: -8267356009043925958
+    second: kamikaze_65
+  - first:
+      213: 6134532106023802836
+    second: kamikaze_66
+  - first:
+      213: 1484401203884671452
+    second: kamikaze_67
+  - first:
+      213: 2626329790344125361
+    second: kamikaze_68
+  - first:
+      213: -8415375385231601565
+    second: kamikaze_69
+  - first:
+      213: -595242222916509312
+    second: kamikaze_70
+  - first:
+      213: -7792503329864604508
+    second: kamikaze_71
+  - first:
+      213: 6854663175214459008
+    second: kamikaze_72
+  - first:
+      213: -5502111364466802932
+    second: kamikaze_73
+  - first:
+      213: 3425522075670622055
+    second: kamikaze_74
+  - first:
+      213: -8474438794613096713
+    second: kamikaze_75
+  - first:
+      213: -1851702448048684964
+    second: kamikaze_76
+  - first:
+      213: -5978399571874961545
+    second: kamikaze_77
+  - first:
+      213: -1710404792121890727
+    second: kamikaze_78
+  - first:
+      213: 7163174095092821425
+    second: kamikaze_79
+  - first:
+      213: 5236483807189377335
+    second: kamikaze_80
+  - first:
+      213: -6747186918555451803
+    second: kamikaze_81
+  - first:
+      213: -2638207057209844241
+    second: kamikaze_82
+  - first:
+      213: 5098106708280161652
+    second: kamikaze_83
+  - first:
+      213: -5188961869973736576
+    second: kamikaze_84
+  - first:
+      213: 7948291210714806138
+    second: kamikaze_85
+  - first:
+      213: 25975675145605654
+    second: kamikaze_86
+  - first:
+      213: 2649044483433455433
+    second: kamikaze_87
+  - first:
+      213: -6639203689435744932
+    second: kamikaze_88
+  - first:
+      213: 5785778317737849677
+    second: kamikaze_89
+  - first:
+      213: -8212553966921617247
+    second: kamikaze_90
+  - first:
+      213: 4053577661609700301
+    second: kamikaze_91
+  - first:
+      213: 5905245560413775865
+    second: kamikaze_92
+  - first:
+      213: 1834318024939682469
+    second: kamikaze_93
+  - first:
+      213: 6219957129941805852
+    second: kamikaze_94
+  - first:
+      213: -8868407063209735511
+    second: kamikaze_95
+  - first:
+      213: 6790603037218434313
+    second: kamikaze_96
+  - first:
+      213: 7283897896699090912
+    second: kamikaze_97
+  - first:
+      213: 1366632910919673940
+    second: kamikaze_98
+  - first:
+      213: 5627246151865853024
+    second: kamikaze_99
+  - first:
+      213: 4324269355242779436
+    second: kamikaze_100
+  - first:
+      213: -7345359746876584136
+    second: kamikaze_101
+  - first:
+      213: -3161284784084728101
+    second: kamikaze_102
+  - first:
+      213: 6161336221973995276
+    second: kamikaze_103
+  - first:
+      213: 5317580842842264549
+    second: kamikaze_104
+  - first:
+      213: 4694009481116743534
+    second: kamikaze_105
+  - first:
+      213: -7429609888324217023
+    second: kamikaze_106
+  - first:
+      213: 2785022825991691650
+    second: kamikaze_107
+  - first:
+      213: 4607606830062166330
+    second: kamikaze_108
+  - first:
+      213: -7293760223463156557
+    second: kamikaze_109
+  - first:
+      213: 7697382570386647025
+    second: kamikaze_110
+  - first:
+      213: 6707347355551286668
+    second: kamikaze_111
+  - first:
+      213: 7846882669408835293
+    second: kamikaze_112
+  - first:
+      213: -2370623748179566187
+    second: kamikaze_113
+  - first:
+      213: 8955693412746695699
+    second: kamikaze_114
+  - first:
+      213: -8158888425980729883
+    second: kamikaze_115
+  - first:
+      213: 7268903708919265298
+    second: kamikaze_116
+  - first:
+      213: 5043467650823569899
+    second: kamikaze_117
+  - first:
+      213: -4081828320678369935
+    second: kamikaze_118
+  - first:
+      213: 355391761023866686
+    second: kamikaze_119
+  - first:
+      213: 2692223631839683310
+    second: kamikaze_120
+  - first:
+      213: -3689143536904476970
+    second: kamikaze_121
+  - first:
+      213: -3811145169242547861
+    second: kamikaze_122
+  - first:
+      213: -8091952346950678180
+    second: kamikaze_123
+  - first:
+      213: 1193251254436857405
+    second: kamikaze_124
+  - first:
+      213: -8614429010657834224
+    second: kamikaze_125
+  - first:
+      213: 7014868484732108094
+    second: kamikaze_126
+  - first:
+      213: -8408774878223680837
+    second: kamikaze_127
+  - first:
+      213: -6400232029179318096
+    second: kamikaze_128
+  - first:
+      213: 5842276221280544488
+    second: kamikaze_129
+  - first:
+      213: 4480005899988826352
+    second: kamikaze_130
+  - first:
+      213: -3976232979340761615
+    second: kamikaze_131
+  - first:
+      213: -759009545178283305
+    second: kamikaze_132
+  - first:
+      213: -6378788399189598325
+    second: kamikaze_133
+  - first:
+      213: -3605249684433359555
+    second: kamikaze_134
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kamikaze_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1355
+        width: 87
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42ef08bf8f8dee4fb028668fc2a4436
+      internalID: -7501004639286611643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_1
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1355
+        width: 87
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40017d562096cce4cbcdedcf0e4caa81
+      internalID: -8495749236946393341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_2
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1355
+        width: 88
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c540df419072ba4282caba0793a0e4f
+      internalID: 2253427625303929699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_3
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1355
+        width: 82
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f959786976568cd43b91b2f6af8f27f6
+      internalID: -6709485856437004939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_4
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1355
+        width: 85
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca766534f87f3943ad5d3caba73bfcd
+      internalID: -7826914972821226873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1287
+        width: 89
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21213c9db045864195bdd35f629e9d0
+      internalID: -4983940988331868215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_6
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1287
+        width: 89
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4bfc155a1aa914eba1ef83bf48b484
+      internalID: 2201348431737267959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_7
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1287
+        width: 91
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de75a60b3e9f44b449a7961a15ccb810
+      internalID: 3441797955694501024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_8
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1286
+        width: 88
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4acb5e7cb93ac8d4ab7c35f884b96055
+      internalID: 243555473880288313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_9
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1286
+        width: 87
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7825f2c0178b6428c45f98286e2f07
+      internalID: 449238910327309915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_10
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1286
+        width: 88
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a264cff619269374aaae9b8719ff118f
+      internalID: 7503961566300821242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_11
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1286
+        width: 93
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93588e107cbb9544ab449663b18290f6
+      internalID: 7269769624730092169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_12
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1286
+        width: 90
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57816558b79ae76489d30192515bd5b4
+      internalID: -7603629772730165904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1207
+        width: 57
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25de58d464dd7c2498bf4c7962d38d8d
+      internalID: -903805828800839023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_14
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1207
+        width: 59
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ac6d47c298b03419cd3e3e8fa9aa27
+      internalID: -7670468674912212537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_15
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1207
+        width: 61
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4d6c380686dc446a402b7df1be4784
+      internalID: 5517774691171464504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_16
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1207
+        width: 76
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5961620825b2c4fb853810e3203dbb
+      internalID: 4874395373737623588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_17
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1207
+        width: 92
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3392696afaa2b544abe5085a75d5110
+      internalID: 4010754796265324458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_18
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1207
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c242347203720614bbde9232b25ca0c3
+      internalID: -2801687336208931015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_19
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1207
+        width: 76
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79164b93fe9e95a4ab8f95d714201b4b
+      internalID: 7858542338906448741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_20
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1207
+        width: 76
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0c394f512aab6409a2bf7e407e1c26
+      internalID: 6585340190793226206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_21
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1207
+        width: 76
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73e9226c2a39f948a429c4541ce377f
+      internalID: -1942748124265137439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_22
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1207
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0993190972687e43a346ca412edbee1
+      internalID: -6327796015390175277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1129
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d37854664f29b34a93fb2f733e1415b
+      internalID: -4001662602925646436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_24
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1130
+        width: 68
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555c1bdb1c0a1ca48a437239d1db066d
+      internalID: 7757895796327096907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_25
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1130
+        width: 70
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1479ace74db505648af531d1d6a11ce5
+      internalID: 5290618388439472672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_26
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1129
+        width: 95
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b807162a397ac4a874b1577572ea16
+      internalID: -4894873141344940410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_27
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1191
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ce06e35317b86439dcbb0ffea247de
+      internalID: -881537520318363851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_28
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1129
+        width: 73
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ad4937d68226549a0b6925c6c06b14
+      internalID: 4534249138424754036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_29
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1129
+        width: 71
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6166cc36479330428d7d1171c46123f
+      internalID: 4765715405754600678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_30
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1129
+        width: 71
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411eda32a7f3fa14baf5d52de254aba8
+      internalID: 1051752441194748607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_31
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1129
+        width: 71
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677fbe4b9793d7745b9f20874d9a7789
+      internalID: 5225664920497039535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_32
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1129
+        width: 71
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab6061dcb97ad94b94d156956eca93c
+      internalID: -2912019004487248056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_33
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1129
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c6d1c5acad8f248a25c691bf303992
+      internalID: -2892746853235203867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_34
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1046
+        width: 44
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d293fb17eae415048a913a27d46e6ce4
+      internalID: 8090539856766601303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_35
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1050
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5137c21eee249a14dbb4f29e111e5df5
+      internalID: -3711440426918038957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_36
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1056
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b2bf1e904248e48b685c578f0a66d1
+      internalID: 7604096678750181745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_37
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1056
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1044d253fe1117a45a29538d34159d77
+      internalID: 8810677829105154864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_38
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1114
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2f99acf6e98f04c90ad53eaab2a9df
+      internalID: -5502261872009082667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_39
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 1095
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a70f5575f0dfd2438c8354b58769014
+      internalID: -4018854352597125410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1033
+        width: 75
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48875ec18f4b0a499259ed203aadadd
+      internalID: 4522884570086306151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_41
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1031
+        width: 76
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240df96ba1a2a424bb2232fb14fb6627
+      internalID: -3982942900138599074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_42
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1035
+        width: 67
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc26a70bd485a649b37f315a3be7b83
+      internalID: -6163724548137219281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_43
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1030
+        width: 80
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c086a810c55c434394f9019ff1bc40f
+      internalID: 6621853129899910251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_44
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1026
+        width: 89
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544d7d74c4a8d3b4b88ae0a20b1af790
+      internalID: 496243802832168114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_45
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 1026
+        width: 89
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91acefe09e39da84298beb1b14caa4e0
+      internalID: -6298735014864747498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_46
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 951
+        width: 69
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9552a3b6aa6f7c4449aa5cd2bc796cbe
+      internalID: -9204773660323000992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_47
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 950
+        width: 73
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3631a5dd3d7f10a4c92966a977ff904e
+      internalID: 5020510356050115339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_48
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 886
+        width: 72
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37a0616a91448b41bc6399e40442d5b
+      internalID: 8512431740310554373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_49
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 886
+        width: 65
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66c060587159bb40ad4b1e6179c530f
+      internalID: 5241781019277187126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_50
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 808
+        width: 83
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e818c402612168c408adc474b7118913
+      internalID: 3571817961752212041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_51
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 808
+        width: 83
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa00ae766d5ebb8419081d35f3ed120d
+      internalID: -8365164341216684646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_52
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 808
+        width: 85
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73fa7a8fa2931f48b4dece40f66e52a
+      internalID: 6290895065587996816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_53
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 808
+        width: 84
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68fbb96a4e3dbc94c85aae16b021f62f
+      internalID: 7526731899016963349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_54
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 808
+        width: 82
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56fb1c1478c47540982ec3cc6ea9a14
+      internalID: 3734113065693700897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_55
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 808
+        width: 90
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76040251203281e4684fbfc06dffd013
+      internalID: -6428749982498117413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_56
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 808
+        width: 92
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207d973f67de44c4db95bbb5723f8dca
+      internalID: -5569653272994603064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_57
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 808
+        width: 90
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ec71cfb75594c4facb4c6bb1b64889
+      internalID: -2152946709193239712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_58
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 728
+        width: 80
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b587fd2fe8802a74b8f52472724a2e6c
+      internalID: 981211084373071211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_59
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 727
+        width: 81
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b08a1e79ad589c4d880988cd9a268a4
+      internalID: -2103887692202228061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_60
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 724
+        width: 86
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebcdfcc2ca4f4a43aa721bca3915250
+      internalID: 5368608339908458366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_61
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 788
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71911569ba6fe264893cd8dea5ec2646
+      internalID: -7252998701552719843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_62
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 724
+        width: 83
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02dbd630d617a6b4592d76d8b93dcb38
+      internalID: 8686291072674714875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_63
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 724
+        width: 81
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c23a9f299c438d429bb4dcef32b8ffa
+      internalID: -5832921320350222396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_64
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 724
+        width: 83
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10f43937142d03479a1c1a36cc399a3
+      internalID: -6864198668581509942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_65
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 724
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c2d27def857e04a8c277fb67796b79
+      internalID: -8267356009043925958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_66
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 724
+        width: 74
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c8b2aefc1fcff45a353ae84f55f11b
+      internalID: 6134532106023802836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_67
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 724
+        width: 83
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6f01f51733600459ffff2f2751397d
+      internalID: 1484401203884671452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_68
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 724
+        width: 66
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8482f883df2404386c36852b13c51b
+      internalID: 2626329790344125361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_69
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 651
+        width: 61
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd0014a58bb0bd4f9642ae86475fbdd
+      internalID: -8415375385231601565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_70
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 665
+        width: 74
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787bbb4678aa42145a09c158ccf65535
+      internalID: -595242222916509312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_71
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 664
+        width: 72
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4103eb22f59b86b4b9867bf25dc3725b
+      internalID: -7792503329864604508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_72
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 663
+        width: 62
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da3104887e16ef4eaf411bd1ac04d21
+      internalID: 6854663175214459008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_73
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 649
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66193ca730a45a4c9116adf9429b6cf
+      internalID: -5502111364466802932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_74
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 650
+        width: 79
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675aeb3dad2b09d4da3546154ccbf699
+      internalID: 3425522075670622055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_75
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 656
+        width: 82
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7be36271f6adaa488cb819c95e28c37
+      internalID: -8474438794613096713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_76
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 656
+        width: 84
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9514e25507555f94bbe57a29bf2db6c5
+      internalID: -1851702448048684964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_77
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 649
+        width: 84
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3b007892548cf4f81c759a91483d80
+      internalID: -5978399571874961545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_78
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 649
+        width: 88
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377f5f0e9d5bc5441a87b692f858caeb
+      internalID: -1710404792121890727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_79
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 645
+        width: 88
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6b0d7ff0b1f364b8fc811de16fdbba
+      internalID: 7163174095092821425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_80
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 642
+        width: 88
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6eb5825f113a94b8d6b4494f99b853
+      internalID: 5236483807189377335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_81
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 554
+        width: 88
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4c8d78b0bdd9348a37409dd5fae117
+      internalID: -6747186918555451803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_82
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 554
+        width: 73
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac2ad2d5a60ea34fb579f4f3af6961d
+      internalID: -2638207057209844241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_83
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 554
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43af1ccb7ed25c4fa8d63cec31bdd53
+      internalID: 5098106708280161652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_84
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 554
+        width: 57
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332d44eeead9889428defa4656cc8bba
+      internalID: -5188961869973736576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_85
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 569
+        width: 83
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf978e1acf79c5499327229bdfa831e
+      internalID: 7948291210714806138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_86
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 563
+        width: 77
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9565c4a000a05a44da3b5a4af4a81f54
+      internalID: 25975675145605654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_87
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 561
+        width: 83
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819124179bc74c54a959f163ee5038e0
+      internalID: 2649044483433455433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_88
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 561
+        width: 85
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f1f236f173c974cb3d687b67e5642a
+      internalID: -6639203689435744932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_89
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 561
+        width: 97
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6170ce4843d4394ca0d7d1653963203
+      internalID: 5785778317737849677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_90
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 561
+        width: 83
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2e3bc13f198aa48b99157468282fd3
+      internalID: -8212553966921617247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_91
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 509
+        width: 84
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51942e2901bab749a0adddda4f4c078
+      internalID: 4053577661609700301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_92
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 500
+        width: 85
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf411d036dd35e24d927d818e3c9dab6
+      internalID: 5905245560413775865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_93
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 501
+        width: 87
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4fd19b8ea05b94193f13799bd7d71e
+      internalID: 1834318024939682469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_94
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 501
+        width: 88
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af58c3b9672f12f42a51bd559ee93432
+      internalID: 6219957129941805852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_95
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 421
+        width: 52
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beaa09349acc506429c1b5dd39c64719
+      internalID: -8868407063209735511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_96
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 417
+        width: 71
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995212a7ec8d4f4429c2b03f5206aecc
+      internalID: 6790603037218434313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_97
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 419
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31eae5d650e3544c8cba07d04b1fd3b
+      internalID: 7283897896699090912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_98
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 419
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446afca445959654db96cfb8f24969ca
+      internalID: 1366632910919673940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_99
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 423
+        width: 53
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da612bb04ef5f9745b400f6ec616217d
+      internalID: 5627246151865853024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_100
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 336
+        width: 86
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8810216f794f7949a7ec1ea48a91e9c
+      internalID: 4324269355242779436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_101
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 336
+        width: 87
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf15a690466aec54eb897873e4151d3c
+      internalID: -7345359746876584136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_102
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 342
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239f9cb4292183d49a879a9c30a425e4
+      internalID: -3161284784084728101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_103
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 340
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64eab4fe7add8e48964796852e00aaf
+      internalID: 6161336221973995276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_104
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 337
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b5f8cdca3b1664c85cc602bc38f214
+      internalID: 5317580842842264549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_105
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 347
+        width: 78
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752b8260d71c6034e8dd15532246e4c9
+      internalID: 4694009481116743534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_106
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 255
+        width: 61
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d0975ee44883c468fd266a5ae1aa26
+      internalID: -7429609888324217023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_107
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 255
+        width: 60
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9395468cabe0a634fba9b5f0763cf098
+      internalID: 2785022825991691650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_108
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 255
+        width: 61
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b5725844ab9f844bddfa336a4d32ee
+      internalID: 4607606830062166330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_109
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 255
+        width: 61
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48904fee4092ef948b3035bf728a19af
+      internalID: -7293760223463156557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_110
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 255
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5448365883cd140bc5e0cdacd1b674
+      internalID: 7697382570386647025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_111
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 255
+        width: 62
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732561cf68b57bf43afeb0dd70b8b5db
+      internalID: 6707347355551286668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_112
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 255
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43548e2ae040d234dabedb63445cd9eb
+      internalID: 7846882669408835293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_113
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 255
+        width: 61
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af80b79b04574524192e066836760037
+      internalID: -2370623748179566187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_114
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 255
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1859573787ce1a24ca6979eb924eb8c1
+      internalID: 8955693412746695699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_115
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 255
+        width: 53
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df48c83b9045c724ea77525c27e54f9a
+      internalID: -8158888425980729883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_116
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 255
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d699f2bed73e844817c97287e6e5c1
+      internalID: 7268903708919265298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_117
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 255
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f263fb3d2566e2645910807a005f38b0
+      internalID: 5043467650823569899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_118
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 206
+        width: 88
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60513532841efff4db650661ae7faed1
+      internalID: -4081828320678369935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_119
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 204
+        width: 86
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d9970ce736a014195ed336cfca16a6
+      internalID: 355391761023866686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_120
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 206
+        width: 88
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95820ef452593f1478123b6b303b5873
+      internalID: 2692223631839683310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_121
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 171
+        width: 88
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0ccba0658d4f043a8dfe8a868451c3
+      internalID: -3689143536904476970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_122
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 170
+        width: 90
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3010729c1c97c234fbaa9ce7ea8d2029
+      internalID: -3811145169242547861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_123
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 169
+        width: 89
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93cc0e6b127b34b4685e1c47db9083fa
+      internalID: -8091952346950678180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_124
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 194
+        width: 85
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7166ac8bfdc51459aa58e557a8b189
+      internalID: 1193251254436857405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_125
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 120
+        width: 88
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a812e20600317b14fbbb6cbde7e264ce
+      internalID: -8614429010657834224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_126
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 118
+        width: 86
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b9783717da66e43b4e6181c5ef6d7a
+      internalID: 7014868484732108094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_127
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 120
+        width: 88
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16cc3c7bd42ab1445887afeaf92ce520
+      internalID: -8408774878223680837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_128
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 85
+        width: 88
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7c4f784cba6bd4aafeb0116c0bb1e0
+      internalID: -6400232029179318096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_129
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 84
+        width: 90
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b543bf5c10c5741ba4ecfadcdee119
+      internalID: 5842276221280544488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_130
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 83
+        width: 89
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d35587b5d687b45a7cd175d3647068
+      internalID: 4480005899988826352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_131
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 17
+        width: 105
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e2c4148bc9db045b797d4551c14eb9
+      internalID: -3976232979340761615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_132
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 17
+        width: 105
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72d252bac8e830468f20a3b10beffe0
+      internalID: -759009545178283305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_133
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1
+        width: 86
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4f8d1a8a4f31d4a9a9b0a1ba889fbc
+      internalID: -6378788399189598325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamikaze_134
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1
+        width: 86
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29360d95d74b7c04c9ca3bff81e77505
+      internalID: -3605249684433359555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
