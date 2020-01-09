@@ -34,6 +34,9 @@ MonoBehaviour:
   - Player
   avoid:
   - Enemy
+  dir: {x: 0, y: 0, z: 0}
+  frequency: 20
+  magnitude: 0.5
 --- !u!1001 &4005957642580233277
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50,6 +53,47 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114855674965831726, guid: cba84912ee6f2de43a12aa4363b0027f,
+        type: 3}
+      propertyPath: targets.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114855674965831726, guid: cba84912ee6f2de43a12aa4363b0027f,
+        type: 3}
+      propertyPath: avoid.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114855674965831726, guid: cba84912ee6f2de43a12aa4363b0027f,
+        type: 3}
+      propertyPath: targets.Array.data[0]
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 114855674965831726, guid: cba84912ee6f2de43a12aa4363b0027f,
+        type: 3}
+      propertyPath: avoid.Array.data[0]
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 7183917258075267583, guid: cba84912ee6f2de43a12aa4363b0027f,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.990566
+      objectReference: {fileID: 0}
+    - target: {fileID: 7183917258075267583, guid: cba84912ee6f2de43a12aa4363b0027f,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.378471
+      objectReference: {fileID: 0}
+    - target: {fileID: 7183917258075267583, guid: cba84912ee6f2de43a12aa4363b0027f,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9c50429efcdb5bc4fb572cd2985d66ab,
+        type: 3}
+    - target: {fileID: 7183917258075267583, guid: cba84912ee6f2de43a12aa4363b0027f,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.39720845
       objectReference: {fileID: 0}
     - target: {fileID: 7801149516573468517, guid: cba84912ee6f2de43a12aa4363b0027f,
         type: 3}
@@ -115,47 +159,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7183917258075267583, guid: cba84912ee6f2de43a12aa4363b0027f,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 0.990566
-      objectReference: {fileID: 0}
-    - target: {fileID: 7183917258075267583, guid: cba84912ee6f2de43a12aa4363b0027f,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 0.378471
-      objectReference: {fileID: 0}
-    - target: {fileID: 7183917258075267583, guid: cba84912ee6f2de43a12aa4363b0027f,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 9c50429efcdb5bc4fb572cd2985d66ab,
-        type: 3}
-    - target: {fileID: 7183917258075267583, guid: cba84912ee6f2de43a12aa4363b0027f,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 0.39720845
-      objectReference: {fileID: 0}
-    - target: {fileID: 114855674965831726, guid: cba84912ee6f2de43a12aa4363b0027f,
-        type: 3}
-      propertyPath: targets.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114855674965831726, guid: cba84912ee6f2de43a12aa4363b0027f,
-        type: 3}
-      propertyPath: avoid.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114855674965831726, guid: cba84912ee6f2de43a12aa4363b0027f,
-        type: 3}
-      propertyPath: targets.Array.data[0]
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 114855674965831726, guid: cba84912ee6f2de43a12aa4363b0027f,
-        type: 3}
-      propertyPath: avoid.Array.data[0]
-      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 5903057251651724124, guid: cba84912ee6f2de43a12aa4363b0027f,
         type: 3}

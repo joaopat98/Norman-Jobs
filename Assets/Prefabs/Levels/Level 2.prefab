@@ -1314,7 +1314,6 @@ Transform:
   - {fileID: 3762847368979083010}
   - {fileID: 3762847368874344455}
   - {fileID: 3762847369172514019}
-  - {fileID: 7424742966597764317}
   - {fileID: 3788272898421145913}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -2264,11 +2263,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3762847368484618035}
     m_Modifications:
-    - target: {fileID: 457341890011249286, guid: 4aa363cd59556e249bfdc62a3e06aed4,
-        type: 3}
-      propertyPath: m_Name
-      value: Chair side
-      objectReference: {fileID: 0}
     - target: {fileID: 3625505519886231013, guid: 4aa363cd59556e249bfdc62a3e06aed4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2324,6 +2318,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 457341890011249286, guid: 4aa363cd59556e249bfdc62a3e06aed4,
+        type: 3}
+      propertyPath: m_Name
+      value: Chair side
+      objectReference: {fileID: 0}
     - target: {fileID: 351750935344182028, guid: 4aa363cd59556e249bfdc62a3e06aed4,
         type: 3}
       propertyPath: m_SortingOrder
@@ -2344,11 +2343,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3762847368979083010}
     m_Modifications:
-    - target: {fileID: 2141710784891838046, guid: 68117fb0cba6e464198d132bfdb7066c,
-        type: 3}
-      propertyPath: m_Name
-      value: Chair front
-      objectReference: {fileID: 0}
     - target: {fileID: 2141710784891838040, guid: 68117fb0cba6e464198d132bfdb7066c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2403,6 +2397,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141710784891838046, guid: 68117fb0cba6e464198d132bfdb7066c,
+        type: 3}
+      propertyPath: m_Name
+      value: Chair front
       objectReference: {fileID: 0}
     - target: {fileID: 2141710784891838041, guid: 68117fb0cba6e464198d132bfdb7066c,
         type: 3}
@@ -2670,11 +2669,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3762847368874344455}
     m_Modifications:
-    - target: {fileID: 1354824076241818986, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
-        type: 3}
-      propertyPath: m_Name
-      value: Chair back
-      objectReference: {fileID: 0}
     - target: {fileID: 1354824076241818988, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2729,6 +2723,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354824076241818986, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
+        type: 3}
+      propertyPath: m_Name
+      value: Chair back
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa7d2b4789d3cf94596eea9c8c2bfc57, type: 3}
@@ -3245,11 +3244,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3762847368782035077}
     m_Modifications:
-    - target: {fileID: 5137860495657116183, guid: d920c53d5e97eb640a5450b3074f9f7f,
-        type: 3}
-      propertyPath: m_Name
-      value: Shotgun
-      objectReference: {fileID: 0}
     - target: {fileID: 5137860495657116203, guid: d920c53d5e97eb640a5450b3074f9f7f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3288,7 +3282,7 @@ PrefabInstance:
     - target: {fileID: 5137860495657116203, guid: d920c53d5e97eb640a5450b3074f9f7f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5137860495657116203, guid: d920c53d5e97eb640a5450b3074f9f7f,
         type: 3}
@@ -3304,6 +3298,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5137860495657116183, guid: d920c53d5e97eb640a5450b3074f9f7f,
+        type: 3}
+      propertyPath: m_Name
+      value: Shotgun
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d920c53d5e97eb640a5450b3074f9f7f, type: 3}
