@@ -173,8 +173,9 @@ MonoBehaviour:
   HitDistance: 1
   attackSoundVolume: 0
   attackSound: {fileID: 0}
-  deathSoundVolume: 0.1
-  deathSound: {fileID: 8300000, guid: 714ef9ace2bece340aa89e13c8f3c63d, type: 3}
+  deathSoundVolume: 0.3
+  deathSound: {fileID: 8300000, guid: cb0199735690816459b284bd8838365a, type: 3}
+  SpriteFlipped: 0
   AttackRange: 3
   AttackTime: 0.25
   AttackDistance: 1
