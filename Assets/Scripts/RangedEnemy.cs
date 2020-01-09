@@ -42,7 +42,7 @@ public class RangedEnemy : Enemy
             Vector2 dir = (player.transform.position - transform.position).normalized;
             Vector2Int dir_ceil = dir.ToSpriteDirection(0.2f);
 
-            if (dir.x > 0)
+            if (SpriteFlipped ? dir.x < 0 : dir.x > 0)
             {
                 var scale = transform.localScale;
                 scale.x = -Mathf.Abs(scale.x);
@@ -68,6 +68,11 @@ public class RangedEnemy : Enemy
                     rb.MovePosition(rb.position - (dir * speed * Time.fixedDeltaTime));
                     animator.SetInteger("x", -dir_ceil.x);
                     animator.SetInteger("y", -dir_ceil.y);
+                }
+                else
+                {
+                    animator.SetInteger("x", 0);
+                    animator.SetInteger("y", 0);
                 }
             }
 

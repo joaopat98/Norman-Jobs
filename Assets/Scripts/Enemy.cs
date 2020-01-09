@@ -31,7 +31,7 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
     public float deathSoundVolume = 0.1f;
     public AudioClip deathSound;
 
-
+    public bool SpriteFlipped = false;
 
     // Start is called before the first frame update
     protected void Start()
@@ -64,7 +64,7 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
         Radar = Mathf.Infinity;
         HP -= value;
 
-        if(HP <= 0)
+        if (HP <= 0)
         {
             player.GetComponent<ScoreScriptPlayer>().FinalDamage();
         }
@@ -82,8 +82,8 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
             GetComponent<Collider2D>().enabled = false;
             animator.SetBool("alive", false);
             AudioSource.PlayClipAtPoint(deathSound, Camera.main.transform.position, deathSoundVolume);
-            
-            
+
+
 
 
             return;
