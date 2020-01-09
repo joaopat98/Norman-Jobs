@@ -46,4 +46,4 @@ MonoBehaviour:
   delayInSeconds: 2
   startSound: {fileID: 8300000, guid: 28859ea6bfa4c6f40b28eb90978b913b, type: 3}
   waitSound: 2
-  startSoundVolume: 1
+  startSoundVolume: 0.3
