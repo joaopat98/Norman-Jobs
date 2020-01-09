@@ -51,8 +51,6 @@ public class BulletHit : MonoBehaviour, IDamaging
     }
 
     // Update is called once per frame
-    void Update()
-    {
 
-    }
+
 }
