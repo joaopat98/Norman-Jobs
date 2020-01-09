@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FlamethrowerScript : RangedWeapon
+public class Flamethrower : RangedWeapon
 {
     public override void Shoot(Vector3 origin, Vector3 direction)
     {
