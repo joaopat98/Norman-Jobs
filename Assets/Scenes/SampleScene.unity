@@ -367,6 +367,75 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 2372666392908188959}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1182268811
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2505224962313267423, guid: d858ffc369b11e5418af3180e7600eeb,
+        type: 3}
+      propertyPath: m_Name
+      value: ZigZag
+      objectReference: {fileID: 0}
+    - target: {fileID: 2505224962313267410, guid: d858ffc369b11e5418af3180e7600eeb,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.0591853
+      objectReference: {fileID: 0}
+    - target: {fileID: 2505224962313267410, guid: d858ffc369b11e5418af3180e7600eeb,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.062332
+      objectReference: {fileID: 0}
+    - target: {fileID: 2505224962313267410, guid: d858ffc369b11e5418af3180e7600eeb,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2505224962313267410, guid: d858ffc369b11e5418af3180e7600eeb,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2505224962313267410, guid: d858ffc369b11e5418af3180e7600eeb,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2505224962313267410, guid: d858ffc369b11e5418af3180e7600eeb,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2505224962313267410, guid: d858ffc369b11e5418af3180e7600eeb,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2505224962313267410, guid: d858ffc369b11e5418af3180e7600eeb,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2505224962313267410, guid: d858ffc369b11e5418af3180e7600eeb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2505224962313267410, guid: d858ffc369b11e5418af3180e7600eeb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2505224962313267410, guid: d858ffc369b11e5418af3180e7600eeb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d858ffc369b11e5418af3180e7600eeb, type: 3}
 --- !u!223 &1306132334 stripped
 Canvas:
   m_CorrespondingSourceObject: {fileID: 2372666391604310641, guid: 48bc47f1194c53f45ba543198388fc52,
@@ -1476,7 +1545,7 @@ PrefabInstance:
     - target: {fileID: 4404117988537673233, guid: ff6fd3b7bb7a33847917e0de3462a880,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4404117988537673233, guid: ff6fd3b7bb7a33847917e0de3462a880,
         type: 3}
@@ -1539,6 +1608,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4404117987348251102, guid: ff6fd3b7bb7a33847917e0de3462a880,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff6fd3b7bb7a33847917e0de3462a880, type: 3}
@@ -1627,6 +1701,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MusicPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924847370626300852, guid: 9d36c402a81038a4e908b41272db3960,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4924847370626300853, guid: 9d36c402a81038a4e908b41272db3960,
         type: 3}

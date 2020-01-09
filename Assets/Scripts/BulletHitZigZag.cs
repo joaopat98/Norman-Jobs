@@ -10,21 +10,19 @@ public class BulletHitZigZag : BulletHit
 
     private Rigidbody2D rb;
     //Speed, size
-    private float frequency, magnitude;
+    public float frequency, magnitude;
 
 
     // Start is called before the first frame update
     void Start()
     {
 
-        frequency = 20.0f;
-        magnitude = 0.5f;
-        axis  = transform.up;
+       
         rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
 
          transform.position += dir * Mathf.Sin(Time.time * frequency) * magnitude;
