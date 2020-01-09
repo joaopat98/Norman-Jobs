@@ -52,9 +52,13 @@ public class RangedWeapon : Weapon
                 if (Ammo == 0)
                 {
                     mouse.SetWeapon(null);
+                   
                     Destroy(gameObject);
+                    Die();
                 }
             }
         }
     }
+
+
 }

@@ -7,7 +7,7 @@ public class LevelLoader : MonoBehaviour
 {
     public float delayInSeconds = 2f;
     public AudioClip startSound;
-    public float waitSound = 1f;
+    public float waitSound = 0.6f;
     public  float startSoundVolume = 1f;
     public void LoadStartMenu()
     {

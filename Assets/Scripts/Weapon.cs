@@ -22,16 +22,17 @@ public class Weapon : MonoBehaviour
      public float BulletSpeed = 1;
      public float ShootInterval;*/
     public bool Held;
-
     public float Damage;
-
     public int Ammo;
+    public GameObject destroyVFX;
 
     // private float shootTimer = 0;
     protected GameObject thePlayer;
     protected MouseMovement mouse;
     protected SpriteRenderer spr;
-
+    protected Color oldColor;
+    private bool enter;
+    private float originalAmmo;
 
     protected void Start()
     {
@@ -39,6 +40,9 @@ public class Weapon : MonoBehaviour
         thePlayer = GameObject.FindGameObjectWithTag("Player");
         mouse = thePlayer.GetComponent<MouseMovement>();
         spr = GetComponent<SpriteRenderer>();
+        oldColor = spr.color;
+        enter = true;
+        originalAmmo = Ammo;
     }
 
     // Update is called once per frame
@@ -47,6 +51,15 @@ public class Weapon : MonoBehaviour
         if (Held)
         {
             transform.position = thePlayer.transform.position;
+            if (Ammo <= originalAmmo * 0.2f)
+            {
+                if (enter)
+                {
+                    enter = false;
+                    StartCoroutine(AmmonTimerColor());
+                }
+                
+            }
         }
     }
 
@@ -63,4 +76,33 @@ public class Weapon : MonoBehaviour
     {
 
     }
+
+    private IEnumerator AmmonTimerColor()
+    {
+        int temp = 0;
+        float yellowTime = 0.7f;
+
+        while (true)
+        {
+
+            spr.color = Color.red;
+            yield return new WaitForSeconds(yellowTime);
+            spr.color = oldColor;
+            yield return new WaitForSeconds(yellowTime);
+            temp++;
+
+        }
+       
+    }
+
+    protected void Die()
+    {
+
+        GameObject explosion = Instantiate(destroyVFX, transform.position, transform.rotation);
+
+        Destroy(explosion, 0.3f);
+
+
+    }
+
 }
