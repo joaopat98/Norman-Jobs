@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7167994172047474112}
   - component: {fileID: 7167994172047474113}
-  - component: {fileID: 5938056476970389876}
+  - component: {fileID: 4823785053541433026}
   m_Layer: 0
   m_Name: Flamethrower
   m_TagString: Weapon
@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 7167994172047474172}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.9110231, y: -5.4235315, z: 0}
-  m_LocalScale: {x: 0.18, y: 0.18, z: 0.18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -70,7 +70,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: e78cf4658a918b14cbcec12c5595d22f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6d9adb86922ccce4fb75faf57cf9f9b1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -81,7 +81,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5938056476970389876
+--- !u!114 &4823785053541433026
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -90,10 +90,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7167994172047474172}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97adc19d8ecc9ed4ea5317d1e6f8795a, type: 3}
+  m_Script: {fileID: 11500000, guid: ad57325e7e3389d429b7cb26386a0da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 1
+  type: 0
   weaponSound: {fileID: 8300000, guid: a6b859cf1aeebeb42a964b977e9ac972, type: 3}
   weaponSoundVolume: 0.3
   Held: 0

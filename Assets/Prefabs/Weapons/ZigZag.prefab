@@ -70,8 +70,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: f739f7d69733e6f4e876a7a66bb2dff8, type: 3}
-  m_Color: {r: 0.85820067, g: 1, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: b7c262bc7e5860d4f831c2b8842e1e80, type: 3}
+  m_Color: {r: 0.9811321, g: 0.9811321, b: 0.9811321, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -101,7 +101,6 @@ MonoBehaviour:
   Ammo: 100
   destroyVFX: {fileID: 3125954096113585550, guid: 4d64ec772fcab804f96f2db162a2c340,
     type: 3}
-  durationOfDestruction: 1
   Bullet: {fileID: 8626814864672146064, guid: d64e63e619e50264b88b7825c90cf2d1, type: 3}
   BulletSpeed: 15
   ShootInterval: 0.5
