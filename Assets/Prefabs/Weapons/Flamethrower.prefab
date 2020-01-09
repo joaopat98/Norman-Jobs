@@ -99,7 +99,9 @@ MonoBehaviour:
   Held: 0
   Damage: 0.5
   Ammo: 250
-  destroyVFX: {fileID: 0}
+  destroyVFX: {fileID: 3125954096113585550, guid: 4d64ec772fcab804f96f2db162a2c340,
+    type: 3}
+  destroyWeaponAudio: {fileID: 8300000, guid: ce62dff9c467bd540a4de36502b87504, type: 3}
   Bullet: {fileID: 8294303101626817090, guid: d019ebd4ab1997e4794a133014d84321, type: 3}
   BulletSpeed: 5
   ShootInterval: 0.01

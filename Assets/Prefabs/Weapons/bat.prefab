@@ -103,7 +103,7 @@ MonoBehaviour:
   Ammo: 15
   destroyVFX: {fileID: 3125954096113585550, guid: 4d64ec772fcab804f96f2db162a2c340,
     type: 3}
-  durationOfDestruction: 1
+  destroyWeaponAudio: {fileID: 8300000, guid: ce62dff9c467bd540a4de36502b87504, type: 3}
   timeBtwAttacks: 0
   startTimeBtwAttacks: 0.2
   AttackDistance: 0

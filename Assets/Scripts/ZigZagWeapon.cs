@@ -29,6 +29,7 @@ public class ZigZagWeapon : RangedWeapon
                 {
                     mouse.SetWeapon(null);
                     Destroy(gameObject);
+                    Die();
                 }
             }
         }

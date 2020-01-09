@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 2505224962313267423}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.0591853, y: -7.062332, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -94,13 +94,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  weaponSound: {fileID: 8300000, guid: b2a8629227d1de54f9429e32741d5f22, type: 3}
+  weaponSound: {fileID: 8300000, guid: 3b250d1513cb32d43a4ba451be342d6d, type: 3}
   weaponSoundVolume: 0.3
   Held: 0
-  Damage: 1
-  Ammo: 100
+  Damage: 1.3
+  Ammo: 10
   destroyVFX: {fileID: 3125954096113585550, guid: 4d64ec772fcab804f96f2db162a2c340,
     type: 3}
+  destroyWeaponAudio: {fileID: 8300000, guid: ce62dff9c467bd540a4de36502b87504, type: 3}
   Bullet: {fileID: 8626814864672146064, guid: d64e63e619e50264b88b7825c90cf2d1, type: 3}
   BulletSpeed: 15
   ShootInterval: 0.5

@@ -25,6 +25,7 @@ public class Weapon : MonoBehaviour
     public float Damage;
     public int Ammo;
     public GameObject destroyVFX;
+    public AudioClip destroyWeaponAudio;
 
     // private float shootTimer = 0;
     protected GameObject thePlayer;
@@ -99,8 +100,8 @@ public class Weapon : MonoBehaviour
     {
 
         GameObject explosion = Instantiate(destroyVFX, transform.position, transform.rotation);
-
         Destroy(explosion, 0.3f);
+        AudioSource.PlayClipAtPoint(destroyWeaponAudio, Camera.main.transform.position, 3.0f);
 
 
     }

@@ -80,6 +80,7 @@ public class MeleeWeapon : Weapon
         {
             mouse.SetWeapon(null);
             Destroy(gameObject);
+            Die();
         }
     }
 }
