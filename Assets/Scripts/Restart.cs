@@ -13,6 +13,7 @@ public class Restart : MonoBehaviour
     }*/
     public GameObject boss;
     public GameObject panel;
+    public GameObject panelWin;
     public AudioClip winSound;
     public float winSoundVolume;
     private bool justOne;
@@ -21,6 +22,7 @@ public class Restart : MonoBehaviour
     {
         winSoundVolume = 0.5f;
         panel.SetActive(false);
+        panelWin.SetActive(false);
         justOne = true;
     }
 
@@ -41,6 +43,7 @@ public class Restart : MonoBehaviour
         AudioSource.PlayClipAtPoint(winSound, Camera.main.transform.position, winSoundVolume);
         yield return new WaitForSeconds(2.0f);
         panel.SetActive(true);
+       
     }
 
     public void RestartScene()

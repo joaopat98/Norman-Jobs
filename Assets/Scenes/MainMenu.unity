@@ -429,7 +429,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1320,11 +1320,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelLoader
       objectReference: {fileID: 0}
-    - target: {fileID: 9110263271592372246, guid: cdd3bbed50ec8a14495dc79cdd0b5b51,
-        type: 3}
-      propertyPath: waitSound
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 6850879135925328376, guid: cdd3bbed50ec8a14495dc79cdd0b5b51,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1379,6 +1374,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9110263271592372246, guid: cdd3bbed50ec8a14495dc79cdd0b5b51,
+        type: 3}
+      propertyPath: waitSound
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdd3bbed50ec8a14495dc79cdd0b5b51, type: 3}

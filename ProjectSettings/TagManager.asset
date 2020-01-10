@@ -14,6 +14,8 @@ TagManager:
   - MeleeWeapon
   - PlayerBullet
   - MusicPlayer
+  - WinText
+  - LoseTag
   layers:
   - Default
   - TransparentFX
