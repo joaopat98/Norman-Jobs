@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1830821417382829569}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.112, y: 4.43, z: 4.0962515}
+  m_LocalPosition: {x: 0.5, y: 4.43, z: 4.0962515}
   m_LocalScale: {x: 5.8451047, y: 2.6235, z: 0.98414}
   m_Children: []
   m_Father: {fileID: 1830821418147556903}
@@ -83,8 +83,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1830821417582147465}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.231, y: 3.374, z: 4.0962515}
-  m_LocalScale: {x: 1.9989202, y: 0.6049639, z: 0.98414}
+  m_LocalPosition: {x: 0.225, y: 3.8, z: 4.0962515}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 0.98414}
   m_Children: []
   m_Father: {fileID: 1830821418147556903}
   m_RootOrder: 2
@@ -106,7 +106,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.96, y: 0.96}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -153,8 +153,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 8e2dc6eab4b0ddf4ebf0eeb0f4da9a35, type: 3}
-  m_Color: {r: 0.26415092, g: 0.17817727, b: 0.17817727, a: 1}
+  m_Sprite: {fileID: 21300000, guid: aff2b24789f2fb143931facd661eef37, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -189,7 +189,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1830821417975730367}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.07, y: 4.34, z: 0}
+  m_LocalPosition: {x: -0.69, y: 4.54, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1830821418147556903}
@@ -418,7 +418,7 @@ Transform:
   m_GameObject: {fileID: 1830821418293481628}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.010964623, y: 3.2595258, z: 0}
-  m_LocalScale: {x: 2.8320038, y: 1.608116, z: 1}
+  m_LocalScale: {x: 1.8408024, y: 1.608116, z: 1}
   m_Children: []
   m_Father: {fileID: 1830821418412976788}
   m_RootOrder: 18
@@ -497,7 +497,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1830821418367093218}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.359, y: 4.53, z: 4.0962515}
+  m_LocalPosition: {x: -0.04, y: 4.55, z: 4.0962515}
   m_LocalScale: {x: 5.8451047, y: 2.8857, z: 0.98414}
   m_Children: []
   m_Father: {fileID: 1830821418147556903}
@@ -943,7 +943,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1830821418987823263}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.84, y: 4.339999, z: 0}
+  m_LocalPosition: {x: 1.43, y: 4.61, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1830821418147556903}
@@ -982,11 +982,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1830821418412976788}
     m_Modifications:
-    - target: {fileID: 2141710784891838046, guid: 68117fb0cba6e464198d132bfdb7066c,
-        type: 3}
-      propertyPath: m_Name
-      value: Chair front (8)
-      objectReference: {fileID: 0}
     - target: {fileID: 2141710784891838040, guid: 68117fb0cba6e464198d132bfdb7066c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1056,6 +1051,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.83443195
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141710784891838046, guid: 68117fb0cba6e464198d132bfdb7066c,
+        type: 3}
+      propertyPath: m_Name
+      value: Chair front (8)
       objectReference: {fileID: 0}
     - target: {fileID: 2141710784891838041, guid: 68117fb0cba6e464198d132bfdb7066c,
         type: 3}
@@ -1173,11 +1173,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1830821418412976788}
     m_Modifications:
-    - target: {fileID: 1354824076241818986, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
-        type: 3}
-      propertyPath: m_Name
-      value: Chair back (10)
-      objectReference: {fileID: 0}
     - target: {fileID: 1354824076241818988, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1247,6 +1242,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.83443195
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354824076241818986, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
+        type: 3}
+      propertyPath: m_Name
+      value: Chair back (10)
       objectReference: {fileID: 0}
     - target: {fileID: 1354824076241818989, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
         type: 3}
@@ -1364,11 +1364,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1830821418412976788}
     m_Modifications:
-    - target: {fileID: 2141710784891838046, guid: 68117fb0cba6e464198d132bfdb7066c,
-        type: 3}
-      propertyPath: m_Name
-      value: Chair front (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 2141710784891838040, guid: 68117fb0cba6e464198d132bfdb7066c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1439,6 +1434,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.83443195
       objectReference: {fileID: 0}
+    - target: {fileID: 2141710784891838046, guid: 68117fb0cba6e464198d132bfdb7066c,
+        type: 3}
+      propertyPath: m_Name
+      value: Chair front (5)
+      objectReference: {fileID: 0}
     - target: {fileID: 2141710784891838041, guid: 68117fb0cba6e464198d132bfdb7066c,
         type: 3}
       propertyPath: m_Sprite
@@ -1465,11 +1465,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1830821418412976788}
     m_Modifications:
-    - target: {fileID: 1354824076241818986, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
-        type: 3}
-      propertyPath: m_Name
-      value: Chair back (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 1354824076241818988, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1540,6 +1535,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.83443195
       objectReference: {fileID: 0}
+    - target: {fileID: 1354824076241818986, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
+        type: 3}
+      propertyPath: m_Name
+      value: Chair back (4)
+      objectReference: {fileID: 0}
     - target: {fileID: 1354824076241818989, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
         type: 3}
       propertyPath: m_Sprite
@@ -1566,11 +1566,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1830821418412976788}
     m_Modifications:
-    - target: {fileID: 1354824076241818986, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
-        type: 3}
-      propertyPath: m_Name
-      value: Chair back (8)
-      objectReference: {fileID: 0}
     - target: {fileID: 1354824076241818988, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1641,6 +1636,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.83443195
       objectReference: {fileID: 0}
+    - target: {fileID: 1354824076241818986, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
+        type: 3}
+      propertyPath: m_Name
+      value: Chair back (8)
+      objectReference: {fileID: 0}
     - target: {fileID: 1354824076241818989, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
         type: 3}
       propertyPath: m_Sprite
@@ -1667,11 +1667,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1830821418412976788}
     m_Modifications:
-    - target: {fileID: 1354824076241818986, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
-        type: 3}
-      propertyPath: m_Name
-      value: Chair back (9)
-      objectReference: {fileID: 0}
     - target: {fileID: 1354824076241818988, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1742,6 +1737,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.83443195
       objectReference: {fileID: 0}
+    - target: {fileID: 1354824076241818986, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
+        type: 3}
+      propertyPath: m_Name
+      value: Chair back (9)
+      objectReference: {fileID: 0}
     - target: {fileID: 1354824076241818989, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
         type: 3}
       propertyPath: m_Sprite
@@ -1768,11 +1768,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1830821418412976788}
     m_Modifications:
-    - target: {fileID: 2141710784891838046, guid: 68117fb0cba6e464198d132bfdb7066c,
-        type: 3}
-      propertyPath: m_Name
-      value: Chair front (6)
-      objectReference: {fileID: 0}
     - target: {fileID: 2141710784891838040, guid: 68117fb0cba6e464198d132bfdb7066c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1843,6 +1838,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.83443195
       objectReference: {fileID: 0}
+    - target: {fileID: 2141710784891838046, guid: 68117fb0cba6e464198d132bfdb7066c,
+        type: 3}
+      propertyPath: m_Name
+      value: Chair front (6)
+      objectReference: {fileID: 0}
     - target: {fileID: 2141710784891838041, guid: 68117fb0cba6e464198d132bfdb7066c,
         type: 3}
       propertyPath: m_Sprite
@@ -1869,11 +1869,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1830821418412976788}
     m_Modifications:
-    - target: {fileID: 2141710784891838046, guid: 68117fb0cba6e464198d132bfdb7066c,
-        type: 3}
-      propertyPath: m_Name
-      value: Chair front (10)
-      objectReference: {fileID: 0}
     - target: {fileID: 2141710784891838040, guid: 68117fb0cba6e464198d132bfdb7066c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1944,6 +1939,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.83443195
       objectReference: {fileID: 0}
+    - target: {fileID: 2141710784891838046, guid: 68117fb0cba6e464198d132bfdb7066c,
+        type: 3}
+      propertyPath: m_Name
+      value: Chair front (10)
+      objectReference: {fileID: 0}
     - target: {fileID: 2141710784891838041, guid: 68117fb0cba6e464198d132bfdb7066c,
         type: 3}
       propertyPath: m_Sprite
@@ -1970,11 +1970,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1830821418412976788}
     m_Modifications:
-    - target: {fileID: 2141710784891838046, guid: 68117fb0cba6e464198d132bfdb7066c,
-        type: 3}
-      propertyPath: m_Name
-      value: Chair front (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 2141710784891838040, guid: 68117fb0cba6e464198d132bfdb7066c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2044,6 +2039,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.83443195
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141710784891838046, guid: 68117fb0cba6e464198d132bfdb7066c,
+        type: 3}
+      propertyPath: m_Name
+      value: Chair front (4)
       objectReference: {fileID: 0}
     - target: {fileID: 2141710784891838041, guid: 68117fb0cba6e464198d132bfdb7066c,
         type: 3}
@@ -2161,11 +2161,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1830821418417098214}
     m_Modifications:
-    - target: {fileID: 7506962474300761742, guid: ca179112f1041404990172281dba2299,
-        type: 3}
-      propertyPath: m_Name
-      value: EnemyMelee
-      objectReference: {fileID: 0}
     - target: {fileID: 7506962474300761729, guid: ca179112f1041404990172281dba2299,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2236,6 +2231,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7506962474300761742, guid: ca179112f1041404990172281dba2299,
+        type: 3}
+      propertyPath: m_Name
+      value: EnemyMelee
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca179112f1041404990172281dba2299, type: 3}
 --- !u!4 &8162339989925725924 stripped
@@ -2251,11 +2251,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1830821418412976788}
     m_Modifications:
-    - target: {fileID: 1354824076241818986, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
-        type: 3}
-      propertyPath: m_Name
-      value: Chair back (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 1354824076241818988, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2326,6 +2321,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.83443195
       objectReference: {fileID: 0}
+    - target: {fileID: 1354824076241818986, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
+        type: 3}
+      propertyPath: m_Name
+      value: Chair back (5)
+      objectReference: {fileID: 0}
     - target: {fileID: 1354824076241818989, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
         type: 3}
       propertyPath: m_Sprite
@@ -2352,11 +2352,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1830821418412976788}
     m_Modifications:
-    - target: {fileID: 2141710784891838046, guid: 68117fb0cba6e464198d132bfdb7066c,
-        type: 3}
-      propertyPath: m_Name
-      value: Chair front (9)
-      objectReference: {fileID: 0}
     - target: {fileID: 2141710784891838040, guid: 68117fb0cba6e464198d132bfdb7066c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2427,6 +2422,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.83443195
       objectReference: {fileID: 0}
+    - target: {fileID: 2141710784891838046, guid: 68117fb0cba6e464198d132bfdb7066c,
+        type: 3}
+      propertyPath: m_Name
+      value: Chair front (9)
+      objectReference: {fileID: 0}
     - target: {fileID: 2141710784891838041, guid: 68117fb0cba6e464198d132bfdb7066c,
         type: 3}
       propertyPath: m_Sprite
@@ -2453,11 +2453,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1830821418412976788}
     m_Modifications:
-    - target: {fileID: 1354824076241818986, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
-        type: 3}
-      propertyPath: m_Name
-      value: Chair back (7)
-      objectReference: {fileID: 0}
     - target: {fileID: 1354824076241818988, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2528,6 +2523,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.83443195
       objectReference: {fileID: 0}
+    - target: {fileID: 1354824076241818986, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
+        type: 3}
+      propertyPath: m_Name
+      value: Chair back (7)
+      objectReference: {fileID: 0}
     - target: {fileID: 1354824076241818989, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
         type: 3}
       propertyPath: m_Sprite
@@ -2554,11 +2554,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1830821418412976788}
     m_Modifications:
-    - target: {fileID: 1354824076241818986, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
-        type: 3}
-      propertyPath: m_Name
-      value: Chair back (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 1354824076241818988, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2628,6 +2623,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.83443195
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354824076241818986, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
+        type: 3}
+      propertyPath: m_Name
+      value: Chair back (3)
       objectReference: {fileID: 0}
     - target: {fileID: 1354824076241818989, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
         type: 3}
@@ -2835,11 +2835,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1830821418412976788}
     m_Modifications:
-    - target: {fileID: 2141710784891838046, guid: 68117fb0cba6e464198d132bfdb7066c,
-        type: 3}
-      propertyPath: m_Name
-      value: Chair front (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2141710784891838040, guid: 68117fb0cba6e464198d132bfdb7066c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2910,6 +2905,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.83443195
       objectReference: {fileID: 0}
+    - target: {fileID: 2141710784891838046, guid: 68117fb0cba6e464198d132bfdb7066c,
+        type: 3}
+      propertyPath: m_Name
+      value: Chair front (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 2141710784891838041, guid: 68117fb0cba6e464198d132bfdb7066c,
         type: 3}
       propertyPath: m_Sprite
@@ -2936,11 +2936,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1830821418412976788}
     m_Modifications:
-    - target: {fileID: 2141710784891838046, guid: 68117fb0cba6e464198d132bfdb7066c,
-        type: 3}
-      propertyPath: m_Name
-      value: Chair front (7)
-      objectReference: {fileID: 0}
     - target: {fileID: 2141710784891838040, guid: 68117fb0cba6e464198d132bfdb7066c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3011,6 +3006,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.83443195
       objectReference: {fileID: 0}
+    - target: {fileID: 2141710784891838046, guid: 68117fb0cba6e464198d132bfdb7066c,
+        type: 3}
+      propertyPath: m_Name
+      value: Chair front (7)
+      objectReference: {fileID: 0}
     - target: {fileID: 2141710784891838041, guid: 68117fb0cba6e464198d132bfdb7066c,
         type: 3}
       propertyPath: m_Sprite
@@ -3037,11 +3037,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1830821418412976788}
     m_Modifications:
-    - target: {fileID: 1354824076241818986, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
-        type: 3}
-      propertyPath: m_Name
-      value: Chair back (6)
-      objectReference: {fileID: 0}
     - target: {fileID: 1354824076241818988, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3111,6 +3106,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.83443195
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354824076241818986, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
+        type: 3}
+      propertyPath: m_Name
+      value: Chair back (6)
       objectReference: {fileID: 0}
     - target: {fileID: 1354824076241818989, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
         type: 3}

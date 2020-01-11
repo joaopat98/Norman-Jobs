@@ -83,7 +83,7 @@ Transform:
   m_GameObject: {fileID: 7079069349265936696}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.2165024, y: 4.5120306, z: 4.0398192}
-  m_LocalScale: {x: 2.2102506, y: 2.9137778, z: 0.7819523}
+  m_LocalScale: {x: 1.4366628, y: 2.9137778, z: 0.7819523}
   m_Children: []
   m_Father: {fileID: 7079069351017000512}
   m_RootOrder: 8
@@ -268,8 +268,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7079069349738019439}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.2, y: 3.44, z: 4.0962515}
-  m_LocalScale: {x: 1.9989202, y: 0.6049639, z: 0.98414}
+  m_LocalPosition: {x: 0.215, y: 3.78, z: 4.0962515}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 0.98414}
   m_Children: []
   m_Father: {fileID: 7079069351017000512}
   m_RootOrder: 2
@@ -291,7 +291,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.96, y: 0.96}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -338,8 +338,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 8e2dc6eab4b0ddf4ebf0eeb0f4da9a35, type: 3}
-  m_Color: {r: 0.26415092, g: 0.17817727, b: 0.17817727, a: 1}
+  m_Sprite: {fileID: 21300000, guid: aff2b24789f2fb143931facd661eef37, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -530,58 +530,6 @@ MonoBehaviour:
   panel: {fileID: 0}
   winSound: {fileID: 0}
   winSoundVolume: 0
---- !u!61 &7079069350080744979
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7828412092940921804}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.030752838, y: 0.015370131}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.96666664, y: 2.1}
-    newSize: {x: 1.45, y: 3.15}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.74114406, y: 1.925806}
-  m_EdgeRadius: 0
---- !u!61 &7079069350140299168
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7828412091806605937}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.029951453, y: 0.05560112}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.96666664, y: 2.1}
-    newSize: {x: 1.45, y: 3.15}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.7184962, y: 1.4926662}
-  m_EdgeRadius: 0
 --- !u!1 &7079069350186881972
 GameObject:
   m_ObjectHideFlags: 0
@@ -626,7 +574,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db25560223ed21c4ebaa05390af7695a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  door: {fileID: 0}
+  door: {fileID: 7079069349738019439}
   doorBoss: 0
   bossAudioClip: {fileID: 0}
   audioSource: {fileID: 0}
@@ -725,7 +673,7 @@ GameObject:
   - component: {fileID: 7079069350844192811}
   - component: {fileID: 7079069350844192788}
   m_Layer: 0
-  m_Name: Level 2.3 1
+  m_Name: Level 2.3
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -910,6 +858,58 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!61 &7079069350140299168
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7828412091806605937}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.029951453, y: 0.05560112}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.96666664, y: 2.1}
+    newSize: {x: 1.45, y: 3.15}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.7184962, y: 1.4926662}
+  m_EdgeRadius: 0
+--- !u!61 &7079069350080744979
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7828412092940921804}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.030752838, y: 0.015370131}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.96666664, y: 2.1}
+    newSize: {x: 1.45, y: 3.15}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.74114406, y: 1.925806}
+  m_EdgeRadius: 0
 --- !u!1001 &7079069349097440787
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1007,11 +1007,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7079069350844192811}
     m_Modifications:
-    - target: {fileID: 2141710784891838046, guid: 68117fb0cba6e464198d132bfdb7066c,
-        type: 3}
-      propertyPath: m_Name
-      value: Chair front (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 2141710784891838040, guid: 68117fb0cba6e464198d132bfdb7066c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1081,6 +1076,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.834432
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141710784891838046, guid: 68117fb0cba6e464198d132bfdb7066c,
+        type: 3}
+      propertyPath: m_Name
+      value: Chair front (1)
       objectReference: {fileID: 0}
     - target: {fileID: 2141710784891838041, guid: 68117fb0cba6e464198d132bfdb7066c,
         type: 3}
@@ -1198,11 +1198,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7079069349410352378}
     m_Modifications:
-    - target: {fileID: 7506962474300761742, guid: ca179112f1041404990172281dba2299,
-        type: 3}
-      propertyPath: m_Name
-      value: EnemyMelee (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 7506962474300761729, guid: ca179112f1041404990172281dba2299,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1272,6 +1267,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7506962474300761742, guid: ca179112f1041404990172281dba2299,
+        type: 3}
+      propertyPath: m_Name
+      value: EnemyMelee (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca179112f1041404990172281dba2299, type: 3}
@@ -1580,11 +1580,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7079069350844192811}
     m_Modifications:
-    - target: {fileID: 2141710784891838046, guid: 68117fb0cba6e464198d132bfdb7066c,
-        type: 3}
-      propertyPath: m_Name
-      value: Chair front
-      objectReference: {fileID: 0}
     - target: {fileID: 2141710784891838040, guid: 68117fb0cba6e464198d132bfdb7066c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1655,6 +1650,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.834432
       objectReference: {fileID: 0}
+    - target: {fileID: 2141710784891838046, guid: 68117fb0cba6e464198d132bfdb7066c,
+        type: 3}
+      propertyPath: m_Name
+      value: Chair front
+      objectReference: {fileID: 0}
     - target: {fileID: 2141710784891838041, guid: 68117fb0cba6e464198d132bfdb7066c,
         type: 3}
       propertyPath: m_Sprite
@@ -1681,11 +1681,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7079069350844192811}
     m_Modifications:
-    - target: {fileID: 1354824076241818986, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
-        type: 3}
-      propertyPath: m_Name
-      value: Chair back (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1354824076241818988, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1756,6 +1751,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.8344319
       objectReference: {fileID: 0}
+    - target: {fileID: 1354824076241818986, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
+        type: 3}
+      propertyPath: m_Name
+      value: Chair back (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 1354824076241818989, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
         type: 3}
       propertyPath: m_Sprite
@@ -1782,11 +1782,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7079069349410352378}
     m_Modifications:
-    - target: {fileID: 7506962474300761742, guid: ca179112f1041404990172281dba2299,
-        type: 3}
-      propertyPath: m_Name
-      value: EnemyMelee (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 7506962474300761729, guid: ca179112f1041404990172281dba2299,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1857,6 +1852,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7506962474300761742, guid: ca179112f1041404990172281dba2299,
+        type: 3}
+      propertyPath: m_Name
+      value: EnemyMelee (4)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca179112f1041404990172281dba2299, type: 3}
 --- !u!4 &726203832965111211 stripped
@@ -1872,11 +1872,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7079069350844192811}
     m_Modifications:
-    - target: {fileID: 1354824076241818986, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
-        type: 3}
-      propertyPath: m_Name
-      value: Chair back (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 1354824076241818988, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1946,6 +1941,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.834432
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354824076241818986, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
+        type: 3}
+      propertyPath: m_Name
+      value: Chair back (2)
       objectReference: {fileID: 0}
     - target: {fileID: 1354824076241818989, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
         type: 3}
@@ -2073,11 +2073,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7079069349410352378}
     m_Modifications:
-    - target: {fileID: 7506962474300761742, guid: ca179112f1041404990172281dba2299,
-        type: 3}
-      propertyPath: m_Name
-      value: EnemyMelee (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 7506962474300761729, guid: ca179112f1041404990172281dba2299,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2148,6 +2143,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7506962474300761742, guid: ca179112f1041404990172281dba2299,
+        type: 3}
+      propertyPath: m_Name
+      value: EnemyMelee (3)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca179112f1041404990172281dba2299, type: 3}
 --- !u!4 &726203833576340267 stripped
@@ -2163,11 +2163,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7079069350844192811}
     m_Modifications:
-    - target: {fileID: 1052139458615748050, guid: 4966134653ecb7e439f716bef0e55088,
-        type: 3}
-      propertyPath: m_Name
-      value: Chair left
-      objectReference: {fileID: 0}
     - target: {fileID: 5728567475845757048, guid: 4966134653ecb7e439f716bef0e55088,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2238,6 +2233,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.834432
       objectReference: {fileID: 0}
+    - target: {fileID: 1052139458615748050, guid: 4966134653ecb7e439f716bef0e55088,
+        type: 3}
+      propertyPath: m_Name
+      value: Chair left
+      objectReference: {fileID: 0}
     - target: {fileID: 6658153567676228879, guid: 4966134653ecb7e439f716bef0e55088,
         type: 3}
       propertyPath: m_Sprite
@@ -2270,11 +2270,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7079069350844192811}
     m_Modifications:
-    - target: {fileID: 1354824076241818986, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
-        type: 3}
-      propertyPath: m_Name
-      value: Chair back
-      objectReference: {fileID: 0}
     - target: {fileID: 1354824076241818988, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2345,6 +2340,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.834432
       objectReference: {fileID: 0}
+    - target: {fileID: 1354824076241818986, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
+        type: 3}
+      propertyPath: m_Name
+      value: Chair back
+      objectReference: {fileID: 0}
     - target: {fileID: 1354824076241818989, guid: fa7d2b4789d3cf94596eea9c8c2bfc57,
         type: 3}
       propertyPath: m_Sprite
@@ -2366,11 +2366,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7079069350844192811}
     m_Modifications:
-    - target: {fileID: 1052139458615748050, guid: 4966134653ecb7e439f716bef0e55088,
-        type: 3}
-      propertyPath: m_Name
-      value: Chair left (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 5728567475845757048, guid: 4966134653ecb7e439f716bef0e55088,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2440,6 +2435,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.834432
+      objectReference: {fileID: 0}
+    - target: {fileID: 1052139458615748050, guid: 4966134653ecb7e439f716bef0e55088,
+        type: 3}
+      propertyPath: m_Name
+      value: Chair left (1)
       objectReference: {fileID: 0}
     - target: {fileID: 6658153567676228879, guid: 4966134653ecb7e439f716bef0e55088,
         type: 3}
@@ -2653,11 +2653,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7079069350844192811}
     m_Modifications:
-    - target: {fileID: 2141710784891838046, guid: 68117fb0cba6e464198d132bfdb7066c,
-        type: 3}
-      propertyPath: m_Name
-      value: Chair front (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 2141710784891838040, guid: 68117fb0cba6e464198d132bfdb7066c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2728,6 +2723,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.834432
       objectReference: {fileID: 0}
+    - target: {fileID: 2141710784891838046, guid: 68117fb0cba6e464198d132bfdb7066c,
+        type: 3}
+      propertyPath: m_Name
+      value: Chair front (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 2141710784891838041, guid: 68117fb0cba6e464198d132bfdb7066c,
         type: 3}
       propertyPath: m_Sprite
@@ -2754,11 +2754,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7079069350844192811}
     m_Modifications:
-    - target: {fileID: 1052139458615748050, guid: 4966134653ecb7e439f716bef0e55088,
-        type: 3}
-      propertyPath: m_Name
-      value: Chair left (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 5728567475845757048, guid: 4966134653ecb7e439f716bef0e55088,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2829,6 +2824,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.834432
       objectReference: {fileID: 0}
+    - target: {fileID: 1052139458615748050, guid: 4966134653ecb7e439f716bef0e55088,
+        type: 3}
+      propertyPath: m_Name
+      value: Chair left (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 6658153567676228879, guid: 4966134653ecb7e439f716bef0e55088,
         type: 3}
       propertyPath: m_Sprite
@@ -2855,11 +2855,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7079069349410352378}
     m_Modifications:
-    - target: {fileID: 7506962474300761742, guid: ca179112f1041404990172281dba2299,
-        type: 3}
-      propertyPath: m_Name
-      value: EnemyMelee
-      objectReference: {fileID: 0}
     - target: {fileID: 7506962474300761729, guid: ca179112f1041404990172281dba2299,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2929,6 +2924,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7506962474300761742, guid: ca179112f1041404990172281dba2299,
+        type: 3}
+      propertyPath: m_Name
+      value: EnemyMelee
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca179112f1041404990172281dba2299, type: 3}
