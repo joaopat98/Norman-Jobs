@@ -41,6 +41,8 @@ public class Punch : MonoBehaviour
 
     public float PunchAOERadius = 5;
     public float PunchAOEDamage = 0.5f;
+    public AudioClip superPunchSound;
+    public float superPunchVolume;
 
     public GameObject ExplosionPrefab;
 
@@ -148,6 +150,7 @@ public class Punch : MonoBehaviour
     public void PunchAOE()
     {
         Instantiate(ExplosionPrefab, transform.position, Quaternion.identity);
+        AudioSource.PlayClipAtPoint(superPunchSound, Camera.main.transform.position, superPunchVolume);
         foreach (var enemy in GameObject.FindGameObjectsWithTag("Enemy").Select(e => e.GetComponent<Enemy>()))
         {
             if (Vector3.Distance(transform.position, enemy.transform.position) < PunchAOERadius)

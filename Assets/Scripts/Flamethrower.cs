@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Flamethrower : RangedWeapon
 {
+    private bool justOne = true;
     public override void Shoot(Vector3 origin, Vector3 direction)
     {
         if (shootTimer <= 0)
@@ -17,7 +18,11 @@ public class Flamethrower : RangedWeapon
                 shot.GetComponent<Rigidbody2D>().SetRotation(Mathf.Atan2(direction.y, direction.x));
 
                 shootTimer = ShootInterval;
-                AudioSource.PlayClipAtPoint(weaponSound, Camera.main.transform.position, weaponSoundVolume);
+
+                if (justOne)
+                {
+                    StartCoroutine(FireSound());
+                }
 
                 Ammo -= 1;
 
@@ -28,5 +33,13 @@ public class Flamethrower : RangedWeapon
                 }
             }
         }
+    }
+
+    IEnumerator FireSound()
+    {
+        justOne = false;
+        AudioSource.PlayClipAtPoint(weaponSound, Camera.main.transform.position, weaponSoundVolume);
+        yield return new WaitForSeconds(0.28888f);
+        justOne = true;
     }
 }

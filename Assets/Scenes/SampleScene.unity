@@ -231,18 +231,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 9006042026840916629}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &917962108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 917962098}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d1937bcd231f3a468d003001fae7499, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1117178731 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8753609931368000222, guid: 98704dfa8a8d3444395b5b826f1049f7,
@@ -1758,11 +1746,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 9006042026615078887, guid: 6b9d1ee437eeecd4f81e9ebe7c06d23d,
-        type: 3}
-      propertyPath: m_Layer
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 9006042026615078883, guid: 6b9d1ee437eeecd4f81e9ebe7c06d23d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1830,33 +1813,23 @@ PrefabInstance:
       objectReference: {fileID: 1306132334}
     - target: {fileID: 9006042026615078895, guid: 6b9d1ee437eeecd4f81e9ebe7c06d23d,
         type: 3}
-      propertyPath: CameraShake
-      value: 
-      objectReference: {fileID: 519420030}
-    - target: {fileID: 9006042026615078895, guid: 6b9d1ee437eeecd4f81e9ebe7c06d23d,
-        type: 3}
       propertyPath: panel
       value: 
       objectReference: {fileID: 357811206}
     - target: {fileID: 9006042026615078895, guid: 6b9d1ee437eeecd4f81e9ebe7c06d23d,
         type: 3}
-      propertyPath: loseSound
+      propertyPath: CameraShake
       value: 
-      objectReference: {fileID: 8300000, guid: 3221f312e7aac5b4bbd2e44ce3cfbffa, type: 3}
-    - target: {fileID: 9006042026615078895, guid: 6b9d1ee437eeecd4f81e9ebe7c06d23d,
-        type: 3}
-      propertyPath: loseSoundVolume
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 9006042026615078895, guid: 6b9d1ee437eeecd4f81e9ebe7c06d23d,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 917962098}
+      objectReference: {fileID: 519420030}
     - target: {fileID: 9006042026615078892, guid: 6b9d1ee437eeecd4f81e9ebe7c06d23d,
         type: 3}
-      propertyPath: player
+      propertyPath: superPunchSound
       value: 
-      objectReference: {fileID: 917962098}
+      objectReference: {fileID: 8300000, guid: 9a17e879a4f51344cb27462483885bb6, type: 3}
+    - target: {fileID: 9006042026615078892, guid: 6b9d1ee437eeecd4f81e9ebe7c06d23d,
+        type: 3}
+      propertyPath: superPunchVolume
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b9d1ee437eeecd4f81e9ebe7c06d23d, type: 3}
