@@ -156,7 +156,7 @@ MonoBehaviour:
   attackSoundVolume: 1
   attackSound: {fileID: 8300000, guid: 538171ebc2873ea428a8190e1766b582, type: 3}
   deathSoundVolume: 0.2
-  deathSound: {fileID: 8300000, guid: 10942243864a4b4459fbfb19f7a5a94a, type: 3}
+  deathSound: {fileID: 8300000, guid: 6e995cbf7dcafd54b924cc39a6f87559, type: 3}
   SpriteFlipped: 1
   retreatDistance: 2
   BulletSpeed: 10

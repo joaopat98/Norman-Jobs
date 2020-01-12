@@ -278,7 +278,7 @@ MonoBehaviour:
   MaxHP: 10
   HP: 10
   panel: {fileID: 0}
-  player: {fileID: 0}
+  player: {fileID: 9006042026615078887}
   alive: 1
   CameraShake: {fileID: 0}
   hurting: 0
@@ -286,8 +286,8 @@ MonoBehaviour:
   HitTime: 0.25
   deathSound: {fileID: 8300000, guid: e9f52ae3562a56740a37fd11c5053ec6, type: 3}
   deathSoundVolume: 0.3
-  loseSound: {fileID: 0}
-  loseSoundVolume: 0
+  loseSound: {fileID: 8300000, guid: 3221f312e7aac5b4bbd2e44ce3cfbffa, type: 3}
+  loseSoundVolume: 0.5
   flashingColor: {r: 0.9433962, g: 0.022249907, b: 0.022249907, a: 0}
   regularColor: {r: 1, g: 1, b: 1, a: 1}
   flashDuration: 0.1
