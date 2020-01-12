@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2471667305250597334}
   - component: {fileID: 5504243409462921305}
-  - component: {fileID: 6098107206021583280}
+  - component: {fileID: 5194557776361074386}
   m_Layer: 0
   m_Name: AOE_explosion
   m_TagString: Untagged
@@ -81,7 +81,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6098107206021583280
+--- !u!114 &5194557776361074386
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
