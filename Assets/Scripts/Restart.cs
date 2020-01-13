@@ -5,23 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class Restart : MonoBehaviour
 {
-    // Start is called before the first frame update
-   /* void OnTriggerEnter2D(Collider2D col)
-    {
-        if (col.CompareTag("Player"))
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }*/
     public GameObject boss;
-    public GameObject panel;
+    public GameObject panelLose;
     public GameObject panelWin;
     public AudioClip winSound;
+    public AudioClip regularSound;
     public float winSoundVolume;
     private bool justOne;
+    public float startSoundVolume = 1f;
 
     void Start()
     {
         winSoundVolume = 0.5f;
-        panel.SetActive(false);
+        panelLose.SetActive(false);
         panelWin.SetActive(false);
         justOne = true;
     }
@@ -32,24 +28,33 @@ public class Restart : MonoBehaviour
         if(boss == null && justOne)
         {
 
-            StartCoroutine(LoseSound());
+            StartCoroutine(WinSound());
             justOne = false;
         }
 
     }
 
-    IEnumerator LoseSound()
+    IEnumerator WinSound()
     {
         AudioSource.PlayClipAtPoint(winSound, Camera.main.transform.position, winSoundVolume);
         yield return new WaitForSeconds(2.0f);
-        panel.SetActive(true);
+        panelWin.SetActive(true);
        
     }
 
     public void RestartScene()
     {
+        StartCoroutine(PlaySoundAndLoadScene(SceneManager.GetActiveScene().buildIndex));
 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    IEnumerator PlaySoundAndLoadScene(int level)
+    {
+
+        AudioSource.PlayClipAtPoint(regularSound, Camera.main.transform.position, startSoundVolume);
+        yield return new WaitForSeconds(1.0f);
+
+        SceneManager.LoadScene(level);
 
     }
 }

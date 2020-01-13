@@ -45,5 +45,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delayInSeconds: 2
   startSound: {fileID: 8300000, guid: 28859ea6bfa4c6f40b28eb90978b913b, type: 3}
+  regularSound: {fileID: 8300000, guid: 1dfb63fad212ea74fb3ebd2c312048de, type: 3}
   waitSound: 2
   startSoundVolume: 0.3

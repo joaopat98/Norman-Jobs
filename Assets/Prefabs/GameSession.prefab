@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8753609931368000223
 Transform:
@@ -44,6 +44,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boss: {fileID: 0}
-  panel: {fileID: 0}
+  panelLose: {fileID: 0}
+  panelWin: {fileID: 0}
   winSound: {fileID: 8300000, guid: d65d4d21e11efde41b373c0256100842, type: 3}
+  regularSound: {fileID: 8300000, guid: 1dfb63fad212ea74fb3ebd2c312048de, type: 3}
   winSoundVolume: 0.5
+  startSoundVolume: 0.3

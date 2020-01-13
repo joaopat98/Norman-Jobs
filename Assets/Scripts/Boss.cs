@@ -107,7 +107,6 @@ public class Boss : Enemy
             bullet.GetComponent<BulletHitZigZag>().setDamage(Damage);
             dir = dir.normalized;
             bullet.GetComponent<BulletHitZigZag>().dir = new Vector3(dir.y, -dir.x);
-                Debug.Log(dir);
             bullet.GetComponent<Rigidbody2D>().velocity = BulletSpeed * dir;
             //bullet.transform.Rotate(0, Mathf.Atan2(dir.y, dir.x), 0);
             AudioSource.PlayClipAtPoint(attackSound, this.transform.position, attackSoundVolume);
