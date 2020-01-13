@@ -121,7 +121,7 @@ public class Boss2 : Boss
     {
         Vector2 S = spr.sprite.bounds.size;
         gameObject.GetComponent<BoxCollider2D>().size = S;
-        if ( !hurting && isAlive())
+        if (isAwake && !hurting && isAlive())
         {
             if (!acting)
             {
