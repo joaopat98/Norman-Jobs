@@ -95,7 +95,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 0
   weaponSound: {fileID: 8300000, guid: a20008704172e0a49896a31aa3389b4d, type: 3}
-  weaponSoundVolume: 0.3
+  weaponSoundVolume: 0.5
   Held: 0
   Damage: 0.5
   Ammo: 250
