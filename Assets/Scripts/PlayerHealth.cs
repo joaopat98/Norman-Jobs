@@ -101,118 +101,123 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
     public void Hit(GameObject obj, float value)
     {
 
-
-        HP = (int)Mathf.Round(Mathf.Max(HP - value, 0));
-        AudioSource.PlayClipAtPoint(HurtSound, Camera.main.transform.position, hurtSoundVolume);
-
-        if (HP == 0)
+        if (!invincible)
         {
-            for (int i = 0; i < hearts.Count; i++)
+            HP = (int)Mathf.Round(Mathf.Max(HP - value, 0));
+            AudioSource.PlayClipAtPoint(HurtSound, Camera.main.transform.position, hurtSoundVolume);
+
+            if (HP == 0)
             {
-                Destroy(hearts[i]);
+                for (int i = 0; i < hearts.Count; i++)
+                {
+                    Destroy(hearts[i]);
+                }
+                hearts.Clear();
+                alive = false;
+                animator.SetBool("alive", false);
+                AudioSource.PlayClipAtPoint(deathSound, Camera.main.transform.position, deathSoundVolume);
+                StartCoroutine(LoseSound());
             }
-            hearts.Clear();
-            alive = false;
-            animator.SetBool("alive", false);
-            AudioSource.PlayClipAtPoint(deathSound, Camera.main.transform.position, deathSoundVolume);
-            StartCoroutine(LoseSound());
-        }
-        else
-        {
-            if (!hurting)
+            else
             {
-                hurting = true;
-                GetComponent<Punch>().punching = false;
-                var lookAt = ((Vector2)obj.transform.position - (Vector2)transform.position).ToSpriteDirection(0.2f);
-
-                ////BUG DE FICAR PARADO
-                if (lookAt.x == 0 && lookAt.y == 0)
+                if (!hurting)
                 {
-                    lookAt.x = 1;
-                }
-                ////-------
+                    hurting = true;
+                    GetComponent<Punch>().punching = false;
+                    var lookAt = ((Vector2)obj.transform.position - (Vector2)transform.position).ToSpriteDirection(0.2f);
 
-                if (lookAt.x > 0)
-                {
-                    var scale = transform.localScale;
-                    scale.x = -1;
-                    transform.localScale = scale;
-                }
-                else
-                {
-                    var scale = transform.localScale;
-                    scale.x = 1;
-                    transform.localScale = scale;
-                }
+                    ////BUG DE FICAR PARADO
+                    if (lookAt.x == 0 && lookAt.y == 0)
+                    {
+                        lookAt.x = 1;
+                    }
+                    ////-------
 
-                /* Debug.Log("X: " + lookAt.x);
-                 Debug.Log("Y: " + lookAt.y);*/
+                    if (lookAt.x > 0)
+                    {
+                        var scale = transform.localScale;
+                        scale.x = -1;
+                        transform.localScale = scale;
+                    }
+                    else
+                    {
+                        var scale = transform.localScale;
+                        scale.x = 1;
+                        transform.localScale = scale;
+                    }
 
-                animator.SetInteger("x", lookAt.x);
-                animator.SetInteger("y", lookAt.y);
-                StartCoroutine(CameraShake.Shake(0.4f, 0.1f));
-                invincible = true;
-                StartCoroutine(Flashing());
-                StartCoroutine(PushBack(transform.position - obj.transform.position, value));
-                animator.SetTrigger("hurt");
+                    /* Debug.Log("X: " + lookAt.x);
+                     Debug.Log("Y: " + lookAt.y);*/
+
+                    animator.SetInteger("x", lookAt.x);
+                    animator.SetInteger("y", lookAt.y);
+                    StartCoroutine(CameraShake.Shake(0.4f, 0.1f));
+                    invincible = true;
+                    StartCoroutine(Flashing());
+                    StartCoroutine(PushBack(transform.position - obj.transform.position, value));
+                    animator.SetTrigger("hurt");
+                }
             }
         }
     }
 
     public void Hit(GameObject obj, float value, float knockback)
     {
-        HP = (int)Mathf.Round(Mathf.Max(HP - value, 0));
-
-        if (HP == 0)
+        if (!invincible)
         {
-            for (int i = 0; i < hearts.Count; i++)
+            HP = (int)Mathf.Round(Mathf.Max(HP - value, 0));
+            AudioSource.PlayClipAtPoint(HurtSound, Camera.main.transform.position, hurtSoundVolume);
+            if (HP == 0)
             {
-                Destroy(hearts[i]);
+                for (int i = 0; i < hearts.Count; i++)
+                {
+                    Destroy(hearts[i]);
+                }
+                hearts.Clear();
+                alive = false;
+                animator.SetBool("alive", false);
+                AudioSource.PlayClipAtPoint(deathSound, Camera.main.transform.position, deathSoundVolume);
+                StartCoroutine(LoseSound());
             }
-            hearts.Clear();
-            alive = false;
-            animator.SetBool("alive", false);
-            AudioSource.PlayClipAtPoint(deathSound, Camera.main.transform.position, deathSoundVolume);
-            StartCoroutine(LoseSound());
-        }
-        else
-        {
-            if (!hurting)
+            else
             {
-                hurting = true;
-                GetComponent<Punch>().punching = false;
-                var lookAt = ((Vector2)obj.transform.position - (Vector2)transform.position).ToSpriteDirection(0.2f);
-
-                ////BUG DE FICAR PARADO
-                if (lookAt.x == 0 && lookAt.y == 0)
+                if (!hurting)
                 {
-                    lookAt.x = 1;
-                }
-                ////-------
+                    hurting = true;
+                    GetComponent<Punch>().punching = false;
+                    var lookAt = ((Vector2)obj.transform.position - (Vector2)transform.position).ToSpriteDirection(0.2f);
 
-                if (lookAt.x > 0)
-                {
-                    var scale = transform.localScale;
-                    scale.x = -1;
-                    transform.localScale = scale;
-                }
-                else
-                {
-                    var scale = transform.localScale;
-                    scale.x = 1;
-                    transform.localScale = scale;
-                }
+                    ////BUG DE FICAR PARADO
+                    if (lookAt.x == 0 && lookAt.y == 0)
+                    {
+                        lookAt.x = 1;
+                    }
+                    ////-------
 
-                /* Debug.Log("X: " + lookAt.x);
-                 Debug.Log("Y: " + lookAt.y);*/
+                    if (lookAt.x > 0)
+                    {
+                        var scale = transform.localScale;
+                        scale.x = -1;
+                        transform.localScale = scale;
+                    }
+                    else
+                    {
+                        var scale = transform.localScale;
+                        scale.x = 1;
+                        transform.localScale = scale;
+                    }
 
-                animator.SetInteger("x", lookAt.x);
-                animator.SetInteger("y", lookAt.y);
-                StartCoroutine(CameraShake.Shake(0.4f, 0.1f));
-                invincible = true;
-                StartCoroutine(Flashing());
-                StartCoroutine(PushBack(transform.position - obj.transform.position, knockback));
-                animator.SetTrigger("hurt");
+                    /* Debug.Log("X: " + lookAt.x);
+                     Debug.Log("Y: " + lookAt.y);*/
+
+                    animator.SetInteger("x", lookAt.x);
+                    animator.SetInteger("y", lookAt.y);
+                    StartCoroutine(CameraShake.Shake(0.4f, 0.1f));
+                    invincible = true;
+                    StartCoroutine(Flashing());
+                    StartCoroutine(PushBack(transform.position - obj.transform.position, knockback));
+                    animator.SetTrigger("hurt");
+                }
             }
         }
     }
