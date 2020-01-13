@@ -1123,6 +1123,19 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LoadStartMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 1732647082, guid: 48bc47f1194c53f45ba543198388fc52, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -209
+      objectReference: {fileID: 0}
+    - target: {fileID: 1732647084, guid: 48bc47f1194c53f45ba543198388fc52, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2372666392865031078, guid: 48bc47f1194c53f45ba543198388fc52,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 45
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48bc47f1194c53f45ba543198388fc52, type: 3}
 --- !u!1 &2372666392908188960 stripped
@@ -1346,6 +1359,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7079069350186881865, guid: 5eeae5a803658414ba5c356ba0483c93,
+        type: 3}
+      propertyPath: door
+      value: 
+      objectReference: {fileID: 2074536849}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5eeae5a803658414ba5c356ba0483c93, type: 3}
 --- !u!1001 &8753609932467839413
@@ -1467,7 +1485,7 @@ PrefabInstance:
     - target: {fileID: 9006042026615078883, guid: 6b9d1ee437eeecd4f81e9ebe7c06d23d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 51.5
+      value: -7.4
       objectReference: {fileID: 0}
     - target: {fileID: 9006042026615078883, guid: 6b9d1ee437eeecd4f81e9ebe7c06d23d,
         type: 3}
