@@ -261,7 +261,7 @@ MonoBehaviour:
   PunchAOERadius: 3
   PunchAOEDamage: 1.3
   superPunchSound: {fileID: 8300000, guid: ba1b3d13db813f747a324a942d33ab47, type: 3}
-  superPunchVolume: 1
+  superPunchVolume: 1.3
   ExplosionPrefab: {fileID: 2768532855518772808, guid: e43185ea488db9a41831e8205c59037b,
     type: 3}
 --- !u!114 &9006042026615078895
@@ -342,7 +342,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.6231893, y: 0.92}
   m_EdgeRadius: 0
---- !u!114 &165998560768608247
+--- !u!114 &917962108
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -354,7 +354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d1937bcd231f3a468d003001fae7499, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &917962108
+--- !u!114 &165998560768608247
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
