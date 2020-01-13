@@ -15,6 +15,7 @@ public class ClosedDoor : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             door.SetActive(true);
+            this.gameObject.SetActive(false);
         }
         if (doorBoss)
         {
