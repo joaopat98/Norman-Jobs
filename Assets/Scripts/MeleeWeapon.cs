@@ -81,8 +81,8 @@ public class MeleeWeapon : Weapon
         {
             
             mouse.SetWeapon(null);
-            AudioSource.PlayClipAtPoint(BreakSound, Camera.main.transform.position, BreakSoundVolume);
             Destroy(gameObject);
+            Die();
 
         }
     }
