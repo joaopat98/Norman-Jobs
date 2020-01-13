@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class Boss1 : Enemy, IBoss
+public class Boss1 : Boss
 {
     private float t;
     [Header("Boss Settings")]
@@ -16,7 +16,6 @@ public class Boss1 : Enemy, IBoss
     private bool wasWalking = false;
     private Vector2 walkDirection;
 
-    private bool acting;
     public float MoveFrequency = 0.5f;
 
     public GameObject PunchPrefab;
@@ -102,7 +101,7 @@ public class Boss1 : Enemy, IBoss
     {
         Vector2 S = spr.sprite.bounds.size;
         gameObject.GetComponent<BoxCollider2D>().size = S;
-        if (!hurting && isAlive())
+        if (isAwake && !hurting && isAlive())
         {
             if (!acting)
             {
@@ -168,7 +167,7 @@ public class Boss1 : Enemy, IBoss
         else
         {
             base.Hit(obj, value, SelfKnockBack);
-            
+
         }
         AudioSource.PlayClipAtPoint(HurtSound, Camera.main.transform.position, PunchSoundVolume);
     }
