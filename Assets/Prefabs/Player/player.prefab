@@ -293,7 +293,7 @@ MonoBehaviour:
   loseSound: {fileID: 8300000, guid: 3221f312e7aac5b4bbd2e44ce3cfbffa, type: 3}
   loseSoundVolume: 0.5
   HurtSound: {fileID: 8300000, guid: a62092b91de7a584eb3d43df82c6d49f, type: 3}
-  hurtSoundVolume: 0.1
+  hurtSoundVolume: 0.2
   flashingColor: {r: 0.9433962, g: 0.022249907, b: 0.022249907, a: 0}
   regularColor: {r: 1, g: 1, b: 1, a: 1}
   flashDuration: 0.1

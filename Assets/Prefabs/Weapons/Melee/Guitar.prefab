@@ -99,7 +99,7 @@ MonoBehaviour:
   weaponSound: {fileID: 8300000, guid: 7ba40f4392493e84889d9934a912efea, type: 3}
   weaponSoundVolume: 0.2
   Held: 0
-  Damage: 1
+  Damage: 0.7
   Ammo: 15
   destroyVFX: {fileID: 3125954096113585550, guid: 4d64ec772fcab804f96f2db162a2c340,
     type: 3}
@@ -114,6 +114,7 @@ MonoBehaviour:
   angleDelta: 45
   hitSound: {fileID: 8300000, guid: a1fac2a315b15fe439872704eccd03b6, type: 3}
   AttackTime: 0.2
+  WeaponAngle: 0
 --- !u!50 &3601135936794869264
 Rigidbody2D:
   serializedVersion: 4

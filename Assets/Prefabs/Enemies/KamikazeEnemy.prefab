@@ -166,7 +166,7 @@ MonoBehaviour:
   speed: 3
   stopDistance: 1
   WeaponDrop: {fileID: 0}
-  Radar: 4
+  Radar: 4.5
   HP: 3
   Damage: 1
   HitTime: 0.25
