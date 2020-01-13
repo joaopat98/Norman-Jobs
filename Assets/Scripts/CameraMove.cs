@@ -16,6 +16,7 @@ public class CameraMove : MonoBehaviour
         {
             var cameraPos = transform.position;
             var playerPos = player.position;
+            cameraPos.x = Mathf.Min(3, Mathf.Max(-4f, playerPos.x));
             cameraPos.y = playerPos.y;
             transform.position = cameraPos;
         }
