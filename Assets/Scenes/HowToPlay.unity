@@ -145,7 +145,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 35528622}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.9, y: 3.24, z: 0}
+  m_LocalPosition: {x: -5.81, y: 3.24, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -932,7 +932,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1679562353}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.62, y: 3.24, z: 0}
+  m_LocalPosition: {x: 0.71000016, y: 3.24, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -999,6 +999,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelLoader
       objectReference: {fileID: 0}
+    - target: {fileID: 9110263271592372246, guid: cdd3bbed50ec8a14495dc79cdd0b5b51,
+        type: 3}
+      propertyPath: waitSound
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6850879135925328376, guid: cdd3bbed50ec8a14495dc79cdd0b5b51,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1053,11 +1058,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9110263271592372246, guid: cdd3bbed50ec8a14495dc79cdd0b5b51,
-        type: 3}
-      propertyPath: waitSound
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdd3bbed50ec8a14495dc79cdd0b5b51, type: 3}
@@ -1135,7 +1135,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1940873517}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.61, y: 3.24, z: 0}
+  m_LocalPosition: {x: 5.7000003, y: 3.24, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
