@@ -336,7 +336,7 @@ MonoBehaviour:
   SeekDamage: 2
   SeekRange: 6
   SeekRadius: 2.5
-  PlayerTriggerPrefab: {fileID: 2926048434759540211, guid: d3e79b1040e09af46b6d28f0d2d2b9b6,
+  PlayerTriggerPrefab: {fileID: 2926048434759540211, guid: fd7f1cae18200f74cacc94fa2a98c8af,
     type: 3}
   ShurikenPrefab: {fileID: 7413762460416964832, guid: 0e77d8dad944efe44bc07cd5b49e38ca,
     type: 3}
