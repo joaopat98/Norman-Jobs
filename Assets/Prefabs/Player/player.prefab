@@ -260,6 +260,7 @@ MonoBehaviour:
   ChargedColor: {r: 0.9244107, g: 0.9339623, b: 0, a: 1}
   PunchAOERadius: 3
   PunchAOEDamage: 1.3
+  PunchAOEKnockBack: 1
   superPunchSound: {fileID: 8300000, guid: ba1b3d13db813f747a324a942d33ab47, type: 3}
   superPunchVolume: 1.3
   ExplosionPrefab: {fileID: 2768532855518772808, guid: e43185ea488db9a41831e8205c59037b,

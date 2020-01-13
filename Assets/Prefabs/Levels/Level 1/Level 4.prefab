@@ -497,11 +497,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db25560223ed21c4ebaa05390af7695a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  door: {fileID: 2009618849644748272}
+  door: {fileID: 0}
   doorBoss: 1
   bossAudioClip: {fileID: 8300000, guid: 8a0076878c025b0409ba94650fe744b0, type: 3}
   audioSource: {fileID: 0}
-  boss: {fileID: 0}
+  boss: {fileID: 8187646094776300263}
 --- !u!61 &2009618849644748278
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -939,6 +939,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7ace04c92581b64292d49f5b09dfa90, type: 3}
+--- !u!1 &8187646094776300263 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4852661703854355936, guid: d7ace04c92581b64292d49f5b09dfa90,
+    type: 3}
+  m_PrefabInstance: {fileID: 3672758775520954119}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &309724556474230786 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3941809050550578949, guid: d7ace04c92581b64292d49f5b09dfa90,
