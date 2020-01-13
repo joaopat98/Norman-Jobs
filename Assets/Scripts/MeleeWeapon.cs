@@ -15,6 +15,7 @@ public class MeleeWeapon : Weapon
     private PlayerMovement movement;
     public AudioClip hitSound;
 
+
     private Rigidbody2D rb;
     public float AttackTime;
 
@@ -78,9 +79,11 @@ public class MeleeWeapon : Weapon
         attacking = false;
         if (Ammo == 0)
         {
+            
             mouse.SetWeapon(null);
+            AudioSource.PlayClipAtPoint(BreakSound, Camera.main.transform.position, BreakSoundVolume);
             Destroy(gameObject);
-            Die();
+
         }
     }
 }

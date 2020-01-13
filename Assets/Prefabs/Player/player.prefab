@@ -98,7 +98,8 @@ GameObject:
   - component: {fileID: 9006042026615078894}
   - component: {fileID: 9006042026615078886}
   - component: {fileID: 917962108}
-  m_Layer: 10
+  - component: {fileID: 165998560768608247}
+  m_Layer: 9
   m_Name: player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -220,7 +221,10 @@ MonoBehaviour:
   Reticle: {fileID: 0}
   Range: 1.4
   MousePos: {x: 0, y: 0}
-  weaponGrabSound: {fileID: 8300000, guid: 4d2c2b493c79a4f419bd2a89da9ca794, type: 3}
+  MeleeWeaponGrabSound: {fileID: 8300000, guid: 066b4dd183495464b87e31efabc37045,
+    type: 3}
+  RangedWeaponGrabSound: {fileID: 8300000, guid: 4d2c2b493c79a4f419bd2a89da9ca794,
+    type: 3}
   weaponGrabSoundVolume: 0.5
 --- !u!114 &9006042026615078892
 MonoBehaviour:
@@ -247,7 +251,7 @@ MonoBehaviour:
   punchSoundVolume: 0.35
   EnemyTriggerPrefab: {fileID: 2926048434759540211, guid: df5f7c7032abed64dadf826ac843f874,
     type: 3}
-  player: {fileID: 9006042026615078887}
+  player: {fileID: 0}
   InitChargeVel: 1
   FinalChargeVel: 3
   ChargeTime: 2.5
@@ -338,6 +342,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.6231893, y: 0.92}
   m_EdgeRadius: 0
+--- !u!114 &165998560768608247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9006042026615078887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d1937bcd231f3a468d003001fae7499, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &917962108
 MonoBehaviour:
   m_ObjectHideFlags: 0

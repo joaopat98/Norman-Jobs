@@ -5,32 +5,18 @@ using UnityEngine;
 public class KamikazeExplosion : MonoBehaviour
 {
     public float damage = 3.0f;
-    private bool hasExploded = false;
-
+    public float KnockBack = 2.0f;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            collision.GetComponent<IHealthSystem>().Hit(gameObject, damage);
-            
+            collision.GetComponent<IHealthSystem>().Hit(gameObject, damage, KnockBack);
         }
-        
-        
     }
 
-    private void FixedUpdate()
+    public void SelfDestruct()
     {
-        if (!hasExploded)
-        {
-            StartCoroutine(RM());
-        }
-              
-    }
-    private IEnumerator RM()
-    {
-        hasExploded = true;
-        yield return new WaitForSeconds(1.0f);
         Destroy(gameObject);
     }
 }

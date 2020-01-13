@@ -18,6 +18,8 @@ public class KamikazeEnemy : Enemy
     public AudioClip ExplosionSound;
     public AudioClip BeepSound;
 
+
+
     bool stop = true;
 
     new void Start()
@@ -41,7 +43,7 @@ public class KamikazeEnemy : Enemy
 
         Vector2Int dir_ceil = dir.ToSpriteDirection(0.2f);
 
-        if (dir.x > 0)
+        if (dir.x < 0)
         {
             var scale = transform.localScale;
             scale.x = -Mathf.Abs(scale.x);
@@ -66,11 +68,17 @@ public class KamikazeEnemy : Enemy
         if (IsChasing)
         {
             if (stop)
+
             {
+
                 stop = false;
+
                 StartCoroutine(ExplosionTimerSound());
+
                 StartCoroutine(ExplosionTimerColor());
+
                 
+
             }
             
         }
@@ -90,13 +98,19 @@ public class KamikazeEnemy : Enemy
         while (temp < 4 && isAlive())
         {
 
+
+
             yellowTime -= deltaTime;
+
             
             spr.color = new Color(255, 165, 0, 1);
             yield return new WaitForSeconds(yellowTime);
             spr.color = oldColor;
             yield return new WaitForSeconds(yellowTime);
+
             temp++;
+
+
 
         }
         yield return new WaitForSeconds(0.50f);
@@ -114,17 +128,28 @@ public class KamikazeEnemy : Enemy
     }
 
     private IEnumerator ExplosionTimerSound()
+
     {
 
+
+
         int i = 0;
+
         while (i < 5 && isAlive())
         {
+
             yield return new WaitForSeconds(0.9f);
+
             AudioSource.PlayClipAtPoint(BeepSound, this.transform.position, ExplosionSoundVolume);
+
             i++;
+
         }
 
+
+
         
+
     }
 
 }

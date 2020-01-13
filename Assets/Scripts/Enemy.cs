@@ -31,7 +31,7 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
     public float deathSoundVolume = 0.1f;
     public AudioClip deathSound;
 
-
+    public bool SpriteFlipped = false;
 
     // Start is called before the first frame update
     protected void Start()
@@ -61,10 +61,15 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
     }
     public virtual void Hit(GameObject obj, float value)
     {
+        Hit(obj, value, value);
+    }
+
+    public virtual void Hit(GameObject obj, float value, float knockback)
+    {
         Radar = Mathf.Infinity;
         HP -= value;
 
-        if(HP <= 0)
+        if (HP <= 0)
         {
             player.GetComponent<ScoreScriptPlayer>().FinalDamage();
         }
@@ -74,36 +79,6 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
             player.GetComponent<ScoreScriptPlayer>().Damage();
         }
 
-        StartCoroutine(Tint());
-        if (HP <= 0)
-        {
-            if (WeaponDrop)
-                Instantiate(WeaponDrop, transform.position, Quaternion.identity);
-            GetComponent<Collider2D>().enabled = false;
-            animator.SetBool("alive", false);
-            AudioSource.PlayClipAtPoint(deathSound, Camera.main.transform.position, deathSoundVolume);
-            
-            
-
-
-            return;
-        }
-        else if (!hurting)
-        {
-            hurting = true;
-            var dir = ((Vector2)(obj.transform.position - transform.position)).ToSpriteDirection(0.2f);
-            animator.SetInteger("x", Mathf.RoundToInt(dir.x));
-            animator.SetInteger("y", Mathf.RoundToInt(dir.y));
-            StartCoroutine(PushBack(transform.position - obj.transform.position, value));
-        }
-        animator.SetTrigger("hurt");
-
-    }
-
-    public virtual void Hit(GameObject obj, float value, float knockback)
-    {
-        Radar = Mathf.Infinity;
-        HP -= value;
         StartCoroutine(Tint());
         if (HP <= 0)
         {
@@ -122,7 +97,7 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
             animator.SetInteger("y", Mathf.RoundToInt(dir.y));
             StartCoroutine(PushBack(transform.position - obj.transform.position, knockback));
         }
-        animator.SetTrigger("hurt");
+        animator.SetBool("hurt", true);
 
     }
 

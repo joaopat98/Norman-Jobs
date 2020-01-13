@@ -18,9 +18,7 @@ public class Weapon : MonoBehaviour
     public AudioClip weaponSound;
     public float weaponSoundVolume;
 
-    /* public GameObject Bullet;
-     public float BulletSpeed = 1;
-     public float ShootInterval;*/
+ 
     public bool Held;
     public float Damage;
     public int Ammo;
@@ -35,6 +33,8 @@ public class Weapon : MonoBehaviour
     private bool enter;
     private float originalAmmo;
 
+    public float BreakSoundVolume = 0.8f;
+    public AudioClip BreakSound;
     protected void Start()
     {
         Held = false;
