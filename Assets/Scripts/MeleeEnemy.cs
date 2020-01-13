@@ -29,6 +29,8 @@ public class MeleeEnemy : Enemy
     new void FixedUpdate()
     {
         base.FixedUpdate();
+        if (punching)
+            rb.velocity = Vector2.zero;
         timeBtwPunches -= Time.deltaTime;
     }
 
