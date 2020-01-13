@@ -225,8 +225,8 @@ MonoBehaviour:
   HitDistance: 1
   attackSoundVolume: 0
   attackSound: {fileID: 8300000, guid: 0015e4838a8798141a921a8614c1cedf, type: 3}
-  deathSoundVolume: 0.1
-  deathSound: {fileID: 8300000, guid: 03d45daf42be2e2498b01dd6b0232880, type: 3}
+  deathSoundVolume: 0.5
+  deathSound: {fileID: 8300000, guid: 80d4c9503a3827f4b8f3e908a93ae3dc, type: 3}
   SpriteFlipped: 1
   timeBetweenActions: 3.5
   SpecialProbability: 0.2
@@ -237,6 +237,10 @@ MonoBehaviour:
   PunchSpeed: 8
   PunchDamage: 1
   PunchSound: {fileID: 8300000, guid: 41f77a10fc601da46a00a0940363fb74, type: 3}
+  ShockwaveSound: {fileID: 8300000, guid: a34194ca69e4de7428e41cbad891976e, type: 3}
+  HurtSound: {fileID: 8300000, guid: c0425c96f3995404a9c5678c32d3dbdf, type: 3}
+  SlideSound: {fileID: 8300000, guid: 87966f6a588cec5429f1b71486edadc5, type: 3}
+  ClapSound: {fileID: 8300000, guid: 2e37a5ab5d6d16148adb6ea95e4b053b, type: 3}
   PunchSoundVolume: 1
   SeekDuration: 0.5
   SeekDamage: 2
