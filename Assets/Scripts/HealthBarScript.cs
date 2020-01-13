@@ -21,6 +21,13 @@ public class HealthBarScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        healthBar.fillAmount = enemy.HP / maxHP;
+        try
+        {
+            healthBar.fillAmount = enemy.HP / maxHP;
+        }
+        catch (System.Exception e)
+        {
+
+        }
     }
 }

@@ -121,7 +121,7 @@ public class Boss2 : Boss
     {
         Vector2 S = spr.sprite.bounds.size;
         gameObject.GetComponent<BoxCollider2D>().size = S;
-        if ( !hurting && isAlive())
+        if (!hurting && isAlive())
         {
             if (!acting)
             {
@@ -180,7 +180,7 @@ public class Boss2 : Boss
         AudioSource.PlayClipAtPoint(LeapAttackSound, Camera.main.transform.position, SlashSoundVolume);
         foreach (var enemy in GameObject.FindGameObjectsWithTag("Enemy").Select(e => e.GetComponent<Enemy>()))
         {
-            if (Vector3.Distance(transform.position, enemy.transform.position) < SeekRadius)
+            if (enemy && Vector3.Distance(transform.position, enemy.transform.position) < SeekRadius)
             {
                 enemy.Hit(gameObject, 1, 2);
             }
@@ -188,7 +188,7 @@ public class Boss2 : Boss
         if (Vector3.Distance(transform.position, player.transform.position) < SeekRadius)
         {
             player.GetComponent<IHealthSystem>().Hit(gameObject, SeekDamage, 2);
-            
+
         }
         Instantiate(ExplosionPrefab, transform.position, Quaternion.identity);
 
@@ -231,7 +231,7 @@ public class Boss2 : Boss
             else
                 enemy.WeaponDrop = null;
         }
-       
+
     }
 
     public void Twist()
