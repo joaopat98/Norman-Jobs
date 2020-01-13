@@ -36,6 +36,8 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
     public float deathSoundVolume;
     public AudioClip loseSound;
     public float loseSoundVolume;
+    public AudioClip HurtSound;
+    public float hurtSoundVolume;
 
     [Header("Invulnerability Stuff")]
     public Color flashingColor;
@@ -101,6 +103,7 @@ public class PlayerHealth : MonoBehaviour, IHealthSystem
 
 
         HP = (int)Mathf.Round(Mathf.Max(HP - value, 0));
+        AudioSource.PlayClipAtPoint(HurtSound, Camera.main.transform.position, hurtSoundVolume);
 
         if (HP == 0)
         {
