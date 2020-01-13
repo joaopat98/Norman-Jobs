@@ -98,11 +98,9 @@ public class Weapon : MonoBehaviour
 
     protected void Die()
     {
-
         GameObject explosion = Instantiate(destroyVFX, transform.position, transform.rotation);
         Destroy(explosion, 0.3f);
         AudioSource.PlayClipAtPoint(destroyWeaponAudio, Camera.main.transform.position, 3.0f);
-
 
     }
 

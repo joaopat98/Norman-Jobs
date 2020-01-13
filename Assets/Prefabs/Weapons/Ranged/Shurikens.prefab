@@ -99,6 +99,9 @@ MonoBehaviour:
   Held: 0
   Damage: 1
   Ammo: 10
+  destroyVFX: {fileID: 3125954096113585550, guid: 4d64ec772fcab804f96f2db162a2c340,
+    type: 3}
+  destroyWeaponAudio: {fileID: 8300000, guid: f15c6d0f47db6fc4ea14bacce67c7bd6, type: 3}
   BreakSoundVolume: 0.8
   BreakSound: {fileID: 8300000, guid: 79bd6e83883698f46ab6933bf1cf2f34, type: 3}
   Bullet: {fileID: 627809046778125993, guid: 2f2484ae71deb8d499b32df8ca35a8e9, type: 3}

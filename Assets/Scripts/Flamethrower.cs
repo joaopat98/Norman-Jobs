@@ -30,6 +30,7 @@ public class Flamethrower : RangedWeapon
                 {
                     mouse.SetWeapon(null);
                     Destroy(gameObject);
+                    Die();
                 }
             }
         }

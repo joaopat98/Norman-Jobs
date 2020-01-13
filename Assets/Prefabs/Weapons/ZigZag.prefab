@@ -101,7 +101,9 @@ MonoBehaviour:
   Ammo: 10
   destroyVFX: {fileID: 3125954096113585550, guid: 4d64ec772fcab804f96f2db162a2c340,
     type: 3}
-  destroyWeaponAudio: {fileID: 8300000, guid: ce62dff9c467bd540a4de36502b87504, type: 3}
+  destroyWeaponAudio: {fileID: 8300000, guid: f15c6d0f47db6fc4ea14bacce67c7bd6, type: 3}
+  BreakSoundVolume: 0.8
+  BreakSound: {fileID: 0}
   Bullet: {fileID: 8626814864672146064, guid: d64e63e619e50264b88b7825c90cf2d1, type: 3}
   BulletSpeed: 15
   ShootInterval: 0.5
