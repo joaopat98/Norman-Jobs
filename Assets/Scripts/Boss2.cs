@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class Boss2 : Enemy, IBoss
+public class Boss2 : Boss
 {
     private float t;
     [Header("Boss Settings")]
@@ -15,8 +15,6 @@ public class Boss2 : Enemy, IBoss
 
     private bool wasWalking = false;
     private Vector2 walkDirection;
-
-    private bool acting;
     public float MoveFrequency = 0.5f;
 
     public GameObject SlashPrefab;
@@ -113,7 +111,7 @@ public class Boss2 : Enemy, IBoss
     {
         Vector2 S = spr.sprite.bounds.size;
         gameObject.GetComponent<BoxCollider2D>().size = S;
-        if (!hurting && isAlive())
+        if (isAwake && !hurting && isAlive())
         {
             if (!acting)
             {
@@ -129,11 +127,6 @@ public class Boss2 : Enemy, IBoss
             }
         }
         t += Time.fixedDeltaTime;
-    }
-
-    public void FinishAction()
-    {
-        acting = false;
     }
 
     public void ThrowSlash()
