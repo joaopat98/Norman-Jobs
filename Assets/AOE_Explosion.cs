@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AOEExplosion : MonoBehaviour
+public class AOE_Explosion : MonoBehaviour
 {
     public float MaxRadius = 1;
     public float ExplosionTime = 1;

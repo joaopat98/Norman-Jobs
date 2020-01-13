@@ -133,7 +133,7 @@ MonoBehaviour:
   SpecialProbability: 0.2
   NoiseScale: 1
   MoveFrequency: 0.5
-  SlashPrefab: {fileID: 627809046778125993, guid: b65e785a77f6bcd4d8dfa4d2f60205b4,
+  SlashPrefab: {fileID: 8574387561056827635, guid: 5abcb7c16846b0f4b85933facc3c9f99,
     type: 3}
   SlashSpeed: 8
   SlashDamage: 2
@@ -142,7 +142,7 @@ MonoBehaviour:
   SeekDuration: 0.25
   SeekDamage: 2
   SeekRange: 6
-  SeekRadius: 3
+  SeekRadius: 2.5
   PlayerTriggerPrefab: {fileID: 2926048434759540211, guid: d3e79b1040e09af46b6d28f0d2d2b9b6,
     type: 3}
   PistolPrefab: {fileID: 7413762460416964832, guid: 976fdb6675407444597b352d6310cf28,

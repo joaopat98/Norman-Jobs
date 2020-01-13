@@ -68,14 +68,16 @@ public class Boss2 : Enemy, IBoss
         }
         else
         {
+            var x = player.transform.position.x - transform.position.x;
             switch (Random.Range(0, 3))
             {
                 case 0:
-                    var x = player.transform.position.x - transform.position.x;
+
                     LookToSide(x);
                     animator.SetTrigger("seek");
                     break;
                 case 1:
+                    LookToSide(x);
                     animator.SetTrigger("slash");
                     break;
                 case 2:
@@ -137,6 +139,7 @@ public class Boss2 : Enemy, IBoss
     public void ThrowSlash()
     {
         var direction = (player.transform.position - transform.position).normalized;
+        LookToSide(direction.x);
         GameObject shot = Instantiate(SlashPrefab, transform.position, Quaternion.identity);
         shot.GetComponent<IDamaging>().setDamage(SlashDamage);
         shot.GetComponent<Rigidbody2D>().velocity = SlashSpeed * direction;
@@ -157,7 +160,7 @@ public class Boss2 : Enemy, IBoss
         Vector2 endPos;
         if (dir.magnitude > SeekRange)
             endPos = transform.position + dir.normalized * SeekRange;
-            else
+        else
             endPos = player.transform.position;
         float t = 0;
         while (t < SeekDuration)
