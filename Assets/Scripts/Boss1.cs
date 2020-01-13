@@ -23,6 +23,10 @@ public class Boss1 : Enemy
     public float PunchSpeed;
     public float PunchDamage;
     public AudioClip PunchSound;
+    public AudioClip ShockwaveSound;
+    public AudioClip HurtSound;
+    public AudioClip SlideSound;
+    public AudioClip ClapSound;
     public float PunchSoundVolume = 1;
     public float SeekDuration;
     public float SeekDamage;
@@ -163,6 +167,7 @@ public class Boss1 : Enemy
     {
         var playerTrigger = Instantiate(PlayerTriggerPrefab, rb.position, Quaternion.identity, transform).GetComponent<PlayerTrigger>();
         playerTrigger.Damage = SeekDamage;
+        AudioSource.PlayClipAtPoint(SlideSound, Camera.main.transform.position, PunchSoundVolume);
         var dir = (player.transform.position - transform.position).normalized;
         var startPos = transform.position;
         var endPos = transform.position + dir * SeekRange;
@@ -185,7 +190,9 @@ public class Boss1 : Enemy
         else
         {
             base.Hit(obj, value, SelfKnockBack);
+            
         }
+        AudioSource.PlayClipAtPoint(HurtSound, Camera.main.transform.position, PunchSoundVolume);
     }
 
     public void SpawnEnemy()
@@ -212,6 +219,7 @@ public class Boss1 : Enemy
             else
                 enemy.WeaponDrop = null;
         }
+        AudioSource.PlayClipAtPoint(ClapSound, Camera.main.transform.position, PunchSoundVolume);
     }
 
     public void Special()
@@ -229,5 +237,6 @@ public class Boss1 : Enemy
             player.GetComponent<IHealthSystem>().Hit(gameObject, SpecialDamage, 2);
         }
         Instantiate(ExplosionPrefab, transform.position, Quaternion.identity);
+        AudioSource.PlayClipAtPoint(ShockwaveSound, Camera.main.transform.position, PunchSoundVolume);
     }
 }
