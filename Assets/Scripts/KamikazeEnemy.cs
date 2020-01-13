@@ -92,10 +92,10 @@ public class KamikazeEnemy : Enemy
     private IEnumerator ExplosionTimerColor()
     {
         int temp = 0;
-        float yellowTime = 1.0f;
+        float yellowTime = 0.6f;
         float deltaTime = 0.2f;
         
-        while (temp < 4 && isAlive())
+        while (temp < 3 && isAlive())
         {
 
 
@@ -135,10 +135,10 @@ public class KamikazeEnemy : Enemy
 
         int i = 0;
 
-        while (i < 5 && isAlive())
+        while (i < 3 && isAlive())
         {
 
-            yield return new WaitForSeconds(0.9f);
+            yield return new WaitForSeconds(0.4f);
 
             AudioSource.PlayClipAtPoint(BeepSound, this.transform.position, ExplosionSoundVolume);
 

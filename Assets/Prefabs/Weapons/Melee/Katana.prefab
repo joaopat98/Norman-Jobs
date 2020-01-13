@@ -99,7 +99,7 @@ MonoBehaviour:
   weaponSound: {fileID: 8300000, guid: 7ba40f4392493e84889d9934a912efea, type: 3}
   weaponSoundVolume: 0.3
   Held: 0
-  Damage: 1
+  Damage: 0.6
   Ammo: 15
   destroyVFX: {fileID: 3125954096113585550, guid: 4d64ec772fcab804f96f2db162a2c340,
     type: 3}
