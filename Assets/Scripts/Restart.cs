@@ -27,7 +27,7 @@ public class Restart : MonoBehaviour
     {
         if(boss == null && justOne)
         {
-
+            Debug.Log("ENTRE");
             StartCoroutine(WinSound());
             justOne = false;
         }
