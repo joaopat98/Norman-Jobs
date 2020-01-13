@@ -20,6 +20,7 @@ public class MeleeWeapon : Weapon
     public float AttackTime;
 
     private bool attacking;
+    public float WeaponAngle = 0;
 
     void OnTriggerEnter2D(Collider2D col)
     {
@@ -52,7 +53,7 @@ public class MeleeWeapon : Weapon
         if (timeBtwAttacks <= 0 && Input.GetButtonDown("Fire1") && Held)
         {
             timeBtwAttacks = startTimeBtwAttacks;
-            
+
             attacking = true;
             StartCoroutine(Swipe(direction));
         }
@@ -69,7 +70,7 @@ public class MeleeWeapon : Weapon
         while (t < AttackTime)
         {
             float curAngle = MathfMap.Map(t, 0, AttackTime, startAngle, endAngle);
-            rb.rotation = oldRotation + Mathf.Rad2Deg * curAngle - 45;
+            rb.rotation = oldRotation + Mathf.Rad2Deg * curAngle - 45 + WeaponAngle;
             rb.MovePosition(thePlayer.transform.position + new Vector3(Mathf.Cos(curAngle), Mathf.Sin(curAngle)) * AttackRadius);
             yield return new WaitForFixedUpdate();
             t += Time.fixedDeltaTime;
@@ -79,7 +80,7 @@ public class MeleeWeapon : Weapon
         attacking = false;
         if (Ammo == 0)
         {
-            
+
             mouse.SetWeapon(null);
             Destroy(gameObject);
             Die();
