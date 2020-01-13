@@ -114,7 +114,7 @@ GameObject:
   - component: {fileID: 3517259518458686704}
   - component: {fileID: 8138094447025805892}
   m_Layer: 11
-  m_Name: Boss1
+  m_Name: Abobo
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
