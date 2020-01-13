@@ -261,6 +261,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2372666392908188959}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1378704866 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1559106736796515053, guid: acdee9bd5d127c24fa01ebc91728e654,
+    type: 3}
+  m_PrefabInstance: {fileID: 4710111559218979396}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1532730626 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5279567504363881024, guid: e5894f1841f71064798cf506221197ad,
@@ -947,6 +953,11 @@ PrefabInstance:
       propertyPath: door
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1559106737427195353, guid: acdee9bd5d127c24fa01ebc91728e654,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acdee9bd5d127c24fa01ebc91728e654, type: 3}
 --- !u!1001 &4924847371424530100
@@ -1119,6 +1130,11 @@ PrefabInstance:
       propertyPath: boss
       value: 
       objectReference: {fileID: 6859602701184505666}
+    - target: {fileID: 2009618849644748277, guid: f9aed396b76893c4595d566008032589,
+        type: 3}
+      propertyPath: door
+      value: 
+      objectReference: {fileID: 1378704866}
     - target: {fileID: 8540314113518028908, guid: 9437fe437acc3b648a480a2edd747213,
         type: 3}
       propertyPath: m_LocalPosition.x

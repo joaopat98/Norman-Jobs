@@ -25,9 +25,8 @@ public class Restart : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(boss == null && justOne)
+        if(!boss.GetComponent<Boss>().isAlive() && justOne)
         {
-            Debug.Log("ENTRE");
             StartCoroutine(WinSound());
             justOne = false;
         }
