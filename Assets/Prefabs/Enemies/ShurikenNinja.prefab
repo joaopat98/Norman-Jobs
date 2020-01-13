@@ -146,7 +146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   stopDistance: 3
-  WeaponDrop: {fileID: 8089078792288296628, guid: bbbdd9182f07d3c48b3ed4fd2d7a7d15,
+  WeaponDrop: {fileID: 7413762460416964832, guid: 0e77d8dad944efe44bc07cd5b49e38ca,
     type: 3}
   Radar: 5
   HP: 1.5
