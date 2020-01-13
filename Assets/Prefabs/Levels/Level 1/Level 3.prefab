@@ -1066,9 +1066,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boss: {fileID: 0}
-  panel: {fileID: 0}
+  panelLose: {fileID: 0}
+  panelWin: {fileID: 0}
   winSound: {fileID: 0}
+  regularSound: {fileID: 0}
   winSoundVolume: 0
+  startSoundVolume: 1
 --- !u!1 &1559106737436467627
 GameObject:
   m_ObjectHideFlags: 0
@@ -2005,7 +2008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db25560223ed21c4ebaa05390af7695a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  door: {fileID: 0}
+  door: {fileID: 1559106738367891239}
   doorBoss: 0
   bossAudioClip: {fileID: 0}
   audioSource: {fileID: 0}
@@ -2444,6 +2447,8 @@ MonoBehaviour:
   destroyVFX: {fileID: 3125954096113585550, guid: 4d64ec772fcab804f96f2db162a2c340,
     type: 3}
   destroyWeaponAudio: {fileID: 8300000, guid: ce62dff9c467bd540a4de36502b87504, type: 3}
+  BreakSoundVolume: 0.8
+  BreakSound: {fileID: 0}
   Bullet: {fileID: 8626814864672146064, guid: ce4cb70cd2f18f541bab023cac24d2d3, type: 3}
   BulletSpeed: 20
   ShootInterval: 1
@@ -2551,6 +2556,8 @@ MonoBehaviour:
   destroyVFX: {fileID: 3125954096113585550, guid: 4d64ec772fcab804f96f2db162a2c340,
     type: 3}
   destroyWeaponAudio: {fileID: 8300000, guid: ce62dff9c467bd540a4de36502b87504, type: 3}
+  BreakSoundVolume: 0.8
+  BreakSound: {fileID: 0}
   timeBtwAttacks: 0
   startTimeBtwAttacks: 0.2
   AttackDistance: 0
@@ -2745,6 +2752,8 @@ MonoBehaviour:
   destroyVFX: {fileID: 3125954096113585550, guid: 4d64ec772fcab804f96f2db162a2c340,
     type: 3}
   destroyWeaponAudio: {fileID: 8300000, guid: ce62dff9c467bd540a4de36502b87504, type: 3}
+  BreakSoundVolume: 0.8
+  BreakSound: {fileID: 0}
   Bullet: {fileID: 8626814864672146064, guid: ce4cb70cd2f18f541bab023cac24d2d3, type: 3}
   BulletSpeed: 15
   ShootInterval: 0.5
@@ -3012,6 +3021,7 @@ MonoBehaviour:
   attackSound: {fileID: 8300000, guid: c771d7baf98c0d34d9463a74d08570ff, type: 3}
   deathSoundVolume: 0.3
   deathSound: {fileID: 8300000, guid: 99f4486cc0eed814cb8746476aec9e83, type: 3}
+  SpriteFlipped: 0
   startTimeBtwPunches: 2
   punchDuration: 0.5
   AttackRange: 1.2
@@ -3194,6 +3204,7 @@ MonoBehaviour:
   attackSound: {fileID: 8300000, guid: c771d7baf98c0d34d9463a74d08570ff, type: 3}
   deathSoundVolume: 0.3
   deathSound: {fileID: 8300000, guid: 99f4486cc0eed814cb8746476aec9e83, type: 3}
+  SpriteFlipped: 0
   startTimeBtwPunches: 2
   punchDuration: 0.5
   AttackRange: 1.2
@@ -3376,6 +3387,7 @@ MonoBehaviour:
   attackSound: {fileID: 8300000, guid: c771d7baf98c0d34d9463a74d08570ff, type: 3}
   deathSoundVolume: 0.3
   deathSound: {fileID: 8300000, guid: 99f4486cc0eed814cb8746476aec9e83, type: 3}
+  SpriteFlipped: 0
   startTimeBtwPunches: 2
   punchDuration: 0.5
   AttackRange: 1.2
@@ -3558,6 +3570,7 @@ MonoBehaviour:
   attackSound: {fileID: 8300000, guid: c771d7baf98c0d34d9463a74d08570ff, type: 3}
   deathSoundVolume: 0.3
   deathSound: {fileID: 8300000, guid: 99f4486cc0eed814cb8746476aec9e83, type: 3}
+  SpriteFlipped: 0
   startTimeBtwPunches: 2
   punchDuration: 0.5
   AttackRange: 1.2
@@ -3740,6 +3753,7 @@ MonoBehaviour:
   attackSound: {fileID: 8300000, guid: c771d7baf98c0d34d9463a74d08570ff, type: 3}
   deathSoundVolume: 0.3
   deathSound: {fileID: 8300000, guid: 99f4486cc0eed814cb8746476aec9e83, type: 3}
+  SpriteFlipped: 0
   startTimeBtwPunches: 2
   punchDuration: 0.5
   AttackRange: 1.2

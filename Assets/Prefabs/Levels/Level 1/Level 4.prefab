@@ -497,7 +497,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db25560223ed21c4ebaa05390af7695a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  door: {fileID: 0}
+  door: {fileID: 2009618849644748272}
   doorBoss: 1
   bossAudioClip: {fileID: 8300000, guid: 8a0076878c025b0409ba94650fe744b0, type: 3}
   audioSource: {fileID: 0}
@@ -1233,6 +1233,7 @@ MonoBehaviour:
   attackSound: {fileID: 8300000, guid: 0015e4838a8798141a921a8614c1cedf, type: 3}
   deathSoundVolume: 5
   deathSound: {fileID: 8300000, guid: 03d45daf42be2e2498b01dd6b0232880, type: 3}
+  SpriteFlipped: 0
   retreatDistance: 2
   BulletSpeed: 8
   startTimeBtwShots: 0.5
