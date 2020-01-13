@@ -41,6 +41,7 @@ public class Punch : MonoBehaviour
 
     public float PunchAOERadius = 5;
     public float PunchAOEDamage = 0.5f;
+    public float PunchAOEKnockBack = 1;
     public AudioClip superPunchSound;
     public float superPunchVolume;
 
@@ -155,7 +156,7 @@ public class Punch : MonoBehaviour
         {
             if (Vector3.Distance(transform.position, enemy.transform.position) < PunchAOERadius)
             {
-                enemy.Hit(gameObject, PunchAOEDamage, 2);
+                enemy.Hit(gameObject, PunchAOEDamage, PunchAOEKnockBack);
             }
         }
     }
