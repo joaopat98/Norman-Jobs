@@ -241,7 +241,7 @@ public class Boss2 : Boss
 
     IEnumerator TwistRoutine()
     {
-        var playerTrigger = Instantiate(PlayerTriggerPrefab, rb.position, Quaternion.identity, transform).GetComponent<PlayerTrigger>();
+        var playerTrigger = Instantiate(PlayerTriggerPrefab, rb.position, Quaternion.identity, transform).GetComponent<PlayerTriggerMultiple>();
         playerTrigger.Damage = SeekDamage;
         twisting = true;
         animator.SetBool("twisting", true);

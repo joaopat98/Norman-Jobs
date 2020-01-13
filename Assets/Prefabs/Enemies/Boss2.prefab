@@ -216,7 +216,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8627117895708782676}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.8186814, y: -1.5940428, z: 2.260186}
+  m_LocalPosition: {x: 0.8186814, y: -1.5940428, z: 0}
   m_LocalScale: {x: 1.8, y: 1.8, z: 1}
   m_Children:
   - {fileID: 3735031542983378497}
@@ -318,7 +318,7 @@ MonoBehaviour:
   deathSound: {fileID: 8300000, guid: 3f0ff66581f590143a08c40b807e6557, type: 3}
   SpriteFlipped: 1
   timeBetweenActions: 3.5
-  SpecialProbability: 0.2
+  SpecialProbability: 0.1
   NoiseScale: 1
   MoveFrequency: 0.5
   SlashPrefab: {fileID: 8574387561056827635, guid: 5abcb7c16846b0f4b85933facc3c9f99,
