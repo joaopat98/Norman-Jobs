@@ -39,13 +39,15 @@ public class Boss2 : Boss
     private bool twisting;
     public float TwistSpeed;
     public float TwistDuration;
+    public float TwistFollow = 0.5f;
     private Vector2 lastDirection;
 
     void OnCollisionEnter2D(Collision2D col)
     {
         if (twisting)
         {
-            rb.velocity = Vector2.Reflect(lastDirection, col.contacts[0].normal);
+            var reflect = Vector2.Reflect(lastDirection, col.contacts[0].normal).normalized;
+            rb.velocity = Vector2.Lerp(reflect, (player.transform.position - transform.position).normalized, TwistFollow).normalized * TwistSpeed;
             lastDirection = rb.velocity;
         }
     }
