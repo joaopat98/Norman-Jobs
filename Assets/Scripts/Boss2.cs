@@ -34,7 +34,7 @@ public class Boss2 : Boss
     public float SeekRadius;
     public GameObject PlayerTriggerPrefab;
 
-    public GameObject PistolPrefab, BatPrefab;
+    public GameObject ShurikenPrefab, KatanaPrefab;
     public GameObject rangedEnemy;
     public GameObject meleeEnemy;
 
@@ -215,7 +215,7 @@ public class Boss2 : Boss
             var enemy = Instantiate(meleeEnemy, transform.position, Quaternion.identity).GetComponent<Enemy>();
             if (dropsWeapon)
             {
-                enemy.WeaponDrop = BatPrefab;
+                enemy.WeaponDrop = KatanaPrefab;
             }
             else
                 enemy.WeaponDrop = null;
@@ -226,7 +226,7 @@ public class Boss2 : Boss
             var enemy = Instantiate(rangedEnemy, transform.position, Quaternion.identity).GetComponent<Enemy>();
             if (dropsWeapon)
             {
-                enemy.WeaponDrop = PistolPrefab;
+                enemy.WeaponDrop = ShurikenPrefab;
             }
             else
                 enemy.WeaponDrop = null;
