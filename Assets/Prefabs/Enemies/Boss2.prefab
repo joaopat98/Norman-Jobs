@@ -273,7 +273,7 @@ GameObject:
   - component: {fileID: 301284855911885124}
   - component: {fileID: 4904949784056373232}
   m_Layer: 11
-  m_Name: Boss2 1
+  m_Name: Boss2
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -380,14 +380,14 @@ MonoBehaviour:
   stopDistance: 0
   WeaponDrop: {fileID: 0}
   Radar: Infinity
-  HP: -0.5
+  HP: 20
   Damage: 1
   HitTime: 0.25
   HitDistance: 1
   attackSoundVolume: 0
   attackSound: {fileID: 0}
-  deathSoundVolume: 0.1
-  deathSound: {fileID: 0}
+  deathSoundVolume: 0.6
+  deathSound: {fileID: 8300000, guid: 3f0ff66581f590143a08c40b807e6557, type: 3}
   SpriteFlipped: 1
   timeBetweenActions: 3.5
   SpecialProbability: 0.2
@@ -397,7 +397,12 @@ MonoBehaviour:
     type: 3}
   SlashSpeed: 8
   SlashDamage: 2
-  SlashSound: {fileID: 0}
+  SlashSound: {fileID: 8300000, guid: 01aa6db8697a9864498441b02d304ae9, type: 3}
+  SpinSound: {fileID: 8300000, guid: 1a67b059f99f5e24b9c1af832ce61add, type: 3}
+  HurtSound: {fileID: 8300000, guid: 10975feabd8e31541b45876dc4145c40, type: 3}
+  LeapAttackSound: {fileID: 8300000, guid: 119b681a82910a24b8e0962cdbaa62de, type: 3}
+  LeapSound: {fileID: 8300000, guid: 1ba76efcf7280394fbc8b02d17a7efc5, type: 3}
+  EnemieSpawnSound: {fileID: 8300000, guid: 05f4a4f065b863b4398ba8a02c55e28a, type: 3}
   SlashSoundVolume: 1
   SeekDuration: 0.25
   SeekDamage: 2
@@ -425,7 +430,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8627117895708782676}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0

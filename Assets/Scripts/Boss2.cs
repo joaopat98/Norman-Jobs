@@ -21,6 +21,11 @@ public class Boss2 : Boss
     public float SlashSpeed;
     public float SlashDamage;
     public AudioClip SlashSound;
+    public AudioClip SpinSound;
+    public AudioClip HurtSound;
+    public AudioClip LeapAttackSound;
+    public AudioClip LeapSound;
+    public AudioClip EnemieSpawnSound;
     public float SlashSoundVolume = 1;
     public float SeekDuration;
     public float SeekDamage;
@@ -65,6 +70,7 @@ public class Boss2 : Boss
         if (Random.Range(0f, 1f) < SpecialProbability)
         {
             animator.SetTrigger("twist");
+            AudioSource.PlayClipAtPoint(SpinSound, Camera.main.transform.position, SlashSoundVolume);
         }
         else
         {
@@ -75,6 +81,7 @@ public class Boss2 : Boss
 
                     LookToSide(x);
                     animator.SetTrigger("seek");
+                    AudioSource.PlayClipAtPoint(LeapSound, Camera.main.transform.position, SlashSoundVolume);
                     break;
                 case 1:
                     LookToSide(x);
@@ -82,6 +89,7 @@ public class Boss2 : Boss
                     break;
                 case 2:
                     animator.SetTrigger("generate");
+                    AudioSource.PlayClipAtPoint(EnemieSpawnSound, Camera.main.transform.position, SlashSoundVolume);
                     break;
             }
         }
@@ -113,7 +121,7 @@ public class Boss2 : Boss
     {
         Vector2 S = spr.sprite.bounds.size;
         gameObject.GetComponent<BoxCollider2D>().size = S;
-        if (isAwake && !hurting && isAlive())
+        if ( !hurting && isAlive())
         {
             if (!acting)
             {
@@ -169,6 +177,7 @@ public class Boss2 : Boss
     public void SeekHit()
     {
         Instantiate(ExplosionPrefab, transform.position, Quaternion.identity);
+        AudioSource.PlayClipAtPoint(LeapAttackSound, Camera.main.transform.position, SlashSoundVolume);
         foreach (var enemy in GameObject.FindGameObjectsWithTag("Enemy").Select(e => e.GetComponent<Enemy>()))
         {
             if (Vector3.Distance(transform.position, enemy.transform.position) < SeekRadius)
@@ -179,8 +188,10 @@ public class Boss2 : Boss
         if (Vector3.Distance(transform.position, player.transform.position) < SeekRadius)
         {
             player.GetComponent<IHealthSystem>().Hit(gameObject, SeekDamage, 2);
+            
         }
         Instantiate(ExplosionPrefab, transform.position, Quaternion.identity);
+
     }
 
     override public void Hit(GameObject obj, float value, float knockback)
@@ -193,6 +204,7 @@ public class Boss2 : Boss
         {
             base.Hit(obj, value, SelfKnockBack);
         }
+        AudioSource.PlayClipAtPoint(HurtSound, Camera.main.transform.position, SlashSoundVolume);
     }
 
     public void SpawnEnemy()
@@ -219,6 +231,7 @@ public class Boss2 : Boss
             else
                 enemy.WeaponDrop = null;
         }
+       
     }
 
     public void Twist()

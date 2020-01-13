@@ -1,7 +1,7 @@
 public abstract class Boss : Enemy
 {
     protected bool acting;
-    protected bool isAwake;
+    protected bool isAwake = true;
     public virtual void FinishAction()
     {
         acting = false;
