@@ -21,6 +21,7 @@ public class ClosedDoor : MonoBehaviour
             switchSong();
            
             doorBoss = false;
+            boss.GetComponent<Boss>().WakeUp();
         }
     }
 
