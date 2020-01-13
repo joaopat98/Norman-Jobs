@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class Boss1 : Enemy, IBoss
+public class Boss2 : Enemy, IBoss
 {
     private float t;
     [Header("Boss Settings")]
@@ -19,19 +19,16 @@ public class Boss1 : Enemy, IBoss
     private bool acting;
     public float MoveFrequency = 0.5f;
 
-    public GameObject PunchPrefab;
-    public float PunchSpeed;
-    public float PunchDamage;
-    public AudioClip PunchSound;
-    public AudioClip ShockwaveSound;
-    public AudioClip HurtSound;
-    public AudioClip SlideSound;
-    public AudioClip ClapSound;
-    public float PunchSoundVolume = 1;
+    public GameObject SlashPrefab;
+    public float SlashSpeed;
+    public float SlashDamage;
+    public AudioClip SlashSound;
+    public float SlashSoundVolume = 1;
     public float SeekDuration;
     public float SeekDamage;
 
     public float SeekRange;
+    public float SeekRadius;
     public GameObject PlayerTriggerPrefab;
 
     public GameObject PistolPrefab, BatPrefab;
@@ -39,9 +36,21 @@ public class Boss1 : Enemy, IBoss
     public GameObject meleeEnemy;
 
     public GameObject ExplosionPrefab;
-    public float SelfKnockBack = 1;
-    public float SpecialRadius;
-    public float SpecialDamage;
+    public float SelfKnockBack = 0.5f;
+
+    private bool twisting;
+    public float TwistSpeed;
+    public float TwistDuration;
+    private Vector2 lastDirection;
+
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if (twisting)
+        {
+            rb.velocity = Vector2.Reflect(lastDirection, col.contacts[0].normal);
+            lastDirection = rb.velocity;
+        }
+    }
 
     new void Start()
     {
@@ -55,19 +64,21 @@ public class Boss1 : Enemy, IBoss
         animator.SetTrigger("action");
         if (Random.Range(0f, 1f) < SpecialProbability)
         {
-            animator.SetTrigger("special");
+            animator.SetTrigger("twist");
         }
         else
         {
+            var x = player.transform.position.x - transform.position.x;
             switch (Random.Range(0, 3))
             {
                 case 0:
-                    var x = player.transform.position.x - transform.position.x;
+
                     LookToSide(x);
                     animator.SetTrigger("seek");
                     break;
                 case 1:
-                    animator.SetTrigger("throw");
+                    LookToSide(x);
+                    animator.SetTrigger("slash");
                     break;
                 case 2:
                     animator.SetTrigger("generate");
@@ -118,7 +129,6 @@ public class Boss1 : Enemy, IBoss
             }
         }
         t += Time.fixedDeltaTime;
-        Debug.DrawRay(transform.position, Vector3.down * SpecialRadius, Color.green, Time.fixedDeltaTime);
     }
 
     public void FinishAction()
@@ -126,14 +136,15 @@ public class Boss1 : Enemy, IBoss
         acting = false;
     }
 
-    public void ThrowPunches()
+    public void ThrowSlash()
     {
         var direction = (player.transform.position - transform.position).normalized;
-        GameObject shot = Instantiate(PunchPrefab, transform.position, Quaternion.identity);
-        shot.GetComponent<IDamaging>().setDamage(PunchDamage);
-        shot.GetComponent<Rigidbody2D>().velocity = PunchSpeed * direction;
+        LookToSide(direction.x);
+        GameObject shot = Instantiate(SlashPrefab, transform.position, Quaternion.identity);
+        shot.GetComponent<IDamaging>().setDamage(SlashDamage);
+        shot.GetComponent<Rigidbody2D>().velocity = SlashSpeed * direction;
         shot.GetComponent<Rigidbody2D>().SetRotation(Mathf.Rad2Deg * Mathf.Atan2(direction.y, direction.x));
-        AudioSource.PlayClipAtPoint(PunchSound, Camera.main.transform.position, PunchSoundVolume);
+        AudioSource.PlayClipAtPoint(SlashSound, Camera.main.transform.position, SlashSoundVolume);
     }
 
     public void Seek()
@@ -143,12 +154,14 @@ public class Boss1 : Enemy, IBoss
 
     IEnumerator SeekRoutine()
     {
-        var playerTrigger = Instantiate(PlayerTriggerPrefab, rb.position, Quaternion.identity, transform).GetComponent<PlayerTrigger>();
-        playerTrigger.Damage = SeekDamage;
-        AudioSource.PlayClipAtPoint(SlideSound, Camera.main.transform.position, PunchSoundVolume);
-        var dir = (player.transform.position - transform.position).normalized;
+        var dir = (player.transform.position - transform.position);
+        LookToSide(dir.x);
         var startPos = transform.position;
-        var endPos = transform.position + dir * SeekRange;
+        Vector2 endPos;
+        if (dir.magnitude > SeekRange)
+            endPos = transform.position + dir.normalized * SeekRange;
+        else
+            endPos = player.transform.position;
         float t = 0;
         while (t < SeekDuration)
         {
@@ -156,7 +169,23 @@ public class Boss1 : Enemy, IBoss
             yield return new WaitForFixedUpdate();
             t += Time.fixedDeltaTime;
         }
-        Destroy(playerTrigger.gameObject);
+    }
+
+    public void SeekHit()
+    {
+        Instantiate(ExplosionPrefab, transform.position, Quaternion.identity);
+        foreach (var enemy in GameObject.FindGameObjectsWithTag("Enemy").Select(e => e.GetComponent<Enemy>()))
+        {
+            if (Vector3.Distance(transform.position, enemy.transform.position) < SeekRadius)
+            {
+                enemy.Hit(gameObject, 1, 2);
+            }
+        }
+        if (Vector3.Distance(transform.position, player.transform.position) < SeekRadius)
+        {
+            player.GetComponent<IHealthSystem>().Hit(gameObject, SeekDamage, 2);
+        }
+        Instantiate(ExplosionPrefab, transform.position, Quaternion.identity);
     }
 
     override public void Hit(GameObject obj, float value, float knockback)
@@ -168,9 +197,7 @@ public class Boss1 : Enemy, IBoss
         else
         {
             base.Hit(obj, value, SelfKnockBack);
-            
         }
-        AudioSource.PlayClipAtPoint(HurtSound, Camera.main.transform.position, PunchSoundVolume);
     }
 
     public void SpawnEnemy()
@@ -197,24 +224,27 @@ public class Boss1 : Enemy, IBoss
             else
                 enemy.WeaponDrop = null;
         }
-        AudioSource.PlayClipAtPoint(ClapSound, Camera.main.transform.position, PunchSoundVolume);
     }
 
-    public void Special()
+    public void Twist()
     {
-        Instantiate(ExplosionPrefab, transform.position, Quaternion.identity);
-        foreach (var enemy in GameObject.FindGameObjectsWithTag("Enemy").Select(e => e.GetComponent<Enemy>()))
-        {
-            if (Vector3.Distance(transform.position, enemy.transform.position) < SpecialRadius)
-            {
-                enemy.Hit(gameObject, 1, 2);
-            }
-        }
-        if (Vector3.Distance(transform.position, player.transform.position) < SpecialRadius)
-        {
-            player.GetComponent<IHealthSystem>().Hit(gameObject, SpecialDamage, 2);
-        }
-        Instantiate(ExplosionPrefab, transform.position, Quaternion.identity);
-        AudioSource.PlayClipAtPoint(ShockwaveSound, Camera.main.transform.position, PunchSoundVolume);
+        StartCoroutine(TwistRoutine());
+    }
+
+    IEnumerator TwistRoutine()
+    {
+        var playerTrigger = Instantiate(PlayerTriggerPrefab, rb.position, Quaternion.identity, transform).GetComponent<PlayerTrigger>();
+        playerTrigger.Damage = SeekDamage;
+        twisting = true;
+        animator.SetBool("twisting", true);
+        Vector2 dir = (player.transform.position - transform.position).normalized;
+        twisting = true;
+        rb.velocity = dir * TwistSpeed;
+        lastDirection = rb.velocity;
+        yield return new WaitForSeconds(TwistDuration);
+        twisting = false;
+        rb.velocity = Vector2.zero;
+        animator.SetBool("twisting", false);
+        Destroy(playerTrigger.gameObject);
     }
 }

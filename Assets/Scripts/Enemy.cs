@@ -152,6 +152,22 @@ public abstract class Enemy : MonoBehaviour, IHealthSystem
         Destroy(gameObject);
     }
 
+    protected void LookToSide(float x)
+    {
+        if (SpriteFlipped ? x < 0 : x >= 0)
+        {
+            var scale = transform.localScale;
+            scale.x = -Mathf.Abs(scale.x);
+            transform.localScale = scale;
+        }
+        else
+        {
+            var scale = transform.localScale;
+            scale.x = Mathf.Abs(scale.x);
+            transform.localScale = scale;
+        }
+    }
+
     public bool isAlive()
     {
         return HP > 0;

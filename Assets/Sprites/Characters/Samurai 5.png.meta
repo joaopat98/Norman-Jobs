@@ -1,0 +1,4579 @@
+fileFormatVersion: 2
+guid: bdc611220ed02fe43ac66cb983a8eb81
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2260647666330372207
+    second: Samurai 5_0
+  - first:
+      213: -411186627898133840
+    second: Samurai 5_1
+  - first:
+      213: 2170216182523932509
+    second: Samurai 5_2
+  - first:
+      213: -8810608202691183337
+    second: Samurai 5_3
+  - first:
+      213: -8112416174439015683
+    second: Samurai 5_4
+  - first:
+      213: 5134128562360992684
+    second: Samurai 5_5
+  - first:
+      213: 7629259159176742684
+    second: Samurai 5_6
+  - first:
+      213: -3642049013553398378
+    second: Samurai 5_7
+  - first:
+      213: 5658149733225932350
+    second: Samurai 5_8
+  - first:
+      213: 5347313601877260971
+    second: Samurai 5_9
+  - first:
+      213: 434115687040140265
+    second: Samurai 5_10
+  - first:
+      213: -4024044225088288307
+    second: Samurai 5_11
+  - first:
+      213: 596344651670744998
+    second: Samurai 5_12
+  - first:
+      213: 2959601093305112089
+    second: Samurai 5_13
+  - first:
+      213: 5687095470835708609
+    second: Samurai 5_14
+  - first:
+      213: -5146051929447208340
+    second: Samurai 5_15
+  - first:
+      213: 145524260196658426
+    second: Samurai 5_16
+  - first:
+      213: -5724311980802026171
+    second: Samurai 5_17
+  - first:
+      213: 8056753021293161843
+    second: Samurai 5_18
+  - first:
+      213: 8972630946635613672
+    second: Samurai 5_19
+  - first:
+      213: 2346883724801858679
+    second: Samurai 5_20
+  - first:
+      213: 7672589881463502489
+    second: Samurai 5_21
+  - first:
+      213: 542867896654739687
+    second: Samurai 5_22
+  - first:
+      213: 2381355197593339966
+    second: Samurai 5_23
+  - first:
+      213: -5925196233533632129
+    second: Samurai 5_24
+  - first:
+      213: 8334372434486853261
+    second: Samurai 5_25
+  - first:
+      213: 6040129090788991885
+    second: Samurai 5_26
+  - first:
+      213: -2629726301071747776
+    second: Samurai 5_27
+  - first:
+      213: 4402382902805569659
+    second: Samurai 5_28
+  - first:
+      213: 5902185234986047744
+    second: Samurai 5_29
+  - first:
+      213: -7214439114855002513
+    second: Samurai 5_30
+  - first:
+      213: -8630332771213188532
+    second: Samurai 5_31
+  - first:
+      213: 7617946455428335960
+    second: Samurai 5_32
+  - first:
+      213: -2424991297474663298
+    second: Samurai 5_33
+  - first:
+      213: -4499341449875302050
+    second: Samurai 5_34
+  - first:
+      213: 8670796361853459804
+    second: Samurai 5_35
+  - first:
+      213: 5718843088066563337
+    second: Samurai 5_36
+  - first:
+      213: -1274687071041156959
+    second: Samurai 5_37
+  - first:
+      213: 1737592947217932935
+    second: Samurai 5_38
+  - first:
+      213: 4026697601033872315
+    second: Samurai 5_39
+  - first:
+      213: -611171764152190528
+    second: Samurai 5_40
+  - first:
+      213: -6425501159293982656
+    second: Samurai 5_41
+  - first:
+      213: 6075157713932877929
+    second: Samurai 5_42
+  - first:
+      213: -1883480297626212948
+    second: Samurai 5_43
+  - first:
+      213: 3764496550332361343
+    second: Samurai 5_44
+  - first:
+      213: 6604016240544417182
+    second: Samurai 5_45
+  - first:
+      213: 7369011141113527816
+    second: Samurai 5_46
+  - first:
+      213: 8377693319965697122
+    second: Samurai 5_47
+  - first:
+      213: -3206009493039279671
+    second: Samurai 5_48
+  - first:
+      213: -5593261499654624368
+    second: Samurai 5_49
+  - first:
+      213: -1792986697180371418
+    second: Samurai 5_50
+  - first:
+      213: -2083059764867771339
+    second: Samurai 5_51
+  - first:
+      213: -6699481162477452143
+    second: Samurai 5_52
+  - first:
+      213: -2721470984309218204
+    second: Samurai 5_53
+  - first:
+      213: -7541541377624687237
+    second: Samurai 5_54
+  - first:
+      213: -6744541278515867560
+    second: Samurai 5_55
+  - first:
+      213: 8818125160520017462
+    second: Samurai 5_56
+  - first:
+      213: 5753857682658267880
+    second: Samurai 5_57
+  - first:
+      213: 44458489821187714
+    second: Samurai 5_58
+  - first:
+      213: -8632982709882116295
+    second: Samurai 5_59
+  - first:
+      213: -5927716428660977835
+    second: Samurai 5_60
+  - first:
+      213: -6355408639983987009
+    second: Samurai 5_61
+  - first:
+      213: 1162284989864564579
+    second: Samurai 5_62
+  - first:
+      213: 1161273281054490089
+    second: Samurai 5_63
+  - first:
+      213: 4784301413255719172
+    second: Samurai 5_64
+  - first:
+      213: 6854383155836934746
+    second: Samurai 5_65
+  - first:
+      213: 8482840823113697172
+    second: Samurai 5_66
+  - first:
+      213: 413040868191645214
+    second: Samurai 5_67
+  - first:
+      213: 584899267239801076
+    second: Samurai 5_68
+  - first:
+      213: 6091317101971738000
+    second: Samurai 5_69
+  - first:
+      213: -5963188375882612264
+    second: Samurai 5_70
+  - first:
+      213: -3920404318728037480
+    second: Samurai 5_71
+  - first:
+      213: 614709691486493547
+    second: Samurai 5_72
+  - first:
+      213: 784266809816410425
+    second: Samurai 5_73
+  - first:
+      213: -723556542288031839
+    second: Samurai 5_74
+  - first:
+      213: -2995008206054905315
+    second: Samurai 5_75
+  - first:
+      213: -1917041288590987224
+    second: Samurai 5_76
+  - first:
+      213: 6797654179829779178
+    second: Samurai 5_77
+  - first:
+      213: 5244077742577562935
+    second: Samurai 5_78
+  - first:
+      213: 7453029513447033684
+    second: Samurai 5_79
+  - first:
+      213: 239793625815153174
+    second: Samurai 5_80
+  - first:
+      213: 3109216854162572928
+    second: Samurai 5_81
+  - first:
+      213: -3070537820000411998
+    second: Samurai 5_82
+  - first:
+      213: 8453953831579756735
+    second: Samurai 5_83
+  - first:
+      213: 5765338707481197640
+    second: Samurai 5_84
+  - first:
+      213: 8805471329234189276
+    second: Samurai 5_85
+  - first:
+      213: -9195550427060396204
+    second: Samurai 5_86
+  - first:
+      213: 6951557961779238499
+    second: Samurai 5_87
+  - first:
+      213: -7035975172732244088
+    second: Samurai 5_88
+  - first:
+      213: -5780479537661487426
+    second: Samurai 5_89
+  - first:
+      213: 7663350194633219476
+    second: Samurai 5_90
+  - first:
+      213: -1285929798604841537
+    second: Samurai 5_91
+  - first:
+      213: 4623530983439565893
+    second: Samurai 5_92
+  - first:
+      213: -8516294563643800396
+    second: Samurai 5_93
+  - first:
+      213: 3142869935688144362
+    second: Samurai 5_94
+  - first:
+      213: -9151357527397475656
+    second: Samurai 5_95
+  - first:
+      213: -7796689853347943649
+    second: Samurai 5_96
+  - first:
+      213: 5119740797507710886
+    second: Samurai 5_97
+  - first:
+      213: 7288562805602754910
+    second: Samurai 5_98
+  - first:
+      213: 6809561295179120953
+    second: Samurai 5_99
+  - first:
+      213: -3672046606416530143
+    second: Samurai 5_100
+  - first:
+      213: 8761807431162233219
+    second: Samurai 5_101
+  - first:
+      213: 586857616039375584
+    second: Samurai 5_102
+  - first:
+      213: 2861641877684161794
+    second: Samurai 5_103
+  - first:
+      213: 4725100017154647844
+    second: Samurai 5_104
+  - first:
+      213: 6697886216680699866
+    second: Samurai 5_105
+  - first:
+      213: -800491540134433206
+    second: Samurai 5_106
+  - first:
+      213: 5553327546509264236
+    second: Samurai 5_107
+  - first:
+      213: -4542493580059338074
+    second: Samurai 5_108
+  - first:
+      213: -5532654552773615550
+    second: Samurai 5_109
+  - first:
+      213: -3345849878023839651
+    second: Samurai 5_110
+  - first:
+      213: 6680552179222102413
+    second: Samurai 5_111
+  - first:
+      213: -9127153315998191637
+    second: Samurai 5_112
+  - first:
+      213: 7322305108049621141
+    second: Samurai 5_113
+  - first:
+      213: -1896796662791908767
+    second: Samurai 5_114
+  - first:
+      213: 2290307591482877014
+    second: Samurai 5_115
+  - first:
+      213: -1661649799848309390
+    second: Samurai 5_116
+  - first:
+      213: -8953832458833069404
+    second: Samurai 5_117
+  - first:
+      213: 6376612837632880045
+    second: Samurai 5_118
+  - first:
+      213: 1311905301950282417
+    second: Samurai 5_119
+  - first:
+      213: -2604732643995501200
+    second: Samurai 5_120
+  - first:
+      213: 3171428119623552107
+    second: Samurai 5_121
+  - first:
+      213: -881566663500809362
+    second: Samurai 5_122
+  - first:
+      213: -500612956250262356
+    second: Samurai 5_123
+  - first:
+      213: 5249894968891482069
+    second: Samurai 5_124
+  - first:
+      213: 2367006793691023233
+    second: Samurai 5_125
+  - first:
+      213: 8156429336674962069
+    second: Samurai 5_126
+  - first:
+      213: -5260374583350056233
+    second: Samurai 5_127
+  - first:
+      213: 6720775984566962929
+    second: Samurai 5_128
+  - first:
+      213: 2615242380748850994
+    second: Samurai 5_129
+  - first:
+      213: -902736288887092090
+    second: Samurai 5_130
+  - first:
+      213: -7391352491137982663
+    second: Samurai 5_131
+  - first:
+      213: -200462375259746485
+    second: Samurai 5_132
+  - first:
+      213: 2927621607139080076
+    second: Samurai 5_133
+  - first:
+      213: 8726318146651685725
+    second: Samurai 5_134
+  - first:
+      213: -3690936464898126057
+    second: Samurai 5_135
+  - first:
+      213: -8412825849110486732
+    second: Samurai 5_136
+  - first:
+      213: 8566271642448105768
+    second: Samurai 5_137
+  - first:
+      213: -8601359676711264214
+    second: Samurai 5_138
+  - first:
+      213: 5841092418747725082
+    second: Samurai 5_139
+  - first:
+      213: -2933124009905473236
+    second: Samurai 5_140
+  - first:
+      213: -4558875436520433369
+    second: Samurai 5_141
+  - first:
+      213: 1236907596771003112
+    second: Samurai 5_142
+  - first:
+      213: -3131370809949453174
+    second: Samurai 5_143
+  - first:
+      213: 7288838197571238141
+    second: Samurai 5_144
+  - first:
+      213: 5458052056426224509
+    second: Samurai 5_145
+  - first:
+      213: -3653253830635042722
+    second: Samurai 5_146
+  - first:
+      213: -6085623296076032247
+    second: Samurai 5_147
+  - first:
+      213: -6490758216716154613
+    second: Samurai 5_148
+  - first:
+      213: -3604905050166162054
+    second: Samurai 5_149
+  - first:
+      213: 1357336594213095521
+    second: Samurai 5_150
+  - first:
+      213: 2767323174164229034
+    second: Samurai 5_151
+  - first:
+      213: -7792021640584820589
+    second: Samurai 5_152
+  - first:
+      213: 5548962990106136109
+    second: Samurai 5_153
+  - first:
+      213: 1980844363605898139
+    second: Samurai 5_154
+  - first:
+      213: -438031149253105941
+    second: Samurai 5_155
+  - first:
+      213: -5631024229471150576
+    second: Samurai 5_156
+  - first:
+      213: 5668721575468317511
+    second: Samurai 5_157
+  - first:
+      213: -502215318606526925
+    second: Samurai 5_158
+  - first:
+      213: -4688860119178766164
+    second: Samurai 5_159
+  - first:
+      213: -4312250412613373456
+    second: Samurai 5_160
+  - first:
+      213: 1017526586721623196
+    second: Samurai 5_161
+  - first:
+      213: 2215119483826629490
+    second: Samurai 5_162
+  - first:
+      213: 1418109899031768338
+    second: Samurai 5_163
+  - first:
+      213: 7829994803328883667
+    second: Samurai 5_164
+  - first:
+      213: 9049248712136739513
+    second: Samurai 5_165
+  - first:
+      213: 4750393819149647302
+    second: Samurai 5_166
+  - first:
+      213: -525204587620568542
+    second: Samurai 5_167
+  - first:
+      213: -217117003453853838
+    second: Samurai 5_168
+  - first:
+      213: -1042869009064815193
+    second: Samurai 5_169
+  - first:
+      213: 1128778070391910963
+    second: Samurai 5_170
+  - first:
+      213: -4228866278213593803
+    second: Samurai 5_171
+  - first:
+      213: -6893791561058796772
+    second: Samurai 5_172
+  - first:
+      213: 8404078358794631801
+    second: Samurai 5_173
+  - first:
+      213: 1595847122961686478
+    second: Samurai 5_174
+  - first:
+      213: 8695235591121877440
+    second: Samurai 5_175
+  - first:
+      213: 7997662464328851081
+    second: Samurai 5_176
+  - first:
+      213: -6262399789779924288
+    second: Samurai 5_177
+  - first:
+      213: -5699912629117116588
+    second: Samurai 5_178
+  - first:
+      213: 5623781945307330650
+    second: Samurai 5_179
+  - first:
+      213: 9137603753939928540
+    second: Samurai 5_180
+  - first:
+      213: 6018448691616150085
+    second: Samurai 5_181
+  - first:
+      213: -86236776214278749
+    second: Samurai 5_182
+  - first:
+      213: 1538312312390845286
+    second: Samurai 5_183
+  - first:
+      213: 6159551359466702375
+    second: Samurai 5_184
+  - first:
+      213: 2990197415567851101
+    second: Samurai 5_185
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Samurai 5_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 3102
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa91bdddaf24c24e805ffc1d3bc22d9
+      internalID: -2260647666330372207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 3100
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8779d21b2f1df9442b3f251f806d617f
+      internalID: -411186627898133840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_2
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 3102
+        width: 58
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e96f50a042280446859862f2fd6ce63
+      internalID: 2170216182523932509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_3
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 3102
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec490537a80c3d4f934b3eba67ce6f6
+      internalID: -8810608202691183337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_4
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 3100
+        width: 38
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58d110a3a23fef46aee9dc97c19bb14
+      internalID: -8112416174439015683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_5
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 3100
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cafde46ea92e045b07ff8c08ca3609
+      internalID: 5134128562360992684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_6
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 2968
+        width: 89
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43888b97d5a9d674ab74f68d56b8d0ae
+      internalID: 7629259159176742684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_7
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 2971
+        width: 111
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7fdb992a8a22243869a2cb742ed6a0
+      internalID: -3642049013553398378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_8
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 2970
+        width: 118
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0778e63d42672c24cb7ec0cb67e5c642
+      internalID: 5658149733225932350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_9
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 2978
+        width: 131
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0af3456bd594c47902e7b0d5c58219
+      internalID: 5347313601877260971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_10
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2987
+        width: 132
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01489e262ce2a5141a47e85d76255154
+      internalID: 434115687040140265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_11
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 2988
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a496554ba261c46b75ea063e86d9d1
+      internalID: -4024044225088288307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_12
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 2976
+        width: 106
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8eb0fb0ced9b944a56954ab8041e51
+      internalID: 596344651670744998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_13
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 2979
+        width: 114
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69cdae445248fbb45983e28c91fba9d7
+      internalID: 2959601093305112089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_14
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 2855
+        width: 136
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ee08537cd9bea4d900346a5501000f
+      internalID: 5687095470835708609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_15
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 2857
+        width: 129
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e0d5ebf699e5d408be52dfbac33e97
+      internalID: -5146051929447208340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_16
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 2861
+        width: 112
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd032c27c29495c4595a69793c59e208
+      internalID: 145524260196658426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_17
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 2854
+        width: 95
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd84588896f1c4941bfe458651228d44
+      internalID: -5724311980802026171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_18
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 2859
+        width: 83
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc459488df29f0344a30c3d9dc317d8d
+      internalID: 8056753021293161843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_19
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 2819
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554b309689e04864f90ce62593d1ade4
+      internalID: 8972630946635613672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_20
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2817
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5a96dcf05becc4193de38b40cf4002
+      internalID: 2346883724801858679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_21
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 2819
+        width: 50
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f3249c96c9d9b4d8cf4983ebb48711
+      internalID: 7672589881463502489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_22
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 2690
+        width: 93
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d13aa6135a80c47acd76e1eae092f0
+      internalID: 542867896654739687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_23
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 2690
+        width: 100
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d105239bd95184393426ce397bbdd1
+      internalID: 2381355197593339966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_24
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 2793
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08976c325d0484742bb9d356854997ae
+      internalID: -5925196233533632129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_25
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 2793
+        width: 29
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbd984a91284e34fb16c7e0d19bf25c
+      internalID: 8334372434486853261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_26
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 2791
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549282236bf5f0141aa8d17a205c1e2c
+      internalID: 6040129090788991885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_27
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 2791
+        width: 38
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a36f26b724186149923572073dc5f78
+      internalID: -2629726301071747776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_28
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 2793
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8e2e3f75a60fe4e9656c87989cfd39
+      internalID: 4402382902805569659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_29
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 2791
+        width: 36
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b864988b84e91d44b49efaa5b5a3bf4
+      internalID: 5902185234986047744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_30
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 2791
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d8e2da7b43ecd49b52165a7db9948a
+      internalID: -7214439114855002513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_31
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 2690
+        width: 95
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44e274e76b86c24b9e1de1ffc6c7eb7
+      internalID: -8630332771213188532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_32
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 2681
+        width: 94
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16d980ca07daee4696caf38a6aeeaf4
+      internalID: 7617946455428335960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_33
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 2678
+        width: 99
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aedf3ddc2684396489e2da5360bb44e7
+      internalID: -2424991297474663298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_34
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 2678
+        width: 118
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5acf8709226ab2e42aa8328571ec2b80
+      internalID: -4499341449875302050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_35
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 2678
+        width: 121
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cecf5c65d295b1348b061ff6b9523486
+      internalID: 8670796361853459804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_36
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 2679
+        width: 125
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b61ccc24a29824b8b99f7ab7fbe5d3
+      internalID: 5718843088066563337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_37
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 2678
+        width: 132
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f51e37f3f5f15a44bb31c806038c5c8
+      internalID: -1274687071041156959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_38
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 2656
+        width: 40
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4020c3546bcfb41b5b5b7b38222505
+      internalID: 1737592947217932935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_39
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2656
+        width: 47
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927dcf77ed03b6e4bb9fe6d3e327c3ca
+      internalID: 4026697601033872315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_40
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 2533
+        width: 102
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c471fcf2c8ebe45969fb86019ef3d5
+      internalID: -611171764152190528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_41
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 2534
+        width: 99
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c2e964e5224764bbbdb67b491f1495
+      internalID: -6425501159293982656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_42
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 2523
+        width: 88
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9affc7117b220f40880de4efb5dfc5c
+      internalID: 6075157713932877929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_43
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 2523
+        width: 92
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbcf72cc449fbe43808477f1c62e15d
+      internalID: -1883480297626212948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_44
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 2523
+        width: 102
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eeb6f2e1e595c9429304206535853cc
+      internalID: 3764496550332361343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_45
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 2499
+        width: 40
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7182072fc082d4429f3e78d0fabc951
+      internalID: 6604016240544417182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_46
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 2499
+        width: 58
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272e86a96f803464f9d4084b6d21d14e
+      internalID: 7369011141113527816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_47
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 2349
+        width: 88
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9a11129e4811b4198d70284208d6bc
+      internalID: 8377693319965697122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_48
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 2349
+        width: 111
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae060454d24c3864e9b858d80aad30e5
+      internalID: -3206009493039279671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_49
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 2349
+        width: 94
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e4d334fae96b6428c2e43088aa92e1
+      internalID: -5593261499654624368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_50
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 2349
+        width: 79
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd956202ab395043a40a68e3f39415b
+      internalID: -1792986697180371418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_51
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 2349
+        width: 100
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33d9b2aa062066498c220cd32c66d73
+      internalID: -2083059764867771339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_52
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 2349
+        width: 98
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fb0a64bd138cc469af5659e0c41628
+      internalID: -6699481162477452143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_53
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 2349
+        width: 83
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48bcebcd5f57fe548aafef05adf7bb11
+      internalID: -2721470984309218204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_54
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 2349
+        width: 80
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b317eeb7887b374984c61f80784ff6b
+      internalID: -7541541377624687237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_55
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 2349
+        width: 78
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75e54043a838b04db670d07b3a4b0f8
+      internalID: -6744541278515867560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_56
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 2349
+        width: 80
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d91b526bdbca1409439bd84924fe59
+      internalID: 8818125160520017462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_57
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 2318
+        width: 40
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a0f4fe6eb630f4482ad532184eafb8
+      internalID: 5753857682658267880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_58
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 2318
+        width: 50
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f32607226d131840884cb1f59e3f024
+      internalID: 44458489821187714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_59
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 2176
+        width: 88
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c489e453b3b88474d91c467c6e043a3f
+      internalID: -8632982709882116295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_60
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 2176
+        width: 131
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d412339a6e3fd54b89ddcd40959ba27
+      internalID: -5927716428660977835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_61
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 2176
+        width: 111
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4e733a20ae713489e6a6d9dda4e849
+      internalID: -6355408639983987009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_62
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 2176
+        width: 77
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1b3104c8bf94a488b0517e8f7aa3bb
+      internalID: 1162284989864564579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_63
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 2176
+        width: 65
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d345f7ca799d56946948ca05f1f11c8a
+      internalID: 1161273281054490089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_64
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 2176
+        width: 100
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c07af38c4d93942955aaaab567e1df
+      internalID: 4784301413255719172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_65
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 2176
+        width: 91
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ea79a5534838c4a95202b75074ab72
+      internalID: 6854383155836934746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_66
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 2176
+        width: 83
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb53d48b0e68cb645b67954ed37274cc
+      internalID: 8482840823113697172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_67
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 2259
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5043852452e7ade46912946431fbb3e3
+      internalID: 413040868191645214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_68
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 2259
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c4acf3ac984404684b9f3318363acb
+      internalID: 584899267239801076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_69
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 2259
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a130debafe40d947b35b58ec4584aee
+      internalID: 6091317101971738000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_70
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 2257
+        width: 38
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c98c44bd67a2e48a2e2769ff6850ea
+      internalID: -5963188375882612264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_71
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 2245
+        width: 30
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920aee4fe6ee7a14a91ba75b6efa98ac
+      internalID: -3920404318728037480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_72
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 2245
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97431c5c66ad9a64a92c15c6c71e77c8
+      internalID: 614709691486493547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_73
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2245
+        width: 43
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d474dd1d3ab9f046b3ffbb893c80f7b
+      internalID: 784266809816410425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_74
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 2245
+        width: 61
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576b638b68ce0a5479309a07aa259414
+      internalID: -723556542288031839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_75
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 2146
+        width: 34
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db5e079d76907842ae9caf4db88489c
+      internalID: -2995008206054905315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_76
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 2146
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea46486a5db7044293c8055bf61d078
+      internalID: -1917041288590987224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_77
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 2146
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580041a07c135b448bedfe4acdbe80d1
+      internalID: 6797654179829779178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_78
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2146
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143779173bccb37498fb54dc40f7c277
+      internalID: 5244077742577562935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_79
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 2146
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e14983911732cf4a994661a03cd2dd1
+      internalID: 7453029513447033684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_80
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 2144
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88fff5d02e377d42af819e8ade38c8e
+      internalID: 239793625815153174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_81
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 2146
+        width: 50
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87a00c4989d6bb4d9b3b83eb71ca860
+      internalID: 3109216854162572928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_82
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 2146
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a783f28c0a4b684bba7ba09f2cad663
+      internalID: -3070537820000411998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_83
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 2144
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab7ecd4242d69f4c90ad9566baf0c3a
+      internalID: 8453953831579756735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_84
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1998
+        width: 139
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01183b1299e780f4ea193f196cd97987
+      internalID: 5765338707481197640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_85
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1998
+        width: 131
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0181a356a3f27745b8fba92eaa4f1c7
+      internalID: 8805471329234189276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_86
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1998
+        width: 94
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5183c3f07094fa94a9a5d4d49f8eea1d
+      internalID: -9195550427060396204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_87
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1998
+        width: 88
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6ea420aefdd6d4cb48b7009b5c8afe
+      internalID: 6951557961779238499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_88
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1998
+        width: 88
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3d27bb4d6a31641900f8077af80a9b
+      internalID: -7035975172732244088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_89
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 1998
+        width: 88
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c58ab61fa53d8b4c85e451e2ddae89e
+      internalID: -5780479537661487426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_90
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1969
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc4f8e29daf18843aa0d81237898d5e
+      internalID: 7663350194633219476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_91
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1971
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8c9c42650358640a540aef2fc2e166
+      internalID: -1285929798604841537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_92
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1969
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9712df8632404641b3ae340a79a6293
+      internalID: 4623530983439565893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_93
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1971
+        width: 36
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da54aa1400bc50240a5301fb17f06bd6
+      internalID: -8516294563643800396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_94
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1823
+        width: 93
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd89ea636b43cec4cb8c5349d137e47d
+      internalID: 3142869935688144362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_95
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1823
+        width: 85
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5f59230103a494eb788883199b30bd
+      internalID: -9151357527397475656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_96
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1823
+        width: 105
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acfb7f87ac7ed6a4baf8f9550e51cab5
+      internalID: -7796689853347943649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_97
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1823
+        width: 106
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6838efa22227bca4ba50da8ebd8d1ba3
+      internalID: 5119740797507710886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_98
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1789
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be77b60036693f4faf26a5f01223628
+      internalID: 7288562805602754910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_99
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1789
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f8b854a5b40d1469dcc8bce114f33e
+      internalID: 6809561295179120953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_100
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1789
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f556a079a2cf3478369017bf69e569
+      internalID: -3672046606416530143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_101
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1789
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5244041aad88ef145a6fbadeacf95779
+      internalID: 8761807431162233219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_102
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1674
+        width: 92
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648b36a62d1d488438addb202d1fc6f3
+      internalID: 586857616039375584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_103
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1716
+        width: 66
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d19a5bae5821344a97251700369d613
+      internalID: 2861641877684161794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_104
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1674
+        width: 92
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd464d72d6451e4eb2a9170464f7041
+      internalID: 4725100017154647844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_105
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1674
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8036609349e5dda4b9f5f1264d6b5ccd
+      internalID: 6697886216680699866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_106
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1674
+        width: 68
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e443f632a25ffe48b6479c09200c526
+      internalID: -800491540134433206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_107
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 1674
+        width: 71
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e403f429c08fcc649b15b8c3166ba09d
+      internalID: 5553327546509264236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_108
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1674
+        width: 71
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dae1a2a8e66fd3448bab2cb52a177ff
+      internalID: -4542493580059338074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_109
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1569
+        width: 86
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caaff9eef290680449a8db2b8eb1be21
+      internalID: -5532654552773615550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_110
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1568
+        width: 94
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc95fdb085d41bc45b18895d3a5ae329
+      internalID: -3345849878023839651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_111
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1568
+        width: 97
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf708eedef5a2444ea983cadef662f7b
+      internalID: 6680552179222102413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_112
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1573
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f44d5f92f84da4a9f0ee91bbbbe6d9
+      internalID: -9127153315998191637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_113
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1576
+        width: 94
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62fe94a8a0482394dbf4e9051ff3209a
+      internalID: 7322305108049621141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_114
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1568
+        width: 85
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda5e44a783b4ee499bf912b76d0a6e3
+      internalID: -1896796662791908767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_115
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1442
+        width: 100
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727f6dfeb6e8aab4181e2e18ef57adc7
+      internalID: 2290307591482877014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_116
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1443
+        width: 77
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c731a5c26d6bb5f44990b4b3285827de
+      internalID: -1661649799848309390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_117
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1442
+        width: 113
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc08068417e3a6b468d2afb80565f09a
+      internalID: -8953832458833069404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_118
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1442
+        width: 104
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a39050b787e8be4492d172e05770a8e
+      internalID: 6376612837632880045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_119
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1443
+        width: 136
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55d11c543443694cab961f22732c6a6
+      internalID: 1311905301950282417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_120
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1403
+        width: 762
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d866de6d9825a7242adbb02d136ac045
+      internalID: -2604732643995501200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_121
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1270
+        width: 83
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa1ea86281cea54bad6368bf9698529
+      internalID: 3171428119623552107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_122
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1270
+        width: 82
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8f09d12a328ec46899a503f4c36fb7
+      internalID: -881566663500809362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_123
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1270
+        width: 105
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801acb830c44e334aa2600f3585af1e8
+      internalID: -500612956250262356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_124
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1270
+        width: 84
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8f310fd4ece2b449268aac97ec57d6
+      internalID: 5249894968891482069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_125
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 1298
+        width: 206
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d091fb03db0a834892190279738f93d
+      internalID: 2367006793691023233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_126
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1232
+        width: 762
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252f1cfa2053e334ca83a2be72389a45
+      internalID: 8156429336674962069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_127
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1234
+        width: 38
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6e7053e84cd13419ce3c520865ae4b
+      internalID: -5260374583350056233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_128
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1237
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf165935bd48154d8e3f8bef12a3723
+      internalID: 6720775984566962929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_129
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1088
+        width: 85
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b78a81323601048bea9b471fc6c869
+      internalID: 2615242380748850994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_130
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1088
+        width: 104
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379b4a13199864c4b8721246fb139376
+      internalID: -902736288887092090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_131
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1088
+        width: 111
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ca9d8c212893d4fa984759369a695f
+      internalID: -7391352491137982663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_132
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1088
+        width: 85
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554490abb4a6cb6488cb58eadac046f8
+      internalID: -200462375259746485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_133
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1088
+        width: 81
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75dbabbd5fedfdb4eabfd5bcc2011502
+      internalID: 2927621607139080076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_134
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1079
+        width: 115
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce7a8bc7fb15bd4b816d1a031eb4aff
+      internalID: 8726318146651685725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_135
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 1087
+        width: 151
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52dbfad4c04ee94ca3e07ff7fcfe530
+      internalID: -3690936464898126057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_136
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 1088
+        width: 151
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8e6f8f5abbabf40b1a05685999d3d4
+      internalID: -8412825849110486732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_137
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 933
+        width: 104
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60479158b1f1c72488c9798e2fb4bb76
+      internalID: 8566271642448105768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_138
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 933
+        width: 133
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e88ae16e4b6e34e896cbf5092535b9
+      internalID: -8601359676711264214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_139
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 933
+        width: 149
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbcf93bdb02b524fae82ffa39c4d8f5
+      internalID: 5841092418747725082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_140
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 933
+        width: 85
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16010e8548fbf8469603b65a2f95c61
+      internalID: -2933124009905473236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_141
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 933
+        width: 144
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01157bc2b57dcd48882cbbdbcfde3b7
+      internalID: -4558875436520433369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_142
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 932
+        width: 86
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcec9dc217c760418a3db57517c93c5
+      internalID: 1236907596771003112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_143
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 932
+        width: 93
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75dd1bcf1b1dddc46aa6a2556050a740
+      internalID: -3131370809949453174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_144
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 697
+        width: 153
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8bf5632143de042bb3461be857e83f
+      internalID: 7288838197571238141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_145
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 697
+        width: 281
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab400b7b8e57ea4da796367883b56ef
+      internalID: 5458052056426224509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_146
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 697
+        width: 100
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b507d69be562484a956fee75d595a8e
+      internalID: -3653253830635042722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_147
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 697
+        width: 282
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99daf80d0822374db8e9c722aaf5355
+      internalID: -6085623296076032247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_148
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 461
+        width: 283
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861498f31a430aa47a8d992916d6a3b8
+      internalID: -6490758216716154613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_149
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 461
+        width: 244
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0723a3b9b3dd64686271983680e888
+      internalID: -3604905050166162054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_150
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 461
+        width: 244
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0e66d020167c343bc0ff9779f52185
+      internalID: 1357336594213095521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_151
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 309
+        width: 114
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbefc12f295f594aa3722e801010d44
+      internalID: 2767323174164229034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_152
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 308
+        width: 82
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563033443b349c343901cfc287436d5b
+      internalID: -7792021640584820589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_153
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 308
+        width: 82
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5afa95426a2723d4485efcbc404b2fdb
+      internalID: 5548962990106136109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_154
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 309
+        width: 111
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d430a610864094cbdffda5f23eb577
+      internalID: 1980844363605898139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_155
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 309
+        width: 101
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a766ad532ab87474ea5a01737fdb5cf3
+      internalID: -438031149253105941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_156
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 309
+        width: 91
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646eee223347bb64b9f3c56ec9de2cf5
+      internalID: -5631024229471150576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_157
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 309
+        width: 91
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14819e827129e8c439343a06d032d838
+      internalID: 5668721575468317511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_158
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 309
+        width: 84
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18310a1dbfa42644bf4488f0d200dcf
+      internalID: -502215318606526925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_159
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 383
+        width: 14
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987eeb6b604ef7943b8454e18ef9d0de
+      internalID: -4688860119178766164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_160
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 375
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5ad54226dac604f9f3506b041aab2c
+      internalID: -4312250412613373456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_161
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 381
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b010d938efc8c459a87c9383aaba47
+      internalID: 1017526586721623196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_162
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 368
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ce7f8f9395cef448519b9dfe4553f3
+      internalID: 2215119483826629490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_163
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 357
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e035deaf9af000d43a3fa495e427e549
+      internalID: 1418109899031768338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_164
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 357
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc12c521e9874284baf32b3e98d07faf
+      internalID: 7829994803328883667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_165
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 368
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6962a8da2cff8cf45b014b056a5cb5ad
+      internalID: 9049248712136739513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_166
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 328
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ef8a751873d5d48b7130799de55b3d
+      internalID: 4750393819149647302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_167
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 309
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489b1934a2c659445a971ec662203266
+      internalID: -525204587620568542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_168
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 351
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d165706f4bb1b4b895907fa2b05ba5
+      internalID: -217117003453853838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_169
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 326
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f284f8990591041947f1a56bf2122e
+      internalID: -1042869009064815193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_170
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 268
+        width: 762
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5597f3cff8740d40baece881538a3f6
+      internalID: 1128778070391910963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_171
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 138
+        width: 87
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a472beb9e5eb5e2428e159be7f6bd080
+      internalID: -4228866278213593803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_172
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 138
+        width: 76
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9fdd3571bfada149a629e4bd8805cde
+      internalID: -6893791561058796772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_173
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 138
+        width: 83
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b5ee39a07e347478facedf5f8682b2
+      internalID: 8404078358794631801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_174
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 138
+        width: 82
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7555e33947b7a45be32ba5df7842fd
+      internalID: 1595847122961686478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_175
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 138
+        width: 80
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aaf8e845603f1a4384306c49cd80f54
+      internalID: 8695235591121877440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_176
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 138
+        width: 93
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1129b7c91d769a346a75dd7ab0e60848
+      internalID: 7997662464328851081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_177
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 138
+        width: 100
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc15ef5110452af4ea023f16bca064eb
+      internalID: -6262399789779924288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_178
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 138
+        width: 95
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f55728e380b9a499193300d2c6ebf9
+      internalID: -5699912629117116588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_179
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 20
+        width: 94
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9050125cb5fb149a4ee45266fb74b2
+      internalID: 5623781945307330650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_180
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 20
+        width: 99
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65a5959ea4a6254daef62220c7c6545
+      internalID: 9137603753939928540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_181
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 22
+        width: 118
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec67fe71d1a60f44e8a06a95337f4de6
+      internalID: 6018448691616150085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_182
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 20
+        width: 121
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8dfedf95ede9b45b5fbea79c5802cd
+      internalID: -86236776214278749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_183
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 24
+        width: 125
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7262e14914d0e574dba9d3f81d5d3bcf
+      internalID: 1538312312390845286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_184
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 20
+        width: 132
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af49922043a2be042be773296f08c256
+      internalID: 6159551359466702375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samurai 5_185
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 20
+        width: 132
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b704c150b180674180f2c72b8e63c44
+      internalID: 2990197415567851101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
