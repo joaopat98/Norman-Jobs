@@ -2139,7 +2139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db25560223ed21c4ebaa05390af7695a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  door: {fileID: 8417234138180285268}
+  door: {fileID: 3762847367460476053}
   doorBoss: 0
   bossAudioClip: {fileID: 0}
   audioSource: {fileID: 0}
@@ -3228,21 +3228,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5994763743879323400, guid: 2bcaa5f556600f94d855ae41d3dc755d,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5994763743879323400, guid: 2bcaa5f556600f94d855ae41d3dc755d,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5994763743879323400, guid: 2bcaa5f556600f94d855ae41d3dc755d,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bcaa5f556600f94d855ae41d3dc755d, type: 3}
